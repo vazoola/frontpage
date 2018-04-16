@@ -13,9 +13,9 @@
                       </div>
                       <div class="column">
                           <div class="hero-text">
-                              <h2>Rise above local competition</h2>
+                              <h2>Expand your brand’s reach</h2>
                               <hr class="pink" />
-                              <p class="subtitle">Close more deals using proven marketing strategies</p>
+                              <p class="subtitle">Tap into the power of influencer marketing</p>
                               <p class="text-center"><a href="#" class="button is-primary">Request Demo</a></p>
                               <p class="btn-text">No contract necessary</p>
                           </div>
