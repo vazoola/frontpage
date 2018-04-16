@@ -9,7 +9,7 @@
               	<div class="container">
   	            	<div class="columns">
   	  					<div class="column hero-img">
-  	  						<img src="images/home-hero-img.png" alt="Hero Image">
+  	  						<img src="/images/home-hero-img.png" alt="Hero Image">
   	  					</div>
   	  					<div class="column">
   	  						<div class="hero-text">
@@ -40,7 +40,7 @@
         				<div class="column text-center">
         					<div class="icon-box">
         						<h3>For<br />Brands</h3>
-        						<img src="images/brands-icon.png" alt="Brands Icon">
+        						<img src="/images/brands-icon.png" alt="Brands Icon">
         						<p>Lorem ipsum dolor sit amet, consectuer adipiscing elit, sed diam nonummy.</p>
         						<a href="/brands" class="button is-info">Learn More</a>
         					</div>
@@ -48,7 +48,7 @@
         				<div class="column text-center">
         					<div class="icon-box">
         						<h3>For Small<br />Businesses</h3>
-        						<img src="images/small-b-icon.png" alt="Brands Icon">
+        						<img src="/images/small-b-icon.png" alt="Brands Icon">
         						<p>Nibh euismod art tincidunt ut laoreet dolore unatest magna aliquam erat volutpat. </p>
         						<a href="/small-business" class="button is-info">Learn More</a>
         					</div>
@@ -56,7 +56,7 @@
         				<div class="column text-center">
         					<div class="icon-box">
         						<h3>For<br />Agencies</h3>
-        						<img src="images/agencies-icon.png" alt="Brands Icon">
+        						<img src="/images/agencies-icon.png" alt="Brands Icon">
         						<p>Duis autem vel eum iriure dolor in hendrerit in velit esse elit diam molestie uneras.</p>
         						<a href="/agencies" class="button is-info">Learn More</a>
         					</div>
@@ -80,21 +80,21 @@
                     <div class="columns">
                         <div class="column is-offset-1 text-center">
                             <div class="icon-box">
-                                <img src="images/content-icon.png" alt="">
+                                <img src="/images/content-icon.png" alt="">
                                 <h3>Content<br />Marketing</h3>
                                 <p>Share your brand message in sponsored articles and blog posts.</p>
                             </div>
                         </div>
                         <div class="column text-center">
                             <div class="icon-box">
-                                <img src="images/link-icon.png" alt="">
+                                <img src="/images/link-icon.png" alt="">
                                 <h3>Link<br />Building</h3>
                                 <p>Improve your search engine rankings by earning links to on influential sites.</p>
                             </div>
                         </div>
                         <div class="column text-center">
                             <div class="icon-box">
-                                <img src="images/youtube-icon.png" alt="">
+                                <img src="/images/youtube-icon.png" alt="">
                                 <h3>YouTube<br />Videos</h3>
                                 <p>Get videos for and about your brand from expert YouTube. </p>
                             </div>
@@ -104,21 +104,21 @@
                     <div class="columns">
                         <div class="column is-offset-1 text-center">
                             <div class="icon-box">
-                                <img src="images/social-media-icon.png" alt="">
+                                <img src="/images/social-media-icon.png" alt="">
                                 <h3>Social<br />Media</h3>
                                 <p>Engage top social influencers to start an online conversation about your brand.</p>
                             </div>
                         </div>
                         <div class="column text-center">
                             <div class="icon-box">
-                                <img src="images/sampling-icon.png" alt="">
+                                <img src="/images/sampling-icon.png" alt="">
                                 <h3>Sampling &<br />Giveaways</h3>
                                 <p>Put your product in the hands of influencers and their followers.</p>
                             </div>
                         </div>
                         <div class="column text-center">
                             <div class="icon-box">
-                                <img src="images/custom-icon.png" alt="">
+                                <img src="/images/custom-icon.png" alt="">
                                 <h3>Custom<br />Campaigns</h3>
                                 <p>Run offers on our tastemakers’ websites and only pay when they convert.  </p>
                             </div>
@@ -142,7 +142,7 @@
           					</div>
           				</div>
           				<div class="column">
-          					<img src="images/grow-img.png" alt="Grow">
+          					<img src="/images/grow-img.png" alt="Grow">
           				</div>
           			</div>
           		</div>
@@ -154,7 +154,7 @@
           		<div class="container">
           			<div class="columns">
           				<div class="column">
-          					<img src="images/succeed.png" alt="Succeed">
+          					<img src="/images/succeed.png" alt="Succeed">
           				</div>
           				<div class="column">
           					<div class="headline">
@@ -187,7 +187,7 @@
         					</div>
         				</div>
         				<div class="column">
-        					<img src="images/grow-img.png" alt="Grow">
+        					<img src="/images/grow-img.png" alt="Grow">
         				</div>
         			</div>
         		</div>

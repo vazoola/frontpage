@@ -9,7 +9,7 @@
               <div class="container">
                   <div class="columns">
                       <div class="column hero-img">
-                          <img src="images/home-hero-img-1.png" alt="Hero Image">
+                          <img src="/images/home-hero-img-1.png" alt="Hero Image">
                       </div>
                       <div class="column">
                           <div class="hero-text">
@@ -40,7 +40,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="images/team-icon.png" >
+                                  <img src="/images/team-icon.png" >
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Easy to use platform</h4>
@@ -51,7 +51,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="images/save-time-icon.png" >
+                                  <img src="/images/save-time-icon.png" >
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Save More Time</h4>
@@ -64,7 +64,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="images/create-icon.png" >
+                                  <img src="/images/create-icon.png" >
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Create Content</h4>
@@ -75,7 +75,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="images/grow-icon.png" >
+                                  <img src="/images/grow-icon.png" >
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Grow Your Business</h4>
@@ -88,7 +88,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="images/track-icon.png" >
+                                  <img src="/images/track-icon.png" >
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Track your efforts</h4>
@@ -99,7 +99,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="images/choose-icon.png" >
+                                  <img src="/images/choose-icon.png" >
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Choose Type of Service</h4>
@@ -130,7 +130,7 @@
                                       <li class="slide">
                                           <div class="columns">
                                               <div class="column">
-                                                  <img src="images/slider-1-img.png" alt="">
+                                                  <img src="/images/slider-1-img.png" alt="">
                                               </div>
                                               <div class="column">
                                                   <div class="headline">
@@ -152,7 +152,7 @@
                                       <li class="slide">
                                           <div class="columns">
                                               <div class="column">
-                                                  <img src="images/slider-2-img.png" alt="">
+                                                  <img src="/images/slider-2-img.png" alt="">
                                               </div>
                                               <div class="column">
                                                   <div class="headline">
@@ -174,7 +174,7 @@
                                       <li class="slide">
                                           <div class="columns">
                                               <div class="column">
-                                                  <img src="images/slider-3-img.png" alt="">
+                                                  <img src="/images/slider-3-img.png" alt="">
                                               </div>
                                               <div class="column">
                                                   <div class="headline">
@@ -196,7 +196,7 @@
                                       <li class="slide">
                                           <div class="columns">
                                               <div class="column">
-                                                  <img src="images/slider-4-img.png" alt="">
+                                                  <img src="/images/slider-4-img.png" alt="">
                                               </div>
                                               <div class="column">
                                                   <div class="headline">
@@ -258,7 +258,7 @@
                           </div>
                       </div>
                       <div class="column">
-                          <img src="images/grow-img.png" alt="Grow">
+                          <img src="/images/grow-img.png" alt="Grow">
                       </div>
                   </div>
               </div>

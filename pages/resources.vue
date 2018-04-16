@@ -60,7 +60,7 @@
     		<div class="columns is-multiline">
     			<div v-for="r in sortedResources" :key="r.id" class="column is-4-desktop is-6">
     				<div class="post-box">
-    					<img src="images/post-img.png" alt="Post Img">
+    					<img src="/images/post-img.png" alt="Post Img">
                         <h4>{{ r.type }}</h4>
     					<h3>{{ r.title }}</h3>
     					<p class="date">02/20/2018</p>

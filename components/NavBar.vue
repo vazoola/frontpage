@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="navbar-brand">
 					<a class="navbar-item" href="/">
-						<img src="images/logo.png" alt="Logo">
+						<img src="/images/logo.png" alt="Logo">
 					</a>
 					<div @click="navActive == true"
 					 		class="navbar-burger"

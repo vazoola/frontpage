@@ -12,7 +12,7 @@
             <div class="columns">
                 <div class="column">
                     <div class="post-box">
-                        <img src="images/post-img.png" alt="Post Img">
+                        <img src="/images/post-img.png" alt="Post Img">
                         <h3>Post Title One</h3>
                         <p class="date">02/20/2018</p>
                         <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p>
@@ -21,7 +21,7 @@
                 </div>
                 <div class="column">
                     <div class="post-box">
-                        <img src="images/post-img.png" alt="Post Img">
+                        <img src="/images/post-img.png" alt="Post Img">
                         <h3>Post Title One</h3>
                         <p class="date">02/20/2018</p>
                         <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p>
@@ -30,7 +30,7 @@
                 </div>
                 <div class="column">
                     <div class="post-box">
-                        <img src="images/post-img.png" alt="Post Img">
+                        <img src="/images/post-img.png" alt="Post Img">
                         <h3>Post Title One</h3>
                         <p class="date">02/20/2018</p>
                         <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p>
@@ -39,7 +39,7 @@
                 </div>
                 <div class="column">
                     <div class="post-box">
-                        <img src="images/post-img.png" alt="Post Img">
+                        <img src="/images/post-img.png" alt="Post Img">
                         <h3>Post Title One</h3>
                         <p class="date">02/20/2018</p>
                         <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p>
