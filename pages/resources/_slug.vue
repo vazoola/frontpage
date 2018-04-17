@@ -76,8 +76,7 @@
 <script>
 import NavBar from '~/components/NavBar.vue'
 import FooterBar from '~/components/FooterBar.vue'
-
-const showdown = require('showdown');
+import showdown from 'showdown';
 
 export default {
     components: { NavBar, FooterBar},
