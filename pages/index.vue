@@ -49,7 +49,7 @@
         					<div class="icon-box">
         						<h3>For<br />Agencies</h3>
         						<img src="/images/agencies-icon.png" alt="Brands Icon">
-        						<p>Manage unlimited client campaigns in one place, and white label your efforts. Scale unlimited client campaigns in one place, and white label your efforts</p>
+        						<p>Manage unlimited client campaigns in one place, and white label your efforts.</p>
         						<a href="/agencies" class="button is-info">Learn More</a>
         					</div>
         				</div>
@@ -149,7 +149,7 @@
           		</div>
           	</section>
           	 end: Grow Your Brand -->
-
+            <!--
             <section class="grow-your-brand">
         		<div class="container">
         			<div class="columns">
@@ -163,9 +163,30 @@
         					</div>
         				</div>
         				<div class="column">
-        					<img src="/images/grow-img.png" alt="Grow">
+        					<img src="/images/compare.png" alt="Grow">
         				</div>
         			</div>
+        		</div>
+        	</section>
+            -->
+
+            <section class="grow-your-brand">
+        		<div class="container">
+                    <div class="headline">
+                        <h2>Why we're different</h2>
+                        <hr class="light-blue">
+                    </div>
+
+					<div class="columns">
+                        <div class="column is-5">
+                                <p>Forget about searching through thousands of influencers to locate the most suitable options. Then, having to outreach and negotiation on your own. Who has time for that?</p>
+                                <p>We match you up with the influencers that meet your needs. And, with over 100,000 influencers to choose from, you can be confident we’ll find the right home for your content.</p>
+                                <p class="text-center"><a href="#" class="button is-primary">Become different</a></p>
+        				</div>
+                        <div class="column">
+        					<img src="/images/compare.png" alt="Grow">
+        				</div>
+                    </div>
         		</div>
         	</section>
 
@@ -183,7 +204,7 @@
           						<p>
                                     We provide you the proper tools and data needed to lock in on the influencers that will have the biggest impact on your marketing strategy, as well as to measure a campaign’s level of success.
                                 </p>
-  								<p class="text-center"><a href="#" class="button is-primary">More About Our Tech</a></p>
+  								<p class="text-center"><a href="/our-technology" class="button is-primary">More About Our Tech</a></p>
           					</div>
           				</div>
           			</div>
@@ -193,7 +214,7 @@
 
 
           	<!-- start: Posts & Resources -->
-          	<posts-hero />
+          	<posts-hero :resources="posts" />
           	<!-- end: Posts & Resources -->
 
           	<!-- start: Let’s Get Started -->
@@ -212,6 +233,7 @@ import FooterBar from '~/components/FooterBar.vue'
 
 import ContactForm from '~/components/ContactForm.vue'
 import PostsHero from '~/components/PostsHero.vue'
+import moment from 'moment'
 
 export default {
     components: {
@@ -228,6 +250,24 @@ export default {
                 { hid: 'keywords', name:'keywords', content: 'Link Building, Influencer Marketing, Content Marketing' },
             ]
         }
+    },
+
+    async asyncData() {
+        // Using webpacks context to gather all files from a folder
+        const context = require.context('~/content/resources', false, /\.json$/);
+        const posts = context.keys().map(key => ({
+            ...context(key),
+            _path: `/resources/${key.replace('.json', '').replace('./', '')}`
+        }));
+
+        posts.forEach(function(item, index) {
+            posts[index].date = moment(item.date).format('MMMM Do, YYYY');
+        });
+
+        return {
+            posts: posts,
+            resourceType: '',
+        };
     }
 }
 </script>

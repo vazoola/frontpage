@@ -117,7 +117,7 @@ export default {
             });
         }
     },
-    data() {
+    async asyncData({ params }) {
         // Using webpacks context to gather all files from a folder
         const context = require.context('~/content/resources', false, /\.json$/);
         const posts = context.keys().map(key => ({
