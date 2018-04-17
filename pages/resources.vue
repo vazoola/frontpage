@@ -64,7 +64,7 @@
                         <h4>{{ r.type }}</h4>
     					<h3>{{ r.title }}</h3>
     					<p class="date">02/20/2018</p>
-    					<p class="desc">{{ r.summary }}</p>
+    					<p class="desc">{{ r.body }}</p>
     					<div class="link"><a href="#">Continue Reading</a></div>
     				</div>
     			</div>
@@ -92,62 +92,16 @@ export default {
         }
     },
     data() {
+        // Using webpacks context to gather all files from a folder
+        const context = require.context('~/content/blog/posts/', false, /\.json$/);
+        const posts = context.keys().map(key => ({
+            ...context(key),
+            _path: `/blog/${key.replace('.json', '').replace('./', '')}`
+        }));
         return {
-            resourceType: '',
-            resources: [
-                {
-                    id: 1,
-                    title: 'Post 1',
-                    type: 'article',
-                    summary: 'this is a great new way to impove your seo..',
-                    article: 'this is a great new way to impove your seo devloped from years of experience. our team has created something incliedble to take oyour seo needs to new heights',
-                    thumbnail: '/images/post-img.png',
-                    header_image: '/images/post-img.png',
-                    url: '/resources/post-1',
-                },
-                {
-                    id: 2,
-                    title: 'Post 2',
-                    type: 'article',
-                    summary: 'this is a great new way to impove your seo..',
-                    article: 'this is a great new way to impove your seo devloped from years of experience. our team has created something incliedble to take oyour seo needs to new heights',
-                    thumbnail: '/images/post-img.png',
-                    header_image: '/images/post-img.png',
-                    url: '/resources/post-2',
-                },
-                {
-                    id: 3,
-                    title: 'Case Study 1',
-                    type: 'case',
-                    summary: 'this is a great new way to impove your seo..',
-                    article: 'this is a great new way to impove your seo devloped from years of experience. our team has created something incliedble to take oyour seo needs to new heights',
-                    thumbnail: '/images/post-img.png',
-                    header_image: '/images/post-img.png',
-                    url: '/resources/case-1',
-                },
-                {
-                    id: 4,
-                    title: 'Guide 1',
-                    type: 'guide',
-                    summary: 'this is a great new way to impove your seo..',
-                    article: 'this is a great new way to impove your seo devloped from years of experience. our team has created something incliedble to take oyour seo needs to new heights',
-                    thumbnail: '/images/post-img.png',
-                    header_image: '/images/post-img.png',
-                    url: '/resources/guide-1',
-                },
-                {
-                    id: 5,
-                    title: 'Post 3',
-                    type: 'article',
-                    summary: 'this is a great new way to impove your seo..',
-                    article: 'this is a great new way to impove your seo devloped from years of experience. our team has created something incliedble to take oyour seo needs to new heights',
-                    thumbnail: '/images/post-img.png',
-                    header_image: '/images/post-img.png',
-                    url: '/resources/post-3',
-                },
-
-            ]
-        }
+            resources: posts,
+            resourceType: "",
+        };
     }
 }
 </script>
