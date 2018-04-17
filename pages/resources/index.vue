@@ -59,19 +59,45 @@
     	<div class="container">
     		<div class="columns is-multiline">
     			<div v-for="r in sortedResources" :key="r.id" class="column is-4-desktop is-6">
-    				<div class="post-box">
-    					<img src="/images/post-img.png" alt="Post Img">
-                        <h4>{{ r.type }}</h4>
-    					<h3>{{ r.title }}</h3>
-    					<p class="date">02/20/2018</p>
-    					<p class="desc">{{ r.body }}</p>
-    					<div class="link"><a href="#">Continue Reading</a></div>
-    				</div>
+
+                    <div class="card post-box">
+                        <div class="card-image">
+                            <figure v-if="r.thumbnail" class="image is-4by3">
+                                <img :src="r.thumbnail" alt="Placeholder image">
+                            </figure>
+                            <figure v-else>
+                                <img src="/images/post-img.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">{{ r.title }}</p>
+                                    <p class="subtitle is-6">{{ r.type }}</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                {{ r.summary }}
+                                <br>
+                                <time datetime="2016-1-1">{{ r.date }}</time>
+                            </div>
+                        </div>
+
+                        <footer class="card-footer">
+                            <a :href="r._path" class="card-footer-item"> Read more...</a>
+                        </footer>
+                    </div>
     			</div>
-    		</div>
+
+            </div>
     	</div>
     </section>
     <!-- end: Posts & Resources -->
+
+    <!-- start: Footer -->
+    <footer-bar />
+    <!-- end: Footer -->
 
 
 </div>
@@ -93,10 +119,10 @@ export default {
     },
     data() {
         // Using webpacks context to gather all files from a folder
-        const context = require.context('~/content/blog/posts/', false, /\.json$/);
+        const context = require.context('~/content/resources', false, /\.json$/);
         const posts = context.keys().map(key => ({
             ...context(key),
-            _path: `/blog/${key.replace('.json', '').replace('./', '')}`
+            _path: `/resources/${key.replace('.json', '').replace('./', '')}`
         }));
         return {
             resources: posts,

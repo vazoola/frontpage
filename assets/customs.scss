@@ -38,7 +38,7 @@
 body {
     font-family: 'Gotham';
     font-weight: 300;
-    font-style: 16px;
+    font-size: 16px;
     background-color: #ffffff;
 }
 
@@ -240,7 +240,6 @@ a.navbar-link.is-active {
     width: 170px;
     padding: 14px 20px;
     height: auto;
-    margin-right: 15px;
     background: rgb(27, 20, 101);
     background: -moz-linear-gradient(0deg, rgb(27, 20, 101) 30%, rgb(0, 112, 187) 80%);
     background: -webkit-linear-gradient(0deg, rgb(27, 20, 101) 30%, rgb(0, 112, 187) 80%);
@@ -298,7 +297,7 @@ a.navbar-link.is-active {
     margin-top: 15px;
 }
 
-/* About Vazoolaâ€™s Services
+/* About Vazoola’s Services
 =================================================================== */
 .about-services {
     padding-top: 100px;
@@ -338,11 +337,9 @@ a.navbar-link.is-active {
     height: 1px;
 }
 
-/*
 .how-we-work .headline h2 {
     font-weight: 300;
 }
-*/
 
 .how-we-work hr {
     margin: 0 auto;
@@ -627,7 +624,6 @@ a.navbar-link.is-active {
     background: -ms-linear-gradient(270deg, rgb(247, 247, 247) 30%, rgb(255, 255, 255) 95%);
     background: linear-gradient(0deg, rgb(247, 247, 247) 30%, rgb(255, 255, 255) 95%);
     border-radius: 15px;
-    padding: 30px 50px;
 }
 
 .post-box {
@@ -635,7 +631,13 @@ a.navbar-link.is-active {
 }
 
 .post-box img {
-    max-width: 180px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.post-box .card-footer {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .post-box h3 {
@@ -716,7 +718,7 @@ a.navbar-link.is-active {
 }
 
 
-/* Letâ€™s Get Started
+/* Let’s Get Started
 =================================================================== */
 .get-started {
     padding-top: 40px;
@@ -769,6 +771,7 @@ ul.footer-menu {
 ul.footer-menu li {
     padding-left: 15px;
     padding-right: 15px;
+    margin-bottom: 10px;
 }
 
 ul.footer-menu li a {
@@ -1104,7 +1107,433 @@ ul.social-media li a:hover {
 
 /* Mediaqueries
 =================================================================== */
+@media (max-width: 1410px) {
+    .post-box {
+        padding: 20px 30px;
+    }
+
+    .button.login-btn {
+        font-size: 14px;
+        width: auto;
+        padding: 9px 30px;
+        height: auto;
+        margin-right: 10px;
+        line-height: 14px;
+    }
+
+    .button.signup-btn {
+        font-size: 14px;
+        width: auto;
+        padding: 11px 30px;
+        height: auto;
+        line-height: 14px;
+    }
+}
+
+@media (max-width: 1220px) {
+    .post-box {
+        padding: 20px 15px;
+    }
+
+    .hero-text p.subtitle {
+        font-size: 18px;
+    }
+
+    .post-box h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .post-box p.date {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .columns {
+        margin: 0 !important;
+    }
+
+    .slide {
+        height: 450px;
+    }
+
+    .slide-mask {
+        height: 450px;
+    }
+}
+
+@media (max-width: 1145px) {
+    .navbar-item {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .post-box h3, .post-box p.date, .post-box p.desc {
+        text-align: center;
+
+    }
+
+    .posts-list.columns {
+        display: block;
+    }
+
+    .posts-list .column {
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        width: 49%;
+        display: inline-block;
+    }
+
+    .succeed img {
+        max-width: 100%;
+    }
+
+
+}
+
+@media (max-width: 955px) {
+    .slider-nav {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 940px) {
+    .column.is-offset-1, .column.is-offset-1-tablet {
+        margin-left: 0;
+    }
+
+    .column.is-1, .column.is-1-tablet {
+        display: none;
+    }
+
+    .services {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 875px) {
+    .how-list.columns {
+        display: block;
+    }
+
+    .how-list .column {
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .icon-box {
+        text-align: center;
+        max-width: 500px;
+        display: inline-block;
+        margin-bottom: 50px;
+    }
+
+    .about-services .icon-box h3 {
+        margin-bottom: 0;
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .icon_box.icon_position_left .image_wrapper {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .icon_box.icon_position_left {
+        padding-left: 0;
+    }
+
+    .icon_position_left h4 {
+        text-align: center;
+    }
+
+    .slide {
+        height: 500px;
+    }
+
+    .slide-mask {
+        height: 500px;
+    }
+}
+
 @media (max-width: 768px) {
+    .home-hero {
+        padding-top: 0;
+    }
 
+    .about-services .icon-box {
+        margin-bottom: 0;
+    }
 
+    .hero-img {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .hero-img img {
+        max-width: 500px;
+        display: inline-block;
+    }
+
+    .hero-text {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .about-services {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .how-we-work {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .succeed {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .succeed img {
+        max-width: 380px;
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+
+    .grow-your-brand {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .grow-your-brand img {
+        max-width: 380px;
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+
+    .testimonials {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .get-started .button.is-primary {
+        margin-top: 0;
+    }
+
+    footer p, ul.social-media {
+        text-align: center;
+    }
+
+    .slider-contents p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .slider-contents h3 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .slider-contents h4 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .slider-nav {
+        width: 80px;
+        height: 80px;
+    }
+
+    .posts .headline {
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 38px;
+        line-height: 40px;
+    }
+
+    hr {
+        margin: 20px 0;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .button.is-primary {
+        font-size: 14px;
+    }
+
+    .icon-box img {
+        max-width: 180px;
+        margin-bottom: 0px;
+    }
+
+    .icon_box.icon_position_left {
+        padding-left: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .slide img {
+        max-width: 400px;
+    }
+
+    .slide {
+        height: 650px;
+    }
+
+    .slide-mask {
+        height: 650px;
+    }
+
+    .services img {
+        max-width: 400px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .services .headline {
+        padding-top: 0;
+    }
+
+    .services.right-img img {
+        float: none;
+    }
+
+    .resources-hero {
+        padding-top: 0;
+    }
+
+    .posts.resources {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .technology-hero {
+        padding-top: 0;
+    }
+
+    .field.search-hero {
+        text-align: center;
+    }
+
+    .field.search-hero .control {
+        float: none;
+        display: inline-block;
+    }
+
+    .tabs {
+        display: block;
+        flex: none;
+        text-align: center;
+    }
+
+    .tabs ul {
+        display: inline-block;
+    }
+
+    .tabs ul li {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 540px) {
+        .hero-img img {
+        max-width: 100%;
+    }
+
+    .icon-box h3 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .slider-contents p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .posts-list .column {
+        width: 100%;
+    }
+
+    .slider-contents p {
+        max-width: 70%;
+    }
+
+    .slide {
+        height: 750px;
+    }
+
+    .slide-mask {
+        height: 750px;
+    }
+
+    .slide img {
+        max-width: 100%;
+    }
+
+    .services img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 430px) {
+    .slider-nav {
+        width: 68px;
+        height: 68px;
+    }
+
+    .slider-nav {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .succeed img, .grow-your-brand img {
+        max-width: 100%;
+    }
+
+    .slider-contents p {
+        max-width: 55%;
+    }
+
+    .slide {
+        height: 800px;
+    }
+
+    .slide-mask {
+        height: 800px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .slider-nav {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
 }
