@@ -31,7 +31,7 @@
         			<div class="columns">
         				<div class="column">
                             <div class="headline">
-                                <h2>How we work.. </h2>
+                                <h2>How it works</h2>
                                 <hr class="blue" />
                             </div>
         				</div>

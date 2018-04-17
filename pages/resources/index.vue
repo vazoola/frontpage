@@ -59,36 +59,32 @@
     	<div class="container">
     		<div class="columns is-multiline">
     			<div v-for="r in sortedResources" :key="r.id" class="column is-4-desktop is-6">
-
-                    <div class="card post-box">
+                    <a :href="r._path">
+                        <div class="card">
                         <div class="card-image">
                             <figure v-if="r.thumbnail" class="image is-4by3">
-                                <img :src="r.thumbnail" alt="Placeholder image">
+                                <img style="object-fit: cover" :src="r.thumbnail" alt="Placeholder image">
+                                <span class="type">{{ r.type }}</span>
                             </figure>
                             <figure v-else>
-                                <img src="/images/post-img.png" alt="Placeholder image">
+                                <img style="object-fit: cover" src="/images/post-img.png" alt="Placeholder image">
                             </figure>
                         </div>
                         <div class="card-content">
                             <div class="media">
                                 <div class="media-content">
                                     <p class="title is-4">{{ r.title }}</p>
-                                    <p class="subtitle is-6">{{ r.type }}</p>
+                                    <p class="subtitle is-6" datetime="2016-1-1">{{ r.date }}</p>
                                 </div>
                             </div>
 
                             <div class="content">
                                 {{ r.summary }}
-                                <br>
-                                <time datetime="2016-1-1">{{ r.date }}</time>
                             </div>
                         </div>
-
-                        <footer class="card-footer">
-                            <a :href="r._path" class="card-footer-item"> Read more...</a>
-                        </footer>
                     </div>
-    			</div>
+                    </a>
+                </div>
 
             </div>
     	</div>
@@ -126,11 +122,34 @@ export default {
         }));
         return {
             resources: posts,
-            resourceType: "",
+            resourceType: '',
         };
     }
 }
 </script>
 
 <style lang="css">
+.card .content {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 24px;     /* fallback */
+   max-height: 96px;      /* fallback */
+   -webkit-line-clamp: 4; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.card .type {
+    bottom: 0;
+    margin-top: 0;
+    position: absolute;
+    padding-left: 29px;
+    margin-bottom: 0;
+    margin: 1.25rem 0 0;
+    padding: 0 29px 0 20px;
+    list-style: none;
+    display: inline-block;
+    background: #fff;
+    left: 0;
+}
 </style>

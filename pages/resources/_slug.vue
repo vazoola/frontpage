@@ -19,9 +19,8 @@
                 <div class="column">
                     <div class="tabs">
                         <ul>
-                            <li @click="resourceType = ''"
-                                :class="[resourceType == '' ? 'is-active' : '']">
-                                <a>All</a>
+                            <li>
+                                <a href="/resources">All</a>
                             </li>
                             <li @click="resourceType = 'article'"
                                 :class="[resourceType == 'article' ? 'is-active' : '']">
@@ -54,13 +53,24 @@
     	<!-- end: Hero -->
 
         <!-- start: Resources -->
-        <section>
+        <section class="section">
             <div class="columns">
-                <div class="column is-8 is-offset-2">
+                <div class="column is-3">
+
+                </div>
+                <div class="article column is-6">
                     <h1 class="title">{{ post.title }}</h1>
                     <h2 class="subtitle"> {{ post.date }} </h2>
+
+                    <figure class="image is-2by1">
+                        <img :src="post.thumbnail">
+                    </figure>
+
                     <div class="content" v-html="post.body" />
 
+                </div>
+                <div class="column is-3">
+                    social
                 </div>
             </div>
         </section>
@@ -77,14 +87,20 @@
 import NavBar from '~/components/NavBar.vue'
 import FooterBar from '~/components/FooterBar.vue'
 import showdown from 'showdown';
+import moment from 'moment';
 
 export default {
     components: { NavBar, FooterBar},
     async asyncData({ params }) {
-
+        //get the data
         let data = await import('~/content/resources/' + params.slug + '.json');
+        //convert MD to html
         const converter = new showdown.Converter();
         data.body = converter.makeHtml(data.body);
+        //convert the date to pretty
+        data.date = moment(data.date).format('MMMM Do, YYYY');
+
+        //return it
         return {
             post: data,
             resourceType: data.type
@@ -92,3 +108,17 @@ export default {
     }
 };
 </script>
+
+<style media="screen">
+    .article .title {
+        text-align: center
+    }
+
+    .article .image img {
+        object-fit: cover;
+    }
+
+    .article .content {
+        margin-top: 2em;
+    }
+</style>

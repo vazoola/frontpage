@@ -42,7 +42,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
-      vendor: ['showdown'],
+      vendor: ['showdown', 'moment'],
     /*
     ** Run ESLint on save
     */
