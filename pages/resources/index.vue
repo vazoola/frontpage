@@ -74,13 +74,16 @@
                             <div class="media">
                                 <div class="media-content">
                                     <p class="title is-4">{{ r.title }}</p>
-                                    <p class="subtitle is-6" datetime="2016-1-1">{{ r.date }}</p>
                                 </div>
                             </div>
 
                             <div class="content">
                                 {{ r.summary }}
                             </div>
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="date" datetime="2016-1-1">{{ r.date }}</span>
                         </div>
                     </div>
                     </a>
@@ -102,6 +105,7 @@
 <script>
 import NavBar from '~/components/NavBar.vue'
 import FooterBar from '~/components/FooterBar.vue'
+import moment from 'moment';
 
 export default {
     components: { NavBar, FooterBar},
@@ -120,6 +124,11 @@ export default {
             ...context(key),
             _path: `/resources/${key.replace('.json', '').replace('./', '')}`
         }));
+
+        posts.forEach(function(item, index) {
+            posts[index].date = moment(item.date).format('MMMM Do, YYYY');
+        });
+
         return {
             resources: posts,
             resourceType: '',
@@ -129,6 +138,20 @@ export default {
 </script>
 
 <style lang="css">
+.card {
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+.card-footer {
+    margin-top: auto;
+    border-top: none;
+}
+
+.card-footer .date {
+    padding: 5px 1.5rem;
+}
+
 .card .content {
    overflow: hidden;
    text-overflow: ellipsis;
