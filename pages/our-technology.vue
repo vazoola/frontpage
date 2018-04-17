@@ -30,8 +30,14 @@
                     <div class="headline">
                         <h2>Content<br />Library.</h2>
                         <hr class="green" />
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum praesent luptatum.</p>
+                        <p>
+                            Simplify the process by managing all your content in one place.
+                            Upload articles that have already been written by your team, or order new articles from our staff of experienced writers
+                        </p>
+                        <p>
+                            Edit articles as needed, and save any changes made. When processing orders for new campaigns,
+                            easily match up articles from the Content Library with the influencers you intend to target.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -47,8 +53,16 @@
                     <div class="headline">
                         <h2>Proposals.</h2>
                         <hr class="green" />
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum praesent luptatum.</p>
+                        <p>
+                            Request custom blog, social, and video proposals by setting a budget and detailing your campaign goals.
+                            Help us to hone in on your ideal influencers by defining your minimum search metrics, monthly traffic, social following, and more.
+                            Receive notification as soon as your proposal is ready to review.
+                        </p>
+                        <p>
+                            Save time and energy by only reviewing influencers that match your specific needs.
+                            Sort and filter proposals as needed.
+                            Finally, have confidence selecting influencers that have been pre-screened for your campaign.
+                        </p>
                     </div>
                 </div>
                 <div class="column">
@@ -70,8 +84,14 @@
                     <div class="headline">
                         <h2>Campaign<br />Tracking.</h2>
                         <hr class="green" />
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum praesent luptatum.</p>
+                        <p>
+                            Receive daily notifications of campaign activity such content awaiting approval, new placements, etc.
+                            Or, log in and view real-time tracking from within your Dashboard.
+                        </p>
+                        <p>
+                            Use the progress bar to monitor one campaign or multiple campaigns simultaneously.
+                            Upon completion of a campaign, export excel spreadsheets of all campaign details to white label and send off to your team or client.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -101,12 +121,22 @@ import ContactForm from '~/components/ContactForm.vue'
 import PostsHero from '~/components/PostsHero.vue'
 
 export default {
-  components: {
-      NavBar,
-      FooterBar,
-      PostsHero,
-      ContactForm
-  },
+    components: {
+        NavBar,
+        FooterBar,
+        PostsHero,
+        ContactForm
+    },
+    head () {
+        return {
+            title: "Vazoola The Premier Influencer Marketing Technology | Vazoola",
+            meta: [
+                { hid: 'description', name: 'description', content: 'Influencer marketing technology powered by a marketplace of vetted content creators, influencers and over ten years of traffic, demographic, and engagement analytics.' },
+                { hid: 'keywords', name:'keywords', content: 'Influencer Marketing Platform, Link Building Platform, Content Marketing Platform' },
+            ]
+        }
+    }
+
 
 }
 </script>

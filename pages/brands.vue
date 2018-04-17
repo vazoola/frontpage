@@ -308,7 +308,17 @@ export default {
               top: '-' + this.step + '00%'
           }
       }
-  }
+  },
+
+  head () {
+      return {
+          title: "Vazoola for Brands Serious About Influencer Marketing | Vazoola",
+          meta: [
+              { hid: 'description', name: 'description', content: 'Find out how your brand can succeed with Vazoola. Manage link building, social, and video campaigns all in one place. We work with over 100,000+ vetted influencers from all industries.' },
+              { hid: 'keywords', name:'keywords', content: 'Link Building for Brands, Content Marketing for Brands, Influencer Marketing for Brands' },
+          ]
+      }
+  },
 
 }
 </script>

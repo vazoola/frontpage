@@ -310,5 +310,15 @@ export default {
       }
   },
 
+  head () {
+      return {
+          title: "Vazoola for Small Businesses Serious About Content | Vazoola",
+          meta: [
+              { hid: 'description', name: 'description', content: 'Find out how your Small Business can succeed with Vazoola. Manage any size link building, social and video campaigns all in one place. There is no minimum spend required and we work with all industries.' },
+              { hid: 'keywords', name:'keywords', content: 'Link Building for Small Businesses, Influencer Marketing for Small Businesses' },
+          ]
+      }
+  },
+
 }
 </script>

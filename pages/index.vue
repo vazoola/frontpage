@@ -41,26 +41,27 @@
         					<div class="icon-box">
         						<h3>For<br />Brands</h3>
         						<img src="/images/brands-icon.png" alt="Brands Icon">
-        						<p>Lorem ipsum dolor sit amet, consectuer adipiscing elit, sed diam nonummy.</p>
+        						<p>Fuel your marketing efforts with the power of thousands of online influencers waiting to share your story.</p>
         						<a href="/brands" class="button is-info">Learn More</a>
+        					</div>
+        				</div>
+                        <div class="column text-center">
+        					<div class="icon-box">
+        						<h3>For<br />Agencies</h3>
+        						<img src="/images/agencies-icon.png" alt="Brands Icon">
+        						<p>Manage unlimited client campaigns in one place, and white label your efforts. Scale unlimited client campaigns in one place, and white label your efforts</p>
+        						<a href="/agencies" class="button is-info">Learn More</a>
         					</div>
         				</div>
         				<div class="column text-center">
         					<div class="icon-box">
         						<h3>For Small<br />Businesses</h3>
         						<img src="/images/small-b-icon.png" alt="Brands Icon">
-        						<p>Nibh euismod art tincidunt ut laoreet dolore unatest magna aliquam erat volutpat. </p>
+        						<p>Gain an edge on local competition by tapping into the audience of niche specific and geo-targeted influencers. </p>
         						<a href="/small-business" class="button is-info">Learn More</a>
         					</div>
         				</div>
-        				<div class="column text-center">
-        					<div class="icon-box">
-        						<h3>For<br />Agencies</h3>
-        						<img src="/images/agencies-icon.png" alt="Brands Icon">
-        						<p>Duis autem vel eum iriure dolor in hendrerit in velit esse elit diam molestie uneras.</p>
-        						<a href="/agencies" class="button is-info">Learn More</a>
-        					</div>
-        				</div>
+
         			</div>
         		</div>
         	</section>
@@ -149,31 +150,6 @@
           	</section>
           	 end: Grow Your Brand -->
 
-          	<!-- start: Succeed -->
-          	<section class="succeed">
-          		<div class="container">
-          			<div class="columns">
-          				<div class="column">
-          					<img src="/images/succeed.png" alt="Succeed">
-          				</div>
-          				<div class="column">
-          					<div class="headline">
-          						<h2>Succeed<br />with Vazoola.</h2>
-          						<hr class="green" />
-          						<p>
-                                    West Coast Auto company sees 415% increase in Search Engine Traffic with the help of Vazoola.
-                                    The dealership faced issues with fluctuating keyword rankings due to local competition.
-                                    We used both onsite and offsite SEO tactics to identify local keyword opportunities.
-                                    Not only did these rank well, but also continue to gain organic search value.
-                                </p>
-  								<p class="text-center"><a href="#" class="button is-primary">More About Our Tech</a></p>
-          					</div>
-          				</div>
-          			</div>
-          		</div>
-          	</section>
-          	<!-- end: Succeed -->
-
             <section class="grow-your-brand">
         		<div class="container">
         			<div class="columns">
@@ -193,51 +169,28 @@
         		</div>
         	</section>
 
-          	<!-- start: Client Testimonials -->
-          	<section class="testimonials">
+            <!-- start: Succeed -->
+          	<section class="succeed">
           		<div class="container">
           			<div class="columns">
           				<div class="column">
-          					<div class="headline">
-          						<h2>Client Testimonials.</h2>
-          						<hr class="blue" />
-          					</div>
+          					<img src="/images/succeed.png" alt="Succeed">
           				</div>
-          			</div>
-          			<div class="columns slider">
           				<div class="column">
-          					<input type="radio" name="slider" title="slide1" checked="checked" class="slider-nav"/>
-  							<input type="radio" name="slider" title="slide2" class="slider-nav"/>
-  							<input type="radio" name="slider" title="slide3" class="slider-nav"/>
-  							<input type="radio" name="slider" title="slide4" class="slider-nav"/>
-          					<div class="slider-inner">
-          						<div class="slider-contents">
-  	        						<p>“These guys are the best!  My car broke down, and they totally hooked it up! Ryan even bought pineapple a pizza on our way home.</p>
-  	        						<h3>Jacob F. Giberson</h3>
-  	        						<h4>DISO Evelopers</h4>
-          						</div>
-          						<div class="slider-contents">
-  	        						<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at metus nunc. Aenean a dolor gravida, accumsan enim vel.</p>
-  	        						<h3>Alan Fresco</h3>
-  	        						<h4>Company Name Here</h4>
-          						</div>
-          						<div class="slider-contents">
-  	        						<p>“Nulla ac malesuada arcu, vitae porta diam. Curabitur pretium metus velit, sed mollis lacus fermentum non. Lorem ipsum dolor sit.</p>
-  	        						<h3>Jake Weary</h3>
-  	        						<h4>Company Name Here</h4>
-          						</div>
-          						<div class="slider-contents">
-  	        						<p>“Maecenas rhoncus sit amet quam id bibendum. Aliquam erat volutpat. Morbi vehicula risus in bibendum tristique.</p>
-  	        						<h3>Brian Cumin</h3>
-  	        						<h4>Company Name</h4>
-          						</div>
+          					<div class="headline">
+          						<h2>Succeed<br />with Vazoola.</h2>
+          						<hr class="green" />
+          						<p>
+                                    We provide you the proper tools and data needed to lock in on the influencers that will have the biggest impact on your marketing strategy, as well as to measure a campaign’s level of success.
+                                </p>
+  								<p class="text-center"><a href="#" class="button is-primary">More About Our Tech</a></p>
           					</div>
           				</div>
           			</div>
           		</div>
           	</section>
+          	<!-- end: Succeed -->
 
-          	<!-- end: Client Testimonials -->
 
           	<!-- start: Posts & Resources -->
           	<posts-hero />
@@ -261,17 +214,20 @@ import ContactForm from '~/components/ContactForm.vue'
 import PostsHero from '~/components/PostsHero.vue'
 
 export default {
-  components: {
-      NavBar,
-      FooterBar,
-      PostsHero,
-      ContactForm
-  },
-  /*
-  async asyncData({ app }) {
-      const sections = await app.$axios.$get('http://homestead.test/api/resources/')
-      return { sections }
+    components: {
+        NavBar,
+        FooterBar,
+        PostsHero,
+        ContactForm
+    },
+    head () {
+        return {
+            title: "Vazoola: Premier Link Building + Influencer Marketing Platform",
+            meta: [
+                { hid: 'description', name: 'description', content: 'Powerful platform that connects brands and agencies with vetted and trustworthy influencers for the purposes of: Link Building, Content Marketing, and Social Media Campaigns.' },
+                { hid: 'keywords', name:'keywords', content: 'Link Building, Influencer Marketing, Content Marketing' },
+            ]
+        }
     }
-    */
 }
 </script>

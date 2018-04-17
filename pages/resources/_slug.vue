@@ -57,9 +57,9 @@
         <section>
             <div class="columns">
                 <div class="column is-8 is-offset-2">
-                    <h1 class="title">{{ title }}</h1>
-                    <h2 class="subtitle"> {{ date}} </h2>
-                    <div class="content" v-html="body" />
+                    <h1 class="title">{{ post.title }}</h1>
+                    <h2 class="subtitle"> {{ post.date }} </h2>
+                    <div class="content" v-html="post.body" />
 
                 </div>
             </div>
@@ -83,10 +83,13 @@ export default {
     components: { NavBar, FooterBar},
     async asyncData({ params }) {
 
-        let post = await import('~/content/resources/' + params.slug + '.json');
+        let data = await import('~/content/resources/' + params.slug + '.json');
         const converter = new showdown.Converter();
-        post.body = converter.makeHtml(post.body);
-        return post;
+        data.body = converter.makeHtml(data.body);
+        return {
+            post: data,
+            resourceType: data.type
+        }
     }
 };
 </script>
