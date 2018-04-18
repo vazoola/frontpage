@@ -90,14 +90,14 @@
                             <div class="icon-box">
                                 <img src="/images/link-icon.png" alt="">
                                 <h3>Link<br />Building</h3>
-                                <p>Improve your search engine rankings by earning links to on influential sites.</p>
+                                <p>Improve your search engine rankings by earning links on influential sites.</p>
                             </div>
                         </div>
                         <div class="column text-center">
                             <div class="icon-box">
                                 <img src="/images/youtube-icon.png" alt="">
                                 <h3>YouTube<br />Videos</h3>
-                                <p>Get videos for and about your brand from expert YouTube. </p>
+                                <p>Get videos for and about your brand from expert creators.</p>
                             </div>
                         </div>
                         <div class="column is-1"></div>
@@ -120,8 +120,8 @@
                         <div class="column text-center">
                             <div class="icon-box">
                                 <img src="/images/custom-icon.png" alt="">
-                                <h3>Custom<br />Campaigns</h3>
-                                <p>Run offers on our tastemakers’ websites and only pay when they convert.  </p>
+                                <h3>Managed<br />Services</h3>
+                                <p>Don't want to do all the work on your own? Ask us to do it for you.</p>
                             </div>
                         </div>
                         <div class="column is-1"></div>
@@ -179,8 +179,8 @@
 
 					<div class="columns">
                         <div class="column is-5">
-                                <p>Forget about searching through thousands of influencers to locate the most suitable options. Then, having to outreach and negotiation on your own. Who has time for that?</p>
-                                <p>We match you up with the influencers that meet your needs. And, with over 100,000 influencers to choose from, you can be confident we’ll find the right home for your content.</p>
+                                <p>Forget about searching through thousands of influencers to locate the most suitable options, then having to reach out and negotiate on your own. Who has time for that?</p>
+                                <p>We match you up with the influencers that meet your needs. And, with over 100,000 influencers to choose from, have confidence we’ll find the right home for your content.</p>
                                 <p class="text-center"><a href="#" class="button is-primary">Become different</a></p>
         				</div>
                         <div class="column">
@@ -212,14 +212,16 @@
           	</section>
           	<!-- end: Succeed -->
 
+            <!-- start: Let’s Get Started -->
+            <contact-form />
+            <!-- end: Let’s Get Started -->
+
 
           	<!-- start: Posts & Resources -->
           	<posts-hero :resources="posts" />
           	<!-- end: Posts & Resources -->
 
-          	<!-- start: Let’s Get Started -->
-          	<contact-form />
-          	<!-- end: Let’s Get Started -->
+
 
           	<!-- start: Footer -->
           	<footer-bar />

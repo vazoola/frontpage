@@ -252,8 +252,15 @@
                           <div class="headline">
                               <h2>Grow<br />your brand.</h2>
                               <hr class="light-blue" />
-                              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-                              <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum praesent luptatum.</p>
+                              <p>Link building and influencer marketing are difficult and time-consuming, but essential to SEO and growing your brand.
+                                  At Vazoola, you can streamline link building and influencer marketing all-in-one place.
+                                  Let us worry about link acquisitions and running social campaigns, so you can focus your efforts elsewhere.
+                              </p>
+                              <p>
+                                Our self-serve or managed platform, allows you to scale content creation, within any industry.
+                                We offer training and education, phone support, and detailed reports.
+                                There are no contracts or minimum spend to start working with us.
+                                </p>
                               <p class="text-center"><a href="#" class="button is-primary">Find Out How</a></p>
                           </div>
                       </div>

@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <img src="/images/content-img.png" alt="Content">
+                    <img src="/images/proposals.png" alt="Content">
                 </div>
             </div>
         </div>

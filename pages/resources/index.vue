@@ -108,7 +108,7 @@ import FooterBar from '~/components/FooterBar.vue'
 import moment from 'moment';
 
 export default {
-    components: { NavBar, FooterBar},
+    components: { NavBar, FooterBar },
     computed: {
         sortedResources() {
             return this.resources;
