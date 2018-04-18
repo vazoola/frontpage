@@ -171,24 +171,30 @@ hr.yellow {
     color: #BDCCD4 !important;
 }
 
+/*
 .input, .textarea {
     font-size: 18px !important;
     color: #000000 !important;
     border: 1px solid #2F5092 !important;
     border-radius: 10px !important;
-    padding: 10px 20px;
     height: auto;
+}*/
+.modal-close {
+    background-color: rgba(10, 10, 10, .3);
+}
+
+.hero-body {
+    padding: 3rem 1.5rem !important;
 }
 
 /* Nav Bar
 =================================================================== */
-.navbar-header {
-    padding-top: 20px;
+.navbar-brand {
+    margin: 0 36px 0 12px;
 }
 
 .navbar-item img {
-    max-height: 55px;
-    margin-top: -10px;
+    max-height: 38px;
 }
 
 .navbar-item, .navbar-link {
@@ -201,6 +207,10 @@ hr.yellow {
     -o-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+}
+
+.navbar-end {
+    margin: 0 10px 0 0;
 }
 
 a.navbar-item:hover, a.navbar-item.is-active,
@@ -933,7 +943,7 @@ ul.social-media li a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 50px;
+    padding-top: 90px;
 }
 
 .resources-hero .hero-text {
@@ -1067,7 +1077,7 @@ ul.social-media li a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 40px;
+    padding-top: 130px;
     padding-bottom: 40px;
 }
 
@@ -1113,7 +1123,7 @@ ul.social-media li a:hover {
     .button.login-btn {
         font-size: 14px;
         width: auto;
-        padding: 9px 30px;
+        padding: 9px 20px;
         height: auto;
         margin-right: 10px;
         line-height: 14px;

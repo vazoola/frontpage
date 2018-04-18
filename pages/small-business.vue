@@ -5,7 +5,7 @@
     <!-- end: NavBar -->
 
             <!-- start: Hero -->
-            <section class="home-hero-1">
+            <section class="section home-hero-1">
               <div class="container">
                   <div class="columns">
                       <div class="column hero-img">
@@ -26,7 +26,7 @@
             <!-- end: Hero -->
 
             <!-- start: How We Work -->
-            <section class="how-we-work inside">
+            <section class="section how-we-work inside">
               <div class="container">
                   <div class="columns">
                       <div class="column">
@@ -113,7 +113,7 @@
             <!-- end: How We Work -->
 
             <!-- start: How Vazoola works. -->
-            <section class="how-vazoola-works">
+            <section class="section how-vazoola-works">
               <div class="container">
                   <div class="columns">
                       <div class="column">
@@ -137,7 +137,7 @@
                                                       <h2>Create Campaign</h2>
                                                       <hr />
                                                   </div>
-                                                  <p>Outline your goals as an brand with us, request custom proposals for clients, and start creating content!</p>
+                                                  <p>Outline your goals as a small business with us, request custom proposals for clients, and start creating content!</p>
                                                   <div class="slider-list">
                                                       <ul>
                                                           <li><span>Choose from blog posts, social posts, video posts, or any combo.</span></li>
@@ -159,7 +159,7 @@
                                                       <h2>View Proposal</h2>
                                                       <hr />
                                                   </div>
-                                                  <p>As an brand, this is where you access custom-tailored blog, social, and video proposals. This includes all influencers relevant to your campaign.</p>
+                                                  <p>As a small business, this is where you access custom-tailored blog, social, and video proposals. This includes all influencers relevant to your campaign.</p>
                                                   <div class="slider-list">
                                                       <ul>
                                                           <li><span>Evaluate influencer recommendations custom picked for you.</span></li>
@@ -252,8 +252,16 @@
                           <div class="headline">
                               <h2>Grow<br />your brand.</h2>
                               <hr class="light-blue" />
-                              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-                              <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum praesent luptatum.</p>
+                              <p>
+                                  Link building and influencer marketing are difficult and time-consuming, but essential to SEO and growing your small business.
+                                  At Vazoola, you can streamline link building and influencer marketing all-in-one place.
+                                  Let us worry about link acquisitions and running social campaigns, so you can focus your efforts elsewhere.
+                              </p>
+                              <p>
+                                  Our self-serve or managed platform, allows you to scale content creation, within any industry.
+                                  We offer training and education, phone support, and detailed reports.
+                                  There are no contracts or minimum spend to start working with us.
+                              </p>
                               <p class="text-center"><a href="#" class="button is-primary">Find Out How</a></p>
                           </div>
                       </div>
@@ -264,13 +272,6 @@
               </div>
             </section>
             <!-- end: Grow Your Brand -->
-
-
-          	<!-- end: Client Testimonials -->
-
-          	<!-- start: Posts & Resources -->
-          	<posts-hero />
-          	<!-- end: Posts & Resources -->
 
           	<!-- start: Let’s Get Started -->
           	<contact-form />

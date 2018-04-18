@@ -9,14 +9,16 @@
               	<div class="container">
   	            	<div class="columns">
   	  					<div class="column hero-img">
-  	  						<img src="/images/home-hero-img.png" alt="Hero Image">
+  	  						<img src="/images/home-hero-img.png" alt="Influencers at your fingertips">
   	  					</div>
   	  					<div class="column">
   	  						<div class="hero-text">
   		  						<h2>Content creators at your fingertips.</h2>
   		  						<hr class="pink" />
   		  						<p class="subtitle">We’ve done the legwork.<br />Leverage our vast pool of trusted influencers.</p>
-  		  						<p class="text-center"><a href="#" class="button is-primary">Request A Proposal</a></p>
+  		  						<p class="text-center">
+                                    <span @click="showModal = true" class="button is-primary">Request A Proposal</span>
+                                </p>
   		  						<p class="btn-text">No contract necessary</p>
   		  					</div>
   	  					</div>
@@ -181,7 +183,9 @@
                         <div class="column is-5">
                                 <p>Forget about searching through thousands of influencers to locate the most suitable options, then having to reach out and negotiate on your own. Who has time for that?</p>
                                 <p>We match you up with the influencers that meet your needs. And, with over 100,000 influencers to choose from, have confidence we’ll find the right home for your content.</p>
-                                <p class="text-center"><a href="#" class="button is-primary">Become different</a></p>
+                                <p class="text-center">
+                                    <button @click="showModal = true" class="button is-primary">Become different</button>
+                                </p>
         				</div>
                         <div class="column">
         					<img src="/images/compare.png" alt="Grow">
@@ -212,20 +216,23 @@
           	</section>
           	<!-- end: Succeed -->
 
-            <!-- start: Let’s Get Started -->
-            <contact-form />
-            <!-- end: Let’s Get Started -->
-
 
           	<!-- start: Posts & Resources -->
           	<posts-hero :resources="posts" />
           	<!-- end: Posts & Resources -->
 
+          	<!-- start: Let’s Get Started -->
+          	<contact-form />
+          	<!-- end: Let’s Get Started -->
 
 
           	<!-- start: Footer -->
           	<footer-bar />
           	<!-- end: Footer -->
+
+            <!-- start: Let’s Get Started -->
+          	<contact-modal :active.sync="showModal" />
+          	<!-- end: Let’s Get Started -->
 </div>
 </template>
 
@@ -234,6 +241,7 @@ import NavBar from '~/components/NavBar.vue'
 import FooterBar from '~/components/FooterBar.vue'
 
 import ContactForm from '~/components/ContactForm.vue'
+import ContactModal from '~/components/ContactModal.vue'
 import PostsHero from '~/components/PostsHero.vue'
 import moment from 'moment'
 
@@ -242,7 +250,8 @@ export default {
         NavBar,
         FooterBar,
         PostsHero,
-        ContactForm
+        ContactForm,
+        ContactModal
     },
     head () {
         return {
@@ -251,6 +260,12 @@ export default {
                 { hid: 'description', name: 'description', content: 'Powerful platform that connects brands and agencies with vetted and trustworthy influencers for the purposes of: Link Building, Content Marketing, and Social Media Campaigns.' },
                 { hid: 'keywords', name:'keywords', content: 'Link Building, Influencer Marketing, Content Marketing' },
             ]
+        }
+    },
+
+    data() {
+        return {
+            showModal: false,
         }
     },
 

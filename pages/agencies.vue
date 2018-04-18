@@ -5,7 +5,7 @@
     <!-- end: NavBar -->
 
             <!-- start: Hero -->
-            <section class="home-hero-1">
+            <section class="section home-hero-1">
               <div class="container">
                   <div class="columns">
                       <div class="column hero-img">
@@ -26,7 +26,7 @@
             <!-- end: Hero -->
 
             <!-- start: How We Work -->
-            <section class="how-we-work inside">
+            <section class="section how-we-work inside">
               <div class="container">
                   <div class="columns">
                       <div class="column">
@@ -113,7 +113,7 @@
             <!-- end: How We Work -->
 
             <!-- start: How Vazoola works. -->
-            <section class="how-vazoola-works">
+            <section class="section how-vazoola-works">
               <div class="container">
                   <div class="columns">
                       <div class="column">
@@ -250,10 +250,18 @@
                   <div class="columns">
                       <div class="column">
                           <div class="headline">
-                              <h2>Grow<br />your brand.</h2>
+                              <h2>Grow<br />your agency.</h2>
                               <hr class="light-blue" />
-                              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-                              <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum praesent luptatum.</p>
+                              <p>
+                                  Link building and influencer marketing are difficult and time-consuming, but essential to SEO and growing your clients brand.
+                                  At Vazoola, you can streamline link building and influencer marketing all-in-one place.
+                                  Let us worry about link acquisitions and running social campaigns for your clients, so you can focus your efforts elsewhere.
+                              </p>
+                              <p>
+                                  Our self-serve or managed service platform, allows you to scale content creation for any number of clients, in any industry.
+                                  We offer reduced rates, white label capabilities, training and education, phone support, and detailed reports.
+                                  Our technology was created with agencies in mind.
+                              </p>
                               <p class="text-center"><a href="#" class="button is-primary">Find Out How</a></p>
                           </div>
                       </div>
@@ -264,13 +272,6 @@
               </div>
             </section>
             <!-- end: Grow Your Brand -->
-
-
-          	<!-- end: Client Testimonials -->
-
-          	<!-- start: Posts & Resources -->
-          	<posts-hero />
-          	<!-- end: Posts & Resources -->
 
           	<!-- start: Let’s Get Started -->
           	<contact-form />

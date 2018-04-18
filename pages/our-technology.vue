@@ -5,7 +5,7 @@
     <!-- end: NavBar -->
 
     <!-- start: Hero -->
-        <section class="technology-hero">
+        <section class="section technology-hero">
         	<div class="container">
             	<div class="columns">
   					<div class="column">
@@ -32,7 +32,7 @@
                         <hr class="green" />
                         <p>
                             Simplify the process by managing all your content in one place.
-                            Upload articles that have already been written by your team, or order new articles from our staff of experienced writers
+                            Upload articles that have already been written by your team, or order new articles from our staff of experienced writers.
                         </p>
                         <p>
                             Edit articles as needed, and save any changes made. When processing orders for new campaigns,
@@ -56,7 +56,7 @@
                         <p>
                             Request custom blog, social, and video proposals by setting a budget and detailing your campaign goals.
                             Help us to hone in on your ideal influencers by defining your minimum search metrics, monthly traffic, social following, and more.
-                            Receive notification as soon as your proposal is ready to review.
+                            Get notified as soon as your proposal is ready to review.
                         </p>
                         <p>
                             Save time and energy by only reviewing influencers that match your specific needs.
@@ -85,7 +85,7 @@
                         <h2>Campaign<br />Tracking.</h2>
                         <hr class="green" />
                         <p>
-                            Receive daily notifications of campaign activity such content awaiting approval, new placements, etc.
+                            Receive daily notifications of campaign activity such as content awaiting approval, new placements, and more.
                             Or, log in and view real-time tracking from within your Dashboard.
                         </p>
                         <p>
@@ -98,10 +98,6 @@
         </div>
     </section>
     <!-- end: Content Library -->
-
-  	<!-- start: Posts & Resources -->
-  	<posts-hero />
-  	<!-- end: Posts & Resources -->
 
   	<!-- start: Let’s Get Started -->
   	<contact-form />

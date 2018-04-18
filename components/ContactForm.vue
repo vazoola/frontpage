@@ -13,27 +13,70 @@
             </div>
             <form>
                 <div class="columns">
-                    <div class="column is-offset-1">
-                        <div class="columns">
-                            <div class="column">
-                                <div class="control">
-                                    <input class="input" type="text" placeholder="Full Name">
-                                </div>
+                    <div class="column">
+
+                        <div class="field">
+                            <label class="label">Firstname</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="Text input">
                             </div>
-                            <div class="column">
-                                <div class="control">
-                                    <input class="input" type="text" placeholder="Email Address">
+                        </div>
+                        <div class="field">
+                            <label class="label">Company Website</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="Text input">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">I'm a..</label>
+                            <div class="control">
+                                <div class="select is-fullwidth">
+                                <select required="">
+                                    <option></option>
+                                    <option value="brand">Brand</option>
+                                    <option value="agency">Agency</option>
+                                    <option value="business">Small Business</option>
+                                </select>
                                 </div>
                             </div>
                         </div>
-                        <div class="columns">
-                            <div class="column">
-                                <textarea class="textarea" placeholder="How can we help?"></textarea>
-                            </div>
-                        </div>
+
                     </div>
-                    <div class="column is-4">
-                        <button class="button is-primary">Send</button>
+                    <div class="column">
+
+                        <div class="field">
+                            <label class="label">Lastname</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="Text input">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Company Email</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="Text input">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Phone</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="Text input">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="columns">
+                    <div class="column">
+                        <textarea class="textarea" placeholder="e.g. Hello world"></textarea>
+                    </div>
+                </div>
+
+                <div class="columns">
+                    <div class="column">
+                        <div class="buttons is-centered">
+                            <span class="button is-info is-medium">Contact Me!</span>
+                        </div>
                     </div>
                 </div>
             </form>
