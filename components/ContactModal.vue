@@ -4,7 +4,7 @@
         :class="{'is-active': active}">
         <div class="modal-background" @click="closeIt"></div>
             <div class="modal-content">
-                <section class="hero is-medium is-primary is-bold">
+                <section class="hero is-contact is-medium">
                 <div v-if="!sent" class="hero-body">
                     <h2 class="title is-4">Power Your Content Creation and Campaigns in One Platform.</h2>
                     <form name="contact" netlify netlify-honeypot="bot-field">
@@ -130,4 +130,7 @@ export default {
 </script>
 
 <style lang="css">
+    .hero.is-contact {
+        background-image: linear-gradient(141deg, #cec5de 0%, #4162a4 71%, #f6f8fb 100%);
+    }
 </style>
