@@ -1,6 +1,7 @@
 <template lang="html">
 <div>
-    <div v-if="active" class="modal is-active">
+    <div class="modal is-active"
+        :class="{'is-active': active}">
         <div class="modal-background" @click="closeIt"></div>
             <div class="modal-content">
                 <section class="hero is-medium is-primary is-bold">
