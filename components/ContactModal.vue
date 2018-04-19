@@ -112,10 +112,16 @@ export default {
         },
 
         sendIt() {
+            var formData = new FormData();
+            for(var i in this.form) {
+                if(!this.form[i] == null)
+                    formData.append(i, this.form[i]);
+            }
+            formData.append('form-name', 'contact');
             fetch("/resources/", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                body: JSON.stringify({ "form-name": "contact", ...this.form })
+                body: formData
             })
             .then(res => {
                 this.sent = true;
