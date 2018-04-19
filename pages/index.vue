@@ -206,7 +206,7 @@
           						<h2>Succeed<br />with Vazoola.</h2>
           						<hr class="green" />
           						<p>
-                                    We provide you the proper tools and data needed to lock in on the influencers that will have the biggest impact on your marketing strategy, as well as to measure a campaign’s level of success.
+                                    Our robust platform provides you with the tools and data needed to lock in on the influencers that will have the biggest impact on your marketing strategy. Streamline the process of finding the best influencers, creating shareworthy content, tracking your progress, and measuring success across any number of campaigns.
                                 </p>
   								<p class="text-center"><a href="/our-technology" class="button is-primary">More About Our Tech</a></p>
           					</div>

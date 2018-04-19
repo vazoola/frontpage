@@ -16,7 +16,7 @@
                               <h2>Streamline the process.</h2>
                               <hr class="pink" />
                               <p class="subtitle">Generate better content and links in less time</p>
-                              <p class="text-center"><a href="#" class="button is-primary">Request Demo</a></p>
+                              <p class="text-center"><a @click="showModal = true" class="button is-primary">Request Proposal</a></p>
                               <p class="btn-text">No contract necessary</p>
                           </div>
                       </div>
@@ -40,27 +40,14 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/team-icon.png" >
+                                  <img src="/images/custom_proposals.png" >
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Easy to use platform</h4>
-                                  <div class="desc">Manage search, social, and video campaigns all in one place</div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="column">
-                          <div class="icon_box icon_position_left no_border">
-                              <div class="image_wrapper">
-                                  <img src="/images/save-time-icon.png" >
-                              </div>
-                              <div class="desc_wrapper">
-                                  <h4 class="title">Save More Time</h4>
+                                  <h4 class="title">Custom Proposals</h4>
                                   <div class="desc">Pick from a curated list of influencers that match your niche and budget</div>
                               </div>
                           </div>
                       </div>
-                  </div>
-                  <div class="columns">
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
@@ -68,23 +55,23 @@
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Content Control</h4>
-                                  <div class="desc">Purchase high quality articles from our writers, or upload your own original content</div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="column">
-                          <div class="icon_box icon_position_left no_border">
-                              <div class="image_wrapper">
-                                  <img src="/images/grow-icon.png" >
-                              </div>
-                              <div class="desc_wrapper">
-                                  <h4 class="title">Grow Your Business</h4>
-                                  <div class="desc">Increase your brand awareness, improve search rankings, and deliver viral content.</div>
+                                  <div class="desc">Purchase high quality articles from our writers or upload your own content</div>
                               </div>
                           </div>
                       </div>
                   </div>
                   <div class="columns">
+                      <div class="column">
+                          <div class="icon_box icon_position_left no_border">
+                              <div class="image_wrapper">
+                                  <img src="/images/scale_your_agency.png" >
+                              </div>
+                              <div class="desc_wrapper">
+                                  <h4 class="title">Scale your agency</h4>
+                                  <div class="desc">Purchase high quality articles from our writers, or upload your own original content</div>
+                              </div>
+                          </div>
+                      </div>
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
@@ -96,18 +83,32 @@
                               </div>
                           </div>
                       </div>
+                  </div>
+                  <div class="columns">
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/choose-icon.png" >
+                                  <img src="/images/white_label_services.png" >
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Choose Type of Service</h4>
-                                  <div class="desc">Run campaigns and place orders on your own, or just ask us to do it for you.</div>
+                                  <h4 class="title">White label service</h4>
+                                  <div class="desc">Export spreadsheets of completed campaigns and send them to your client’s.</div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="column">
+                          <div class="icon_box icon_position_left no_border">
+                              <div class="image_wrapper">
+                                  <img src="/images/complete_transparency.png" >
+                              </div>
+                              <div class="desc_wrapper">
+                                  <h4 class="title">Complete transparency</h4>
+                                  <div class="desc">Know exactly where your placement will go live and for what cost.</div>
                               </div>
                           </div>
                       </div>
                   </div>
+
               </div>
             </section>
             <!-- end: How We Work -->
@@ -301,6 +302,10 @@
           	<contact-form />
           	<!-- end: Let’s Get Started -->
 
+            <!-- start: Let’s Get Started -->
+          	<contact-modal :active.sync="showModal" />
+          	<!-- end: Let’s Get Started -->
+
           	<!-- start: Footer -->
           	<footer-bar />
           	<!-- end: Footer -->
@@ -310,7 +315,7 @@
 <script>
 import NavBar from '~/components/NavBar.vue'
 import FooterBar from '~/components/FooterBar.vue'
-
+import ContactModal from '~/components/ContactModal.vue'
 import ContactForm from '~/components/ContactForm.vue'
 import PostsHero from '~/components/PostsHero.vue'
 
@@ -319,12 +324,14 @@ export default {
       NavBar,
       FooterBar,
       PostsHero,
-      ContactForm
+      ContactForm,
+      ContactModal
   },
 
   data() {
       return {
           step: 0,
+          showModal: false,
       }
   },
   computed: {

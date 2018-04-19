@@ -16,7 +16,7 @@
                               <h2>Rise above local competition</h2>
                               <hr class="pink" />
                               <p class="subtitle">Close more deals using proven marketing strategies</p>
-                              <p class="text-center"><a href="#" class="button is-primary">Request Demo</a></p>
+                              <p class="text-center"><a @click="showModal = true" class="button is-primary">Request Proposal</a></p>
                               <p class="btn-text">No contract necessary</p>
                           </div>
                       </div>
@@ -301,6 +301,10 @@
           	<contact-form />
           	<!-- end: Let’s Get Started -->
 
+            <!-- start: Let’s Get Started -->
+          	<contact-modal :active.sync="showModal" />
+          	<!-- end: Let’s Get Started -->
+
           	<!-- start: Footer -->
           	<footer-bar />
           	<!-- end: Footer -->
@@ -310,7 +314,7 @@
 <script>
 import NavBar from '~/components/NavBar.vue'
 import FooterBar from '~/components/FooterBar.vue'
-
+import ContactModal from '~/components/ContactModal.vue'
 import ContactForm from '~/components/ContactForm.vue'
 import PostsHero from '~/components/PostsHero.vue'
 
@@ -319,12 +323,14 @@ export default {
       NavBar,
       FooterBar,
       PostsHero,
-      ContactForm
+      ContactForm,
+      ContactModal
   },
 
   data() {
       return {
           step: 0,
+          showModal: false,
       }
   },
   computed: {
