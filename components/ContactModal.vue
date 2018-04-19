@@ -102,6 +102,7 @@ export default {
                 email: null,
                 phone: null,
                 goals: null,
+                "form-name": 'contact',
             }
         }
     },
@@ -113,7 +114,7 @@ export default {
 
         sendIt() {
             var formData = Object.keys(this.form).map(k => `${encodeURIComponent(k)}=${encodeURIComponent(this.form[k])}`).join('&');
-            fetch("/resources/", {
+            fetch("/", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: formData
