@@ -1,6 +1,6 @@
 <template lang="html">
 <div>
-    <div class="modal is-active"
+    <div class="modal"
         :class="{'is-active': active}">
         <div class="modal-background" @click="closeIt"></div>
             <div class="modal-content">
