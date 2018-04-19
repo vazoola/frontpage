@@ -4,7 +4,7 @@
             <div class="columns">
                 <div class="column">
                     <div class="headline">
-                        <h2>Posts &<br />Resources</h2>
+                        <h2>Posts & Resources</h2>
                         <hr class="yellow" />
                     </div>
                 </div>

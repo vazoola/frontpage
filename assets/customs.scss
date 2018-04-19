@@ -329,7 +329,7 @@ a.navbar-link.is-active {
 /* How We Work
 =================================================================== */
 .how-we-work {
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 80px;
 }
 
@@ -383,7 +383,7 @@ a.navbar-link.is-active {
 }
 
 .how-we-work.inside {
-    padding-top: 0px;
+    padding-top: 100px;
     background: url(/images/how-we-work-bg.jpg) no-repeat center;
     background-size: auto;
     padding-bottom: 150px;
@@ -608,6 +608,50 @@ a.navbar-link.is-active {
 
 /* Posts & Resources
 =================================================================== */
+.card {
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 3px 8px rgb(192, 123, 190), 0 2px 6px 1px rgba(244, 172, 212, 0.52);
+    padding: 2px;
+}
+.card-footer {
+    margin-top: auto;
+    border-top: none;
+}
+
+.card-footer .date {
+    padding: 5px 1.5rem;
+}
+
+.card .content {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 24px;     /* fallback */
+   max-height: 96px;      /* fallback */
+   -webkit-line-clamp: 4; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.card .type {
+    bottom: 0;
+    margin-top: 0;
+    position: absolute;
+    padding-left: 29px;
+    margin-bottom: 0;
+    margin: 1.25rem 0 0;
+    padding: 0 29px 0 20px;
+    list-style: none;
+    display: inline-block;
+    background: #fff;
+    left: 0;
+}
+
 .posts {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -622,82 +666,6 @@ a.navbar-link.is-active {
     margin: 0 auto;
     margin-top: 25px;
     margin-bottom: 25px;
-}
-
-.post-box {
-    background: rgb(247, 247, 247);
-    background: -moz-linear-gradient(270deg, rgb(247, 247, 247) 30%, rgb(255, 255, 255) 95%);
-    background: -webkit-linear-gradient(270deg, rgb(247, 247, 247) 30%, rgb(255, 255, 255) 95%);
-    background: -o-linear-gradient(270deg, rgb(247, 247, 247) 30%, rgb(255, 255, 255) 95%);
-    background: -ms-linear-gradient(270deg, rgb(247, 247, 247) 30%, rgb(255, 255, 255) 95%);
-    background: linear-gradient(0deg, rgb(247, 247, 247) 30%, rgb(255, 255, 255) 95%);
-    border-radius: 15px;
-}
-
-.post-box {
-    text-align: center;
-}
-
-.post-box img {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.post-box .card-footer {
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-.post-box h3 {
-    font-size: 28px;
-    color: #000000;
-    font-weight: 500;
-    margin-top: 25px;
-    text-align: left;
-}
-
-.post-box p.date {
-    font-size: 16px;
-    color: #35A6D4;
-    font-weight: 300;
-    text-align: left;
-    line-height: 18px;
-    margin-bottom: 15px;
-}
-
-.post-box p.desc {
-    font-size: 14px;
-    color: #000000;
-    font-weight: 400;
-    text-align: left;
-    line-height: 18px;
-    margin-bottom: 25px;
-}
-
-.post-box a {
-    color: #2F5092;
-    font-weight: 500;
-    font-size: 14px;
-}
-
-.post-box a:hover {
-    color: #4572cd;
-}
-
-
-.posts .column {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.post-box h4 {
-    background-color: #1b1464;
-    color: #ffffff;
-    display: inline-block;
-    border-radius: 25px;
-    padding: 5px 15px;
-    margin-top: 10px;
-    margin-bottom: -5px;
 }
 
 .pagination {
@@ -723,6 +691,25 @@ a.navbar-link.is-active {
 .pagination-previous:hover, .pagination-next:hover, .pagination-link:hover {
     border-color: transparent;
     color: #35A6D4;
+}
+
+//Articles
+.article .title {
+    text-align: center
+}
+
+.article .image img {
+    object-fit: cover;
+}
+
+.article .content {
+    margin-top: 2em;
+}
+
+.article .content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -1534,7 +1521,7 @@ ul.social-media li a:hover {
     }
 
     .slide-mask {
-        height: 800px;
+        height: 700px;
     }
 
 }

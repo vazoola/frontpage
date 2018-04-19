@@ -138,41 +138,5 @@ export default {
 </script>
 
 <style lang="css">
-.card {
-    height: 100%;
-    display:flex;
-    flex-direction: column;
-}
-.card-footer {
-    margin-top: auto;
-    border-top: none;
-}
 
-.card-footer .date {
-    padding: 5px 1.5rem;
-}
-
-.card .content {
-   overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   line-height: 24px;     /* fallback */
-   max-height: 96px;      /* fallback */
-   -webkit-line-clamp: 4; /* number of lines to show */
-   -webkit-box-orient: vertical;
-}
-
-.card .type {
-    bottom: 0;
-    margin-top: 0;
-    position: absolute;
-    padding-left: 29px;
-    margin-bottom: 0;
-    margin: 1.25rem 0 0;
-    padding: 0 29px 0 20px;
-    list-style: none;
-    display: inline-block;
-    background: #fff;
-    left: 0;
-}
 </style>

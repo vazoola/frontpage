@@ -188,7 +188,7 @@
                                 </p>
         				</div>
                         <div class="column">
-        					<img src="/images/compare.png" alt="Grow">
+        					<img src="/images/compair.png" alt="Grow">
         				</div>
                     </div>
         		</div>

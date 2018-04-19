@@ -108,17 +108,3 @@ export default {
     }
 };
 </script>
-
-<style media="screen">
-    .article .title {
-        text-align: center
-    }
-
-    .article .image img {
-        object-fit: cover;
-    }
-
-    .article .content {
-        margin-top: 2em;
-    }
-</style>
