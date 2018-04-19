@@ -111,7 +111,7 @@ export default {
         },
 
         sendIt() {
-            fetch("/", {
+            fetch("/resources", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: JSON.stringify({ "form-name": "contact", ...this.form })
