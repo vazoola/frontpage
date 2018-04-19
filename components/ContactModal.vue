@@ -112,11 +112,7 @@ export default {
         },
 
         sendIt() {
-            var formData = new FormData();
-            for(var i in this.form) {
-                    formData.append(i, this.form[i]);
-            }
-            formData.append('form-name', 'contact');
+            var formData = Object.keys(this.form).map(k => `${encodeURIComponent(k)}=${encodeURIComponent(this.form[k])}`).join('&');
             fetch("/resources/", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
