@@ -114,7 +114,6 @@ export default {
         sendIt() {
             var formData = new FormData();
             for(var i in this.form) {
-                if(!this.form[i] == null)
                     formData.append(i, this.form[i]);
             }
             formData.append('form-name', 'contact');
