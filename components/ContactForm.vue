@@ -76,7 +76,7 @@
                 <div class="columns">
                     <div class="column">
                         <div class="buttons is-centered">
-                            <button class="button is-info is-medium">Contact Me!</button>
+                            <button class="button is-rounded is-medium">Submit</button>
                         </div>
                     </div>
                 </div>

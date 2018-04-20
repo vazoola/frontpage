@@ -41,7 +41,7 @@
 					</div>
 				</div>
 				<!-- start: Free Demo -->
-				<contact-modal :active.sync="showModal" />
+				<contact-modal :is-demo="true" :active.sync="showModal" />
 				<!-- end: Free demo -->
 		</nav>
 

@@ -15,8 +15,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Type", name: "type", widget: "hidden", default: "Article"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "SEO URL", name: "seo_url", widget: "string"}
-      - {label: "Keywords", name: "keywords", widget: "list"}
+      - {label: "SEO Keywords", name: "keywords", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Summary", name: "summary", widget: "text"}
@@ -30,7 +29,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Type", name: "type", widget: "hidden", default: "Case Study"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "SEO URL", name: "seo_url", widget: "string"}
+      - {label: "SEO Keywords", name: "keywords", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Summary", name: "summary", widget: "text"}

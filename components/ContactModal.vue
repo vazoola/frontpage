@@ -6,7 +6,9 @@
             <div class="modal-content">
                 <section class="hero is-contact is-medium">
                 <div v-if="!sent" class="hero-body">
-                    <h2 class="title is-4">Power Your Content Creation and Campaigns in One Platform.</h2>
+                    <h2 v-if="isDemo" class="title is-4 has-text-white has-text-centered">Request a Demo and a member from our team will respond within one business day to schedule a date and time to speak.</h2>
+                    <h2 v-else class="title is-4 has-text-white has-text-centered">Request a Proposal and a member from our team will respond within one business day to provide an estimated completion date.</h2>
+
                     <form name="contact" netlify netlify-honeypot="bot-field">
                         <div class="columns">
                             <div class="column">
@@ -70,7 +72,7 @@
                         <div class="columns">
                             <div class="column">
                                 <div class="buttons is-centered">
-                                    <a @click="sendIt" class="button is-info is-medium">Submit</a>
+                                    <a @click="sendIt" class="button is-rounded is-medium">Submit</a>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +92,10 @@
 
 <script>
 export default {
-    props: ['active'],
+    props: {
+        active: false,
+        isDemo: false
+    },
     data() {
         return {
             sent: false,
