@@ -67,7 +67,7 @@
                                   <img src="/images/scale_your_agency.png" >
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Scale your agency</h4>
+                                  <h4 class="title">Scale Your Agency</h4>
                                   <div class="desc">Purchase high quality articles from our writers, or upload your own original content</div>
                               </div>
                           </div>
@@ -78,7 +78,7 @@
                                   <img src="/images/track-icon.png" >
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Track your efforts</h4>
+                                  <h4 class="title">Track Your Efforts</h4>
                                   <div class="desc">Receive updates in real time, every time a new placement goes live.</div>
                               </div>
                           </div>
@@ -91,7 +91,7 @@
                                   <img src="/images/white_label_services.png" >
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">White label service</h4>
+                                  <h4 class="title">White Label Service</h4>
                                   <div class="desc">Export spreadsheets of completed campaigns and send them to your client’s.</div>
                               </div>
                           </div>
@@ -102,7 +102,7 @@
                                   <img src="/images/complete_transparency.png" >
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Complete transparency</h4>
+                                  <h4 class="title">Complete Transparency</h4>
                                   <div class="desc">Know exactly where your placement will go live and for what cost.</div>
                               </div>
                           </div>

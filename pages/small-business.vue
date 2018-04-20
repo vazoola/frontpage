@@ -43,7 +43,7 @@
                                   <img src="/images/team-icon.png" >
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Easy to use platform</h4>
+                                  <h4 class="title">Easy To Use Platform</h4>
                                   <div class="desc">Manage search, social, and video campaigns all in one place</div>
                               </div>
                           </div>
@@ -91,7 +91,7 @@
                                   <img src="/images/track-icon.png" >
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Track your efforts</h4>
+                                  <h4 class="title">Track Your Efforts</h4>
                                   <div class="desc">Receive updates in real time, every time a new placement goes live.</div>
                               </div>
                           </div>
