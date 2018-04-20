@@ -22,21 +22,13 @@
                             <li>
                                 <a href="/resources">All</a>
                             </li>
-                            <li @click="resourceType = 'article'"
-                                :class="[resourceType == 'article' ? 'is-active' : '']">
-                                <a>Articles</a>
-                            </li>
-                            <li @click="resourceType = 'case'"
-                                :class="[resourceType == 'case' ? 'is-active' : '']">
-                                <a>Case Studies</a>
-                            </li>
-                            <li @click="resourceType = 'guide'"
-                                :class="[resourceType == 'guide' ? 'is-active' : '']">
-                                <a>Guides</a>
+                            <li>
+                                <a  href="/resources">Articles</a>
                             </li>
                         </ul>
                     </div>
                 </div>
+                <!--
                 <div class="column">
                     <div class="field search-hero">
                         <div class="control has-icons-right">
@@ -47,6 +39,7 @@
                         </div>
                     </div>
                 </div>
+                -->
             </div>
 			</div>
 	 	</section>
@@ -55,14 +48,12 @@
         <!-- start: Resources -->
         <section class="section">
             <div class="columns">
-                <div class="column is-3">
-
-                </div>
+                <div class="column is-3"> <!-- gutter --></div>
                 <div class="article column is-6">
                     <h1 class="title">{{ post.title }}</h1>
-                    <h2 class="subtitle"> {{ post.date }} </h2>
+                    <h2 class="subtitle has-text-centered"> {{ post.date }} </h2>
 
-                    <figure class="image is-2by1">
+                    <figure class="image">
                         <img :src="post.thumbnail">
                     </figure>
 
@@ -70,7 +61,7 @@
 
                 </div>
                 <div class="column is-3">
-                    social
+                    <!-- social -->
                 </div>
             </div>
         </section>
@@ -104,6 +95,16 @@ export default {
         return {
             post: data,
             resourceType: data.type
+        }
+    },
+
+    head () {
+        return {
+            title: "Vazoola Resources | "+this.post.title,
+            meta: [
+                { hid: 'description', name: 'description', content: this.post.summary },
+                { hid: 'keywords', name:'keywords', content: this.post.keywords },
+            ]
         }
     }
 };

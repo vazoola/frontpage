@@ -27,6 +27,7 @@
                                 :class="[resourceType == 'article' ? 'is-active' : '']">
                                 <a>Articles</a>
                             </li>
+                            <!--
                             <li @click="resourceType = 'case'"
                                 :class="[resourceType == 'case' ? 'is-active' : '']">
                                 <a>Case Studies</a>
@@ -35,9 +36,11 @@
                                 :class="[resourceType == 'guide' ? 'is-active' : '']">
                                 <a>Guides</a>
                             </li>
+                            -->
                         </ul>
                     </div>
                 </div>
+                <!--
                 <div class="column">
                     <div class="field search-hero">
                         <div class="control has-icons-right">
@@ -48,6 +51,7 @@
                         </div>
                     </div>
                 </div>
+                -->
             </div>
 			</div>
 	 	</section>
