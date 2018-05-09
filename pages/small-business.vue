@@ -352,6 +352,8 @@ export default {
               { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
               { hid: 'twitter:image', name:'og:image', content: 'https://www.vazoola.com/images/home-hero-img-1.png' },
               { hid: 'og:image', name:'og:image', content: 'https://www.vazoola.com/images/home-hero-img-1.png' },
+              { hid: 'og:title', name:'og:title', content: 'Vazoola for Small Businesses Serious About Content' },
+              { hid: 'og:description', name:'og:description',  content: 'Find out how your Small Business can succeed with Vazoola. Manage any size link building, social and video campaigns all in one place. There is no minimum spend required and we work with all industries.' },
           ]
       }
   },

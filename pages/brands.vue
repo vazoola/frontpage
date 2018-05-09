@@ -352,6 +352,8 @@ export default {
               { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
               { hid: 'twitter:image', name:'twitter:image', content: 'https://www.vazoola.com/images/home-hero-img-1.png' },
               { hid: 'og:image', name:'og:image', content: 'https://www.vazoola.com/images/home-hero-img-1.png' },
+              { hid: 'og:title', name:'og:title', content:  'Vazoola for Brands Serious About Influencer Marketing'},
+              { hid: 'og:description', name:'og:description',  content: 'Find out how your brand can succeed with Vazoola. Manage link building, social, and video campaigns all in one place. We work with over 100,000+ vetted influencers from all industries.'},
           ]
       }
   },

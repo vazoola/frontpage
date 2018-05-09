@@ -132,8 +132,10 @@ export default {
                 { hid: 'twitter:card', name:'twitter:card', content: "summary_large_image" },
                 { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
                 { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
-                { hid: 'twitter:image', name:'og:image', content: 'https://www.vazoola.com/images/campaign-img.png' },
+                { hid: 'twitter:image', name:'twitter:image', content: 'https://www.vazoola.com/images/campaign-img.png' },
                 { hid: 'og:image', name:'og:image', content: 'https://www.vazoola.com/images/campaign-img.png' },
+                { hid: 'og:title', name:'og:title', content:  'Vazoola The Premier Influencer Marketing Technology'},
+                { hid: 'og:description', name:'og:description',  content: 'Influencer marketing technology powered by a marketplace of vetted content creators, influencers and over ten years of traffic, demographic, and engagement analytics.' },
             ]
         }
     }
