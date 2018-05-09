@@ -107,6 +107,7 @@ export default {
                 { hid: 'twitter:card', name:'twitter:card', content: this.post.summary },
                 { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
                 { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
+                { hid: 'twitter:image', name:'og:image', content: 'https://vazoola.com'+this.post.thumbnail },
                 { hid: 'og:url', name:'og:url', content: 'https://vazoola.com'+this.$route.path },
                 { hid: 'og:title', name:'og:title', content: this.post.real_title },
                 { hid: 'og:description', name:'og:description', content: this.post.summary },
