@@ -14,7 +14,8 @@ collections:
     format: 'json'
     fields: # The fields for each document, usually in front matter
       - {label: "Type", name: "type", widget: "hidden", default: "Article"}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Short Title (url)", name: "title", widget: "string"}
+      - {label: "Title", name: "real_title", widget: "string"}
       - {label: "SEO Keywords", name: "keywords", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
@@ -28,7 +29,8 @@ collections:
     format: 'json'
     fields: # The fields for each document, usually in front matter
       - {label: "Type", name: "type", widget: "hidden", default: "Case Study"}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Short Title (url)", name: "title", widget: "string"}
+      - {label: "Title", name: "real_title", widget: "string"}
       - {label: "SEO Keywords", name: "keywords", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
@@ -42,7 +44,8 @@ collections:
     format: 'json'
     fields: # The fields for each document, usually in front matter
       - {label: "Type", name: "type", widget: "hidden", default: "Guides"}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Short Title (url)", name: "title", widget: "string"}
+      - {label: "Title", name: "real_title", widget: "string"}
       - {label: "SEO URL", name: "seo_url", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}

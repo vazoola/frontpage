@@ -50,7 +50,7 @@
             <div class="columns">
                 <div class="column is-3"> <!-- gutter --></div>
                 <div class="article column is-6">
-                    <h1 class="title">{{ post.title }}</h1>
+                    <h1 class="title">{{ post.real_title }}</h1>
                     <h2 class="subtitle has-text-centered"> {{ post.date }} </h2>
 
                     <figure class="image">
@@ -100,7 +100,7 @@ export default {
 
     head () {
         return {
-            title: "Vazoola Resources | "+this.post.title,
+            title: "Vazoola Resources | "+this.post.real_title,
             meta: [
                 { hid: 'description', name: 'description', content: this.post.summary },
                 { hid: 'keywords', name:'keywords', content: this.post.keywords },
