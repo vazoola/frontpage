@@ -104,7 +104,8 @@ export default {
             meta: [
                 { hid: 'description', name: 'description', content: this.post.summary },
                 { hid: 'keywords', name:'keywords', content: this.post.keywords },
-                { hid: 'twitter:card', name:'twitter:card', content: this.post.summary },
+                { hid: 'twitter:card', name:'twitter:card', content: "summary_large_image" },
+                { hid: 'twitter:description', name:'twitter:description', content: this.post.summary },
                 { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
                 { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
                 { hid: 'twitter:image', name:'og:image', content: 'https://vazoola.com'+this.post.thumbnail },

@@ -348,6 +348,7 @@ export default {
           meta: [
               { hid: 'description', name: 'description', content: 'Streamline influencer marketing and link building all-in-one place. You can scale content creation for any number of clients, in any industry. Save time and money by using our platform designed for agencies. Our 100,000+ influencers are already registered and ready to work.' },
               { hid: 'keywords', name:'keywords', content: 'Content Marketing for Agencies, Link Building for Agencies, Influencer Marketing for Agencies' },
+              { hid: 'twitter:card', name:'twitter:card', content: "summary_large_image" },
               { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
               { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
               { hid: 'twitter:image', name:'og:image', content: 'https://www.vazoola.com/images/home-hero-img-1.png' },
