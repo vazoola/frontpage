@@ -351,7 +351,7 @@ export default {
               { hid: 'twitter:card', name:'twitter:card', content: "summary_large_image" },
               { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
               { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
-              { hid: 'twitter:image', name:'og:image', content: 'https://www.vazoola.com/images/home-hero-img-1.png' },
+              { hid: 'twitter:image', name:'twitter:image', content: 'https://www.vazoola.com/images/home-hero-img-1.png' },
               { hid: 'og:image', name:'og:image', content: 'https://www.vazoola.com/images/home-hero-img-1.png' },
           ]
       }
