@@ -259,9 +259,14 @@ export default {
             meta: [
                 { hid: 'description', name: 'description', content: 'Powerful platform that connects brands and agencies with vetted and trustworthy influencers for the purposes of: Link Building, Content Marketing, and Social Media Campaigns.' },
                 { hid: 'keywords', name:'keywords', content: 'Link Building, Influencer Marketing, Content Marketing' },
+                { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
+                { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
+                { hid: 'twitter:image', name:'og:image', content: 'https://www.vazoola.com/images/home-hero-img.png' },
+                { hid: 'og:image', name:'og:image', content: 'https://www.vazoola.com/images/home-hero-img.png' },
             ]
         }
     },
+
 
     data() {
         return {

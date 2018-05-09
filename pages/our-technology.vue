@@ -129,6 +129,10 @@ export default {
             meta: [
                 { hid: 'description', name: 'description', content: 'Influencer marketing technology powered by a marketplace of vetted content creators, influencers and over ten years of traffic, demographic, and engagement analytics.' },
                 { hid: 'keywords', name:'keywords', content: 'Influencer Marketing Platform, Link Building Platform, Content Marketing Platform' },
+                { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
+                { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
+                { hid: 'twitter:image', name:'og:image', content: 'https://www.vazoola.com/images/campaign-img.png' },
+                { hid: 'og:image', name:'og:image', content: 'https://www.vazoola.com/images/campaign-img.png' },
             ]
         }
     }
