@@ -104,8 +104,19 @@ export default {
             meta: [
                 { hid: 'description', name: 'description', content: this.post.summary },
                 { hid: 'keywords', name:'keywords', content: this.post.keywords },
+                { hid: 'twitter:card', name:'twitter:card', content: this.post.summary },
+                { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
+                { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
+                { hid: 'og:url', name:'og:url', content: 'https://vazoola.com'+this.$route.path },
+                { hid: 'og:title', name:'og:title', content: this.post.real_title },
+                { hid: 'og:description', name:'og:description', content: this.post.summary },
+                { hid: 'og:image', name:'og:image', content: 'https://vazoola.com'+this.post.thumbnail },
             ]
         }
+    },
+
+    mounted() {
+        console.log(this.$route.path);
     }
 };
 </script>

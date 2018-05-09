@@ -14,13 +14,16 @@
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
+    <!--
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    -->
 </head>
 
 <body class="has-navbar-fixed-top" {{ BODY_ATTRS }}>
   {{ APP }}
 </body>
 
+<!--
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
@@ -32,5 +35,6 @@
     });
   }
 </script>
+-->
 
 </html>
