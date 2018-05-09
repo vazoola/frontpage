@@ -19,13 +19,13 @@
     "showdown": "^1.8.6"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.15.0",
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0",
+    "eslint-plugin-vue": "^4.5.0",
     "glob": "^7.1.2",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.9.0",
     "sass-loader": "^6.0.7"
   }
 }
