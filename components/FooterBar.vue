@@ -6,13 +6,14 @@
                     <p>© 2018 VAZOOLA</p>
                 </div>
                 <div class="column">
-                    <!--
                     <ul class="footer-menu">
+                        <!--
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="#">FAQS</a></li>
-                        <li><a href="#">TERMS OF USE</a></li>
+                        -->
+                        <li><a href="https://app.vazoola.com/terms">TERMS</a></li>
+                        <li><a href="https://app.vazoola.com/privacy">PRIVACY</a></li>
                     </ul>
-                -->
                 </div>
                 <div class="column is-3">
                     <a href="https://www.facebook.com/Vazoola/"><i class="fab fa-facebook-f"></i></a>
