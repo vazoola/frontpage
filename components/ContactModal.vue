@@ -71,6 +71,7 @@
 
                         <div class="columns">
                             <div class="column">
+                                <div netlify-recaptcha></div>
                                 <div class="buttons is-centered">
                                     <a @click="sendIt" class="button is-rounded is-medium">Submit</a>
                                 </div>
