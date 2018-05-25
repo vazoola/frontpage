@@ -17,7 +17,7 @@
                         <div class="field">
                             <label class="label">Firstname</label>
                             <div class="control">
-                                <input class="input" name="firstname" type="text" required >
+                                <input class="input" autocomplete='given-name' name="firstname" type="text" required >
                             </div>
                         </div>
                         <div class="field">
@@ -46,19 +46,19 @@
                         <div class="field">
                             <label class="label">Lastname</label>
                             <div class="control">
-                                <input class="input" name="lastname" type="text" required>
+                                <input class="input" autocomplete='family-name' name="lastname" type="text" required>
                             </div>
                         </div>
                         <div class="field">
                             <label class="label">Company Email</label>
                             <div class="control">
-                                <input class="input" name="email" type="email" required>
+                                <input class="input" autocomplete='email' name="email" type="email" required>
                             </div>
                         </div>
                         <div class="field">
                             <label class="label">Phone</label>
                             <div class="control">
-                                <input class="input" name="phone" type="tel">
+                                <input class="input" name="phone" autocomplete='tel' type="tel">
                             </div>
                         </div>
 
@@ -72,6 +72,7 @@
                 </div>
 
                 <input type="hidden" name="form-name" value="contact" />
+                <div data-netlify-recaptcha></div>
 
                 <div class="columns">
                     <div class="column">
