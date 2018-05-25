@@ -72,7 +72,7 @@
                 </div>
 
                 <input type="hidden" name="form-name" value="contact" />
-                <div data-netlify-recaptcha></div>
+                <div netlify-recaptcha></div>
 
                 <div class="columns">
                     <div class="column">
