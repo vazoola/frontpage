@@ -9,77 +9,10 @@
                     <h2 v-if="isDemo" class="title is-4 has-text-white has-text-centered">Request a Demo and a member from our team will respond within one business day to schedule a date and time to speak.</h2>
                     <h2 v-else class="title is-4 has-text-white has-text-centered">Request a Proposal and a member from our team will respond within one business day to provide an estimated completion date.</h2>
 
-                    <form id="popup-form" name="contact">
-                        <div class="columns">
-                            <div class="column">
-                                <div class="field">
-                                    <label class="label">Firstname</label>
-                                    <div class="control">
-                                        <input class="input" tabindex="1" name="firstname" type="text" v-model="form.firstname" required >
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <label class="label">Company Website</label>
-                                    <div class="control">
-                                        <input class="input" tabindex="3" name="website" v-model="form.url" type="url">
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <label class="label">I'm a..</label>
-                                    <div class="control">
-                                        <div class="select is-fullwidth">
-                                        <select name="company_type" tabindex="5" v-model="form.company_type">
-                                            <option></option>
-                                            <option value="brand">Brand</option>
-                                            <option value="agency">Agency</option>
-                                            <option value="business">Small Business</option>
-                                        </select>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="column">
-
-                                <div class="field">
-                                    <label class="label">Lastname</label>
-                                    <div class="control">
-                                        <input class="input" tabindex="2" name="lastname" v-model="form.lastname" type="text" required>
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <label class="label">Company Email</label>
-                                    <div class="control">
-                                        <input class="input" tabindex="4" name="email" v-model="form.email" type="email" required>
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <label class="label">Phone</label>
-                                    <div class="control">
-                                        <input class="input" tabindex="6" name="phone" v-model="form.phone" type="tel">
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="columns">
-                            <div class="column">
-                                <textarea class="textarea" tabindex="7" name="goals" v-model="form.goals" placeholder="What are your goals?"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="columns">
-                            <div class="column">
-                                <div netlify-recaptcha></div>
-                                <div class="buttons is-centered">
-                                    <a @click="sendIt" class="button is-rounded is-medium">Submit</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <input type="hidden" name="requested" :value="isDemo ? 'demo' : 'proposal'">
-                    </form>
+                    <form-fields
+                        v-on:sentForm="sent = true"
+                        :form-name=" isDemo ? 'demo' : 'proposal'"
+                        />
                 </div>
 
                 <div v-else class="hero-body">
@@ -94,7 +27,12 @@
 </template>
 
 <script>
+import FormFields from './FormFields';
+
 export default {
+    components: {
+        FormFields
+    },
     props: {
         active: false,
         isDemo: false
@@ -102,16 +40,6 @@ export default {
     data() {
         return {
             sent: false,
-            form: {
-                firstname: null,
-                lastname: null,
-                url: null,
-                company_type: null,
-                email: null,
-                phone: null,
-                goals: null,
-                "form-name": 'contact',
-            }
         }
     },
 
@@ -119,21 +47,6 @@ export default {
         closeIt() {
             this.$emit('update:active', false);
         },
-
-        sendIt() {
-            var formData = Object.keys(this.form).map(k => `${encodeURIComponent(k)}=${encodeURIComponent(this.form[k])}`).join('&');
-            fetch("/", {
-                method: "POST",
-                headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                body: formData
-            })
-            .then(res => {
-                this.sent = true;
-            })
-            .catch(res => {
-                this.sent = true;
-            });
-        }
 
     }
 }
