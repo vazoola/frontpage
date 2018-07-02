@@ -9,26 +9,26 @@
                     <h2 v-if="isDemo" class="title is-4 has-text-white has-text-centered">Request a Demo and a member from our team will respond within one business day to schedule a date and time to speak.</h2>
                     <h2 v-else class="title is-4 has-text-white has-text-centered">Request a Proposal and a member from our team will respond within one business day to provide an estimated completion date.</h2>
 
-                    <form id="popup-form" name="contact" netlify netlify-honeypot="bot-field">
+                    <form id="popup-form" name="contact">
                         <div class="columns">
                             <div class="column">
                                 <div class="field">
                                     <label class="label">Firstname</label>
                                     <div class="control">
-                                        <input class="input" name="firstname" type="text" v-model="form.firstname" required >
+                                        <input class="input" tabindex="1" name="firstname" type="text" v-model="form.firstname" required >
                                     </div>
                                 </div>
                                 <div class="field">
                                     <label class="label">Company Website</label>
                                     <div class="control">
-                                        <input class="input" name="website" v-model="form.url" type="url">
+                                        <input class="input" tabindex="3" name="website" v-model="form.url" type="url">
                                     </div>
                                 </div>
                                 <div class="field">
                                     <label class="label">I'm a..</label>
                                     <div class="control">
                                         <div class="select is-fullwidth">
-                                        <select name="company_type" v-model="form.company_type">
+                                        <select name="company_type" tabindex="5" v-model="form.company_type">
                                             <option></option>
                                             <option value="brand">Brand</option>
                                             <option value="agency">Agency</option>
@@ -44,19 +44,19 @@
                                 <div class="field">
                                     <label class="label">Lastname</label>
                                     <div class="control">
-                                        <input class="input" name="lastname" v-model="form.lastname" type="text" required>
+                                        <input class="input" tabindex="2" name="lastname" v-model="form.lastname" type="text" required>
                                     </div>
                                 </div>
                                 <div class="field">
                                     <label class="label">Company Email</label>
                                     <div class="control">
-                                        <input class="input" name="email" v-model="form.email" type="email" required>
+                                        <input class="input" tabindex="4" name="email" v-model="form.email" type="email" required>
                                     </div>
                                 </div>
                                 <div class="field">
                                     <label class="label">Phone</label>
                                     <div class="control">
-                                        <input class="input" name="phone" v-model="form.phone" type="tel">
+                                        <input class="input" tabindex="6" name="phone" v-model="form.phone" type="tel">
                                     </div>
                                 </div>
 
@@ -65,7 +65,7 @@
 
                         <div class="columns">
                             <div class="column">
-                                <textarea class="textarea" name="goals" v-model="form.goals" placeholder="What are your goals?"></textarea>
+                                <textarea class="textarea" tabindex="7" name="goals" v-model="form.goals" placeholder="What are your goals?"></textarea>
                             </div>
                         </div>
 

@@ -11,26 +11,26 @@
                     </div>
                 </div>
             </div>
-            <form id="footer-form" name="contact" netlify netlify-honeypot="bot-field">
+            <form id="footer-form" name="contact">
                 <div class="columns">
                     <div class="column">
                         <div class="field">
                             <label class="label">Firstname</label>
                             <div class="control">
-                                <input class="input" autocomplete='given-name' name="firstname" type="text" required >
+                                <input class="input" tabindex="1" autocomplete='given-name' name="firstname" type="text" required >
                             </div>
                         </div>
                         <div class="field">
                             <label class="label">Company Website</label>
                             <div class="control">
-                                <input class="input" name="website" type="url">
+                                <input class="input" tabindex="3" name="website" type="url">
                             </div>
                         </div>
                         <div class="field">
                             <label class="label">I'm a..</label>
                             <div class="control">
                                 <div class="select is-fullwidth">
-                                <select name="company_type">
+                                <select tabindex="5" name="company_type">
                                     <option></option>
                                     <option value="brand">Brand</option>
                                     <option value="agency">Agency</option>
@@ -46,19 +46,19 @@
                         <div class="field">
                             <label class="label">Lastname</label>
                             <div class="control">
-                                <input class="input" autocomplete='family-name' name="lastname" type="text" required>
+                                <input class="input" tabindex="2" autocomplete='family-name' name="lastname" type="text" required>
                             </div>
                         </div>
                         <div class="field">
                             <label class="label">Company Email</label>
                             <div class="control">
-                                <input class="input" autocomplete='email' name="email" type="email" required>
+                                <input class="input" tabindex="4" autocomplete='email' name="email" type="email" required>
                             </div>
                         </div>
                         <div class="field">
                             <label class="label">Phone</label>
                             <div class="control">
-                                <input class="input" name="phone" autocomplete='tel' type="tel">
+                                <input class="input" tabindex="6" name="phone" autocomplete='tel' type="tel">
                             </div>
                         </div>
 
@@ -67,12 +67,9 @@
 
                 <div class="columns">
                     <div class="column">
-                        <textarea class="textarea" name="goals" placeholder="What are your goals?"></textarea>
+                        <textarea class="textarea" tabindex="7" name="goals" placeholder="What are your goals?"></textarea>
                     </div>
                 </div>
-
-                <input type="hidden" name="form-name" value="contact" />
-                <div netlify-recaptcha></div>
 
                 <div class="columns">
                     <div class="column">
