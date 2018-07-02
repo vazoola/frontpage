@@ -11,7 +11,7 @@
                     </div>
                 </div>
             </div>
-            <form id="footer-form" name="contact">
+            <form id="footer-form" v-on:submit.prevent name="contact">
                 <div class="columns">
                     <div class="column">
                         <div class="field">
@@ -74,7 +74,7 @@
                 <div class="columns">
                     <div class="column">
                         <div class="buttons is-centered">
-                            <button class="button is-rounded is-medium">Submit</button>
+                            <button type="submit" class="button is-rounded is-medium">Submit</button>
                         </div>
                     </div>
                 </div>
