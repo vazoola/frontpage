@@ -9,7 +9,7 @@
                     <h2 v-if="isDemo" class="title is-4 has-text-white has-text-centered">Request a Demo and a member from our team will respond within one business day to schedule a date and time to speak.</h2>
                     <h2 v-else class="title is-4 has-text-white has-text-centered">Request a Proposal and a member from our team will respond within one business day to provide an estimated completion date.</h2>
 
-                    <form name="contact" netlify netlify-honeypot="bot-field">
+                    <form id="popup-form" name="contact" netlify netlify-honeypot="bot-field">
                         <div class="columns">
                             <div class="column">
                                 <div class="field">
@@ -76,6 +76,8 @@
                                 </div>
                             </div>
                         </div>
+
+                        <input type="hidden" name="requested" :value="isDemo ? 'demo' : 'proposal'">
                     </form>
                 </div>
 

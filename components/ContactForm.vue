@@ -11,7 +11,7 @@
                     </div>
                 </div>
             </div>
-            <form name="contact" netlify netlify-honeypot="bot-field">
+            <form id="footer-form" name="contact" netlify netlify-honeypot="bot-field">
                 <div class="columns">
                     <div class="column">
                         <div class="field">
