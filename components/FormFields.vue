@@ -4,9 +4,9 @@
         <div class="columns">
             <div class="column">
                 <div class="field">
-                    <label class="label">Firstname</label>
+                    <label class="label">First name</label>
                     <div class="control">
-                        <input class="input" tabindex="1" autocomplete='given-name' name="firstname" type="text" required >
+                        <input class="input" tabindex="1" autocomplete='given-name' name="first-name" type="text" required >
                     </div>
                 </div>
                 <div class="field">
@@ -33,9 +33,9 @@
             <div class="column">
 
                 <div class="field">
-                    <label class="label">Lastname</label>
+                    <label class="label">Last name</label>
                     <div class="control">
-                        <input class="input" tabindex="2" autocomplete='family-name' name="lastname" type="text" required>
+                        <input class="input" tabindex="2" autocomplete='family-name' name="last-name" type="text" required>
                     </div>
                 </div>
                 <div class="field">
