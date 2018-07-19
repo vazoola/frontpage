@@ -23,9 +23,13 @@
                                 :class="[resourceType == '' ? 'is-active' : '']">
                                 <a>All</a>
                             </li>
-                            <li @click="resourceType = 'article'"
-                                :class="[resourceType == 'article' ? 'is-active' : '']">
+                            <li @click="resourceType = 'Article'"
+                                :class="[resourceType == 'Article' ? 'is-active' : '']">
                                 <a>Articles</a>
+                            </li>
+                            <li @click="resourceType = 'Paper'"
+                                :class="[resourceType == 'Paper' ? 'is-active' : '']">
+                                <a>White Papers</a>
                             </li>
                             <!--
                             <li @click="resourceType = 'case'"
@@ -87,7 +91,7 @@
                         </div>
 
                         <div class="card-footer">
-                            <span class="date" datetime="2016-1-1">{{ r.date }}</span>
+                            <span class="date" datetime="2016-1-1">{{ r.formatedDate }}</span>
                         </div>
                     </div>
                     </a>
@@ -113,11 +117,25 @@ import moment from 'moment';
 
 export default {
     components: { NavBar, FooterBar },
+    data() {
+        return {
+            resourceType: '',
+        }
+    },
+
+    mounted() {
+        var hash = this.$route.hash.split('/')[1];
+        if(hash)
+            this.resourceType = hash.replace(/^\w/, c => c.toUpperCase());
+    },
+
     computed: {
         sortedResources() {
-            return this.resources;
-            return _.filter(this.resources, {
-                type: this.resourceType,
+            if(!this.resourceType)
+                return this.resources;
+
+            return this.resources.filter( f => {
+                return f.type === this.resourceType
             });
         }
     },
@@ -129,8 +147,9 @@ export default {
             _path: `/resources/${key.replace('.json', '').replace('./', '')}`
         }));
 
+
         posts.forEach(function(item, index) {
-            posts[index].date = moment(item.date).format('MMMM Do, YYYY');
+            posts[index].formatedDate = moment(item.date).format('MMMM Do, YYYY');
         });
 
         posts = posts.sort(function(a, b){

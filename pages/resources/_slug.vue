@@ -8,13 +8,13 @@
     <section class="resources-hero">
     	<div class="container">
         	<div class="columns">
-					<div class="column">
-						<div class="hero-text">
+				<div class="column">
+					<div class="hero-text">
   						<h2>Resources</h2>
   						<hr class="blue" />
   					</div>
-					</div>
 				</div>
+			</div>
             <div class="columns">
                 <div class="column">
                     <div class="tabs">
@@ -23,59 +23,50 @@
                                 <a href="/resources">All</a>
                             </li>
                             <li>
-                                <a  href="/resources">Articles</a>
+                                <a href="/resources#/article">Articles</a>
+                            </li>
+                            <li>
+                                <a href="/resources#/paper">White Papers</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <!--
-                <div class="column">
-                    <div class="field search-hero">
-                        <div class="control has-icons-right">
-                            <input class="input" type="text" placeholder="Search" value="">
-                            <span class="icon is-small is-right">
-                                <i class="fas fa-search"></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                -->
             </div>
-			</div>
-	 	</section>
-    	<!-- end: Hero -->
+		</div>
+ 	</section>
+    <!-- end: Hero -->
 
-        <!-- start: Resources -->
-        <section class="section">
-            <div class="columns">
-                <div class="column is-3"> <!-- gutter --></div>
-                <div class="article column is-6">
-                    <h1 class="title">{{ post.real_title }}</h1>
-                    <h2 class="subtitle has-text-centered"> {{ post.date }} </h2>
+    <!-- start: Resources -->
+    <section class="section">
+        <div class="columns">
+            <div class="column is-3"> <!-- gutter --></div>
+            <div class="article column is-6">
+                <h1 class="title is-spaced">{{ post.real_title }}</h1>
+                <h2 class="subtitle has-text-centered"> {{ post.date }} </h2>
 
-                    <figure class="image">
-                        <img :src="post.thumbnail">
-                    </figure>
+                <figure class="image">
+                    <img :src="post.thumbnail">
+                </figure>
 
-                    <div class="content" v-html="post.body" />
+                <div class="content" v-html="post.body" />
 
-                </div>
-                <div class="column is-3">
-                    <!-- social -->
-                </div>
             </div>
-        </section>
-        <!-- start: Resources -->
+            <div class="column is-3">
+                <!-- social -->
+            </div>
+        </div>
+    </section>
+    <!-- start: Resources -->
 
-        <!-- start: Let’s Get Started -->
-        <contact-form />
-        <!-- end: Let’s Get Started -->
+    <!-- start: Let’s Get Started -->
+    <contact-form />
+    <!-- end: Let’s Get Started -->
 
-        <!-- start: Footer -->
-        <footer-bar />
-        <!-- end: Footer -->
+    <!-- start: Footer -->
+    <footer-bar />
+    <!-- end: Footer -->
 
-    </div>
+</div>
 </template>
 
 <script>
