@@ -1,6 +1,6 @@
 <template lang="html">
 <div>
-    <form id="footer-form" v-on:submit.prevent="sentIt" name="contact">
+    <form :id="formName" v-on:submit.prevent="sentIt" name="contact">
         <div class="columns">
             <div class="column">
                 <div class="field">

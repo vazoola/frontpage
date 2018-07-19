@@ -67,6 +67,10 @@
         </section>
         <!-- start: Resources -->
 
+        <!-- start: Let’s Get Started -->
+        <contact-form />
+        <!-- end: Let’s Get Started -->
+
         <!-- start: Footer -->
         <footer-bar />
         <!-- end: Footer -->
@@ -77,11 +81,12 @@
 <script>
 import NavBar from '~/components/NavBar.vue'
 import FooterBar from '~/components/FooterBar.vue'
+import ContactForm from '~/components/ContactForm.vue'
 import showdown from 'showdown';
 import moment from 'moment';
 
 export default {
-    components: { NavBar, FooterBar},
+    components: { NavBar, FooterBar, ContactForm},
     async asyncData({ params }) {
         //get the data
         let data = await import('~/content/resources/' + params.slug + '.json');

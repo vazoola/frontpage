@@ -14,7 +14,7 @@
             <form-fields
                 v-if="!sent"
                 v-on:sentForm="sent = true"
-                :form-name="'footer on ' + $route.name" />
+                :form-name="'footer-' + $route.name" />
 
             <h2 v-else class="title is-4 has-text-white has-text-centered">Thanks, We look foward to working with you!</h2>
         </div>
