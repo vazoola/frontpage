@@ -28,7 +28,7 @@ collections:
     slug: "{{slug}}"
     format: 'json'
     fields: # The fields for each document, usually in front matter
-      - {label: "Type", name: "type", widget: "hidden", default: "Case Study"}
+      - {label: "Type", name: "type", widget: "hidden", default: "Article"}
       - {label: "Short Title (url)", name: "title", widget: "string"}
       - {label: "Title", name: "real_title", widget: "string"}
       - {label: "SEO Keywords", name: "keywords", widget: "string"}
@@ -43,10 +43,10 @@ collections:
     slug: "{{slug}}"
     format: 'json'
     fields: # The fields for each document, usually in front matter
-      - {label: "Type", name: "type", widget: "hidden", default: "Guides"}
+      - {label: "Type", name: "type", widget: "hidden", default: "Article"}
       - {label: "Short Title (url)", name: "title", widget: "string"}
       - {label: "Title", name: "real_title", widget: "string"}
-      - {label: "SEO URL", name: "seo_url", widget: "string"}
+      - {label: "SEO Keywords", name: "keywords", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Summary", name: "summary", widget: "text"}
@@ -58,10 +58,10 @@ collections:
     slug: "{{slug}}"
     format: 'json'
     fields: # The fields for each document, usually in front matter
-      - {label: "Type", name: "type", widget: "hidden", default: "Paper"}
+      - {label: "Type", name: "type", widget: "hidden", default: "Article"}
       - {label: "Short Title (url)", name: "title", widget: "string"}
       - {label: "Title", name: "real_title", widget: "string"}
-      - {label: "SEO URL", name: "seo_url", widget: "string"}
+      - {label: "SEO Keywords", name: "keywords", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Summary", name: "summary", widget: "text"}
