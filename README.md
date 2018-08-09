@@ -1,6 +1,8 @@
 # vazoola_home
 
-> Vazoolas homepage
+> Vazoola's homepage
+Built on Nuxt, served on Netlify
+vazoola.com
 
 ## Build Setup
 
