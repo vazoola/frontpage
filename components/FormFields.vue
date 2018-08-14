@@ -1,29 +1,29 @@
 <template lang="html">
 <div>
-    <form :id="formName" v-on:submit.prevent="sentIt" name="contact">
+    <form :id="formName" v-on:submit.prevent="sentIt" :name="formName">
         <div class="columns">
             <div class="column">
                 <div class="field">
                     <label class="label">First name</label>
                     <div class="control">
-                        <input class="input" tabindex="1" autocomplete='given-name' name="first-name" type="text" required >
+                        <input v-model="fields.firstname" class="input" tabindex="1" autocomplete='given-name' name="firstname" type="text" required >
                     </div>
                 </div>
                 <div class="field">
                     <label class="label">Company Website</label>
                     <div class="control">
-                        <input class="input" tabindex="3" name="website" type="url">
+                        <input v-model="fields.company" class="input" tabindex="3" name="website" type="url" required>
                     </div>
                 </div>
                 <div class="field">
                     <label class="label">I'm a..</label>
                     <div class="control">
                         <div class="select is-fullwidth">
-                        <select tabindex="5" name="company_type">
+                        <select v-model="fields.i_m_a_" tabindex="5" name="company_type" required>
                             <option></option>
-                            <option value="brand">Brand</option>
-                            <option value="agency">Agency</option>
-                            <option value="business">Small Business</option>
+                            <option value="Brand">Brand</option>
+                            <option value="Agency">Agency</option>
+                            <option value="Business">Small Business</option>
                         </select>
                         </div>
                     </div>
@@ -35,19 +35,19 @@
                 <div class="field">
                     <label class="label">Last name</label>
                     <div class="control">
-                        <input class="input" tabindex="2" autocomplete='family-name' name="last-name" type="text" required>
+                        <input v-model="fields.lastname" class="input" tabindex="2" autocomplete='family-name' name="last-name" type="text" required>
                     </div>
                 </div>
                 <div class="field">
                     <label class="label">Company Email</label>
                     <div class="control">
-                        <input class="input" tabindex="4" autocomplete='email' name="email" type="email" required>
+                        <input v-model="fields.email" class="input" tabindex="4" autocomplete='email' name="email" type="email" required>
                     </div>
                 </div>
                 <div class="field">
                     <label class="label">Phone</label>
                     <div class="control">
-                        <input class="input" tabindex="6" name="phone" autocomplete='tel' type="tel">
+                        <input v-model="fields.phone" class="input" tabindex="6" name="phone" autocomplete='tel' type="tel" required>
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@
 
         <div class="columns">
             <div class="column">
-                <textarea class="textarea" tabindex="7" name="goals" placeholder="What are your goals?"></textarea>
+                <textarea v-model="fields.message" required class="textarea" tabindex="7" name="goals" placeholder="What are your goals?"></textarea>
             </div>
         </div>
 
@@ -68,7 +68,6 @@
             </div>
         </div>
 
-        <input type="hidden" name="form-name" :value="formName">
     </form>
 </div>
 </template>
@@ -76,9 +75,67 @@
 <script>
 export default {
     props: ['formName'],
+    data() {
+        return {
+            hubData: {
+                submittedAt: null,
+                fields: [],
+                context: {
+                    hutk: "3aea3ab5985f7bc544e847d1f76b5857",
+                    pageUri: 'https://vazoola.com'+this.$route.fullPath,
+                    pageName: this.$route.name,
+                },
+                skipValidation: true
+            },
+            fields: {
+                firstname: null,
+                lastname: null,
+                company: null,
+                email: null,
+                i_m_a_: null,
+                phone: null,
+                message: null,
+                form_used: this.formName,
+            },
+        }
+    },
     methods: {
+        //https://developers.hubspot.com/docs/methods/forms/submit_form_ajax
         sentIt() {
-            this.$emit('sentForm');
+            //set timestamp
+            this.hubData.submittedAt = Date.now();
+            this.hubData.context.hutk = this.getCookie('hubspotutk');
+
+            //build hubForm array
+            for (var prop in this.fields) {
+              this.hubData.fields.push({
+                  name: prop,
+                  value: this.fields[prop]
+              })
+            }
+
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'https://api.hsforms.com/submissions/v3/integration/submit/3379619/530920a5-7587-4a86-8cf5-a62c2d2a793c', true);
+            xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+
+            // send the collected data as JSON
+            xhr.send(JSON.stringify(this.hubData));
+
+            xhr.onloadend = (r => {
+                this.$emit('sentForm');
+            });
+
+            /*
+            axios.post('https://api.hsforms.com/submissions/v3/integration/submit/3379619/530920a5-7587-4a86-8cf5-a62c2d2a793c', this.hubData)
+                .then(r => {
+                    this.$emit('sentForm');
+                });*/
+
+        },
+
+        getCookie(n) {
+            let a = `; ${document.cookie}`.match(`;\\s*${n}=([^;]+)`);
+            return a ? a[1] : '';
         }
     }
 }
