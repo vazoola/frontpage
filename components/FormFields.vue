@@ -63,7 +63,7 @@
         <div class="columns">
             <div class="column">
                 <div class="buttons is-centered">
-                    <button type="submit" class="button is-rounded is-medium">Submit</button>
+                    <button type="submit" class="button is-rounded is-medium">{{ buttonText }}</button>
                 </div>
             </div>
         </div>
@@ -74,7 +74,16 @@
 
 <script>
 export default {
-    props: ['formName'],
+    props: {
+        formName: {
+            type: String,
+            default: 'default'
+        },
+        buttonText: {
+            type: String,
+            default: 'Contact Me'
+        }
+    },
     data() {
         return {
             hubData: {

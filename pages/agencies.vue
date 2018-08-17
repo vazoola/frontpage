@@ -68,7 +68,7 @@
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Scale Your Agency</h4>
-                                  <div class="desc">Purchase high quality articles from our writers, or upload your own original content</div>
+                                  <div class="desc">Easily track multiple campaigns simultaneously</div>
                               </div>
                           </div>
                       </div>
@@ -92,7 +92,7 @@
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">White Label Service</h4>
-                                  <div class="desc">Export spreadsheets of completed campaigns and send them to your client’s.</div>
+                                  <div class="desc">Export spreadsheets of completed campaigns and send them to your clients.</div>
                               </div>
                           </div>
                       </div>

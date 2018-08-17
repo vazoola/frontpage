@@ -12,6 +12,7 @@
                     <form-fields
                         v-on:sentForm="sent = true"
                         :form-name=" isDemo ? 'demo' : 'proposal'"
+                        :button-text=" isDemo ? 'Show Me Now' : 'Request Proposal'"
                         />
                 </div>
 
