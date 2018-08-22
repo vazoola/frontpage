@@ -22,8 +22,8 @@ collections:
       - {label: "Summary", name: "summary", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "paper" # Used in routes, e.g., /admin/collections/blog
-    label: "White paper" # Used in the UI
-    folder: "content/resources" # The path to the folder where the documents are stored
+    label: "White Paper" # Used in the UI
+    folder: "content/resources/white-paper" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}"
     format: 'json'

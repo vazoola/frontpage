@@ -141,12 +141,11 @@ export default {
     },
     async asyncData({ params }) {
         // Using webpacks context to gather all files from a folder
-        const context = require.context('~/content/resources', false, /\.json$/);
+        const context = require.context('~/content/resources', true, /\.json$/);
         var posts = context.keys().map(key => ({
             ...context(key),
             _path: `/resources/${key.replace('.json', '').replace('./', '')}`
         }));
-
 
         posts.forEach(function(item, index) {
             posts[index].formatedDate = moment(item.date).format('MMMM Do, YYYY');

@@ -80,7 +80,7 @@ export default {
     components: { NavBar, FooterBar, ContactForm},
     async asyncData({ params }) {
         //get the data
-        let data = await import('~/content/resources/' + params.slug + '.json');
+        let data = await import('~/content/resources/'+params.type+'/' + params.slug + '.json');
         //convert MD to html
         const converter = new showdown.Converter();
         data.body = converter.makeHtml(data.body);
@@ -105,10 +105,11 @@ export default {
                 { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
                 { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
                 { hid: 'twitter:image', name:'og:image', content: 'https://vazoola.com'+this.post.thumbnail },
-                { hid: 'og:url', name:'og:url', content: 'https://vazoola.com'+this.$route.path },
                 { hid: 'og:title', name:'og:title', content: this.post.real_title },
-                { hid: 'og:description', name:'og:description', content: this.post.summary },
+                { hid: 'og:url', name:'og:url', content: 'https://vazoola.com'+this.$route.path },
                 { hid: 'og:image', name:'og:image', content: 'https://vazoola.com'+this.post.thumbnail },
+                { hid: 'og:description', name:'og:description', content: this.post.summary },
+                { hid: 'og:site_name', name:'og:site_name', content: 'Vazoola' },
             ]
         }
     },
