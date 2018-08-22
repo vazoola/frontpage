@@ -30,10 +30,6 @@ module.exports = {
         '@/assets/main.sass',
     ],
 
-    serverMiddleware: [
-        '~/serverMiddleware/redirects.js'
-    ],
-
 
     /*
     ** Customize the progress bar color
