@@ -21,44 +21,14 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Summary", name: "summary", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "case" # Used in routes, e.g., /admin/collections/blog
-    label: "Case Study" # Used in the UI
-    folder: "content/resources" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}"
-    format: 'json'
-    fields: # The fields for each document, usually in front matter
-      - {label: "Type", name: "type", widget: "hidden", default: "Article"}
-      - {label: "Short Title (url)", name: "title", widget: "string"}
-      - {label: "Title", name: "real_title", widget: "string"}
-      - {label: "SEO Keywords", name: "keywords", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-      - {label: "Summary", name: "summary", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "guides" # Used in routes, e.g., /admin/collections/blog
-    label: "Guides" # Used in the UI
-    folder: "content/resources" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}"
-    format: 'json'
-    fields: # The fields for each document, usually in front matter
-      - {label: "Type", name: "type", widget: "hidden", default: "Article"}
-      - {label: "Short Title (url)", name: "title", widget: "string"}
-      - {label: "Title", name: "real_title", widget: "string"}
-      - {label: "SEO Keywords", name: "keywords", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-      - {label: "Summary", name: "summary", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
   - name: "paper" # Used in routes, e.g., /admin/collections/blog
-    label: "White paper" # Used in the UI
-    folder: "content/resources" # The path to the folder where the documents are stored
+    label: "White Paper" # Used in the UI
+    folder: "content/resources/white-paper" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}"
     format: 'json'
     fields: # The fields for each document, usually in front matter
-      - {label: "Type", name: "type", widget: "hidden", default: "Article"}
+      - {label: "Type", name: "type", widget: "hidden", default: "White Paper"}
       - {label: "Short Title (url)", name: "title", widget: "string"}
       - {label: "Title", name: "real_title", widget: "string"}
       - {label: "SEO Keywords", name: "keywords", widget: "string"}
