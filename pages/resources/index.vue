@@ -27,7 +27,7 @@
                                 :class="[resourceType == 'Article' ? 'is-active' : '']">
                                 <a>Articles</a>
                             </li>
-                            <li @click="resourceType = 'Paper'"
+                            <li @click="resourceType = 'White Paper'"
                                 :class="[resourceType == 'Paper' ? 'is-active' : '']">
                                 <a>White Papers</a>
                             </li>

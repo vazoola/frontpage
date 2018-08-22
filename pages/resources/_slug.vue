@@ -39,8 +39,8 @@
     <!-- start: Resources -->
     <section class="section">
         <div class="columns">
-            <div class="column is-3"> <!-- gutter --></div>
-            <div class="article column is-6">
+            <div class="column is-2-desktop is-1-tablet"> <!-- gutter --></div>
+            <div class="article column is-8-desktop is-10-tablet">
                 <h1 class="title is-spaced">{{ post.real_title }}</h1>
                 <h2 class="subtitle has-text-centered"> {{ post.date }} </h2>
 
@@ -51,7 +51,7 @@
                 <div class="content" v-html="post.body" />
 
             </div>
-            <div class="column is-3">
+            <div class="column is-2-desktop is-1-tablet">
                 <!-- social -->
             </div>
         </div>
