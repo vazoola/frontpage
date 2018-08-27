@@ -21,9 +21,9 @@
                         <div class="select is-fullwidth">
                         <select v-model="fields.i_m_a_" tabindex="5" name="company_type" required>
                             <option></option>
-                            <option value="Brand">Brand</option>
-                            <option value="Agency">Agency</option>
-                            <option value="Business">Small Business</option>
+                            <option value="persona_2">Brand</option>
+                            <option value="persona_1">Agency</option>
+                            <option value="persona_3">Small Business</option>
                         </select>
                         </div>
                     </div>
@@ -101,7 +101,7 @@ export default {
                 lastname: null,
                 company: null,
                 email: null,
-                i_m_a_: null,
+                hs_persona: null,
                 phone: null,
                 message: null,
                 form_used: this.formName,
