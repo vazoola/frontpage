@@ -19,7 +19,7 @@
                     <label class="label">I'm a..</label>
                     <div class="control">
                         <div class="select is-fullwidth">
-                        <select v-model="fields.i_m_a_" tabindex="5" name="company_type" required>
+                        <select v-model="fields.hs_persona" tabindex="5" name="company_type" required>
                             <option></option>
                             <option value="persona_2">Brand</option>
                             <option value="persona_1">Agency</option>
