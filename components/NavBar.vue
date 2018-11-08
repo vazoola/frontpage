@@ -32,6 +32,7 @@
 						</div>
 						<a class="navbar-item" href="/our-technology">Our Technology</a>
 						<a class="navbar-item" href="/resources">Resources</a>
+						<a class="navbar-item" href="/about">Company</a>
 					</div>
 					<div class="navbar-end">
 						<div class="navbar-item">
