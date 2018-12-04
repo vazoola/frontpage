@@ -66,6 +66,7 @@
     <section class="posts">
     	<div class="container">
     		<div class="columns is-multiline">
+                <!--
     			<div v-for="r in sortedResources" :key="r.id" class="column is-4-desktop is-6">
                     <a :href="r._path">
                         <div class="card">
@@ -96,6 +97,38 @@
                     </div>
                     </a>
                 </div>
+                -->
+
+                <div v-for="r in sortedResources" :key="r.id" class="column is-4-desktop is-6">
+                    <a :href="'/post-slug'">
+                        <div class="card">
+                        <div class="card-image">
+                            <figure v-if="r.data.cover_image" class="image is-4by3">
+                                <img style="object-fit: cover" :src="r.data.cover_image" alt="Placeholder image">
+                                <span class="type">{{ 'type' }}</span>
+                            </figure>
+                            <figure v-else>
+                                <img style="object-fit: cover" src="/images/post-img.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">{{ PrismicDOM.RichText.asText(r.data.title) }}</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                sdfsdfsdfs
+                            </div>
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="date" datetime="2016-1-1">DAte</span>
+                        </div>
+                    </div>
+                    </a>
+                </div>
 
             </div>
     	</div>
@@ -111,6 +144,11 @@
 </template>
 
 <script>
+/*
+https://github.com/roberto-butti/prismic_nuxt/tree/master/pages
+https://medium.com/@RifkiNada/how-to-fetch-content-from-prismic-when-youre-using-nuxt-js-2066e544cb36
+*/
+
 import NavBar from '~/components/NavBar.vue'
 import FooterBar from '~/components/FooterBar.vue'
 import moment from 'moment';
@@ -120,6 +158,7 @@ export default {
     data() {
         return {
             resourceType: '',
+            PrismicDOM: require('prismic-dom')
         }
     },
 
@@ -140,7 +179,25 @@ export default {
         }
     },
     async asyncData({ params }) {
+        var Prismic = require("prismic-javascript");
+        var apiEndpoint = "https://vazoola.cdn.prismic.io/api/v2";
+        return Prismic.getApi(apiEndpoint /*, {accessToken: apiToken} */)
+          .then(function(api) {
+            var myquery = api.query( Prismic.Predicates.at("document.type", "blog_post") );
+            return myquery;
+          })
+          .then(
+            function(response) {
+              return { resources: response.results, resourceType: '' };
+            },
+            function(err) {
+              console.log("Something went wrong: ", err);
+              return { title: err };
+            }
+          );
+
         // Using webpacks context to gather all files from a folder
+        /*
         const context = require.context('~/content/resources', true, /\.json$/);
         var posts = context.keys().map(key => ({
             ...context(key),
@@ -159,6 +216,7 @@ export default {
             resources: posts,
             resourceType: '',
         };
+        */
     }
 }
 </script>
