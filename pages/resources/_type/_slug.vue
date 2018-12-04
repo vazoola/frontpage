@@ -48,7 +48,11 @@
                     <img :src="post.thumbnail">
                 </figure>
 
+                <div class="addthis_inline_share_toolbox" style="text-align: center; padding: 10px;"></div>
+
                 <div class="content" v-html="post.body" />
+
+                <div class="addthis_inline_share_toolbox" style="text-align: center; padding: 10px;"></div>
 
             </div>
             <div class="column is-2-desktop is-1-tablet">
@@ -66,6 +70,7 @@
     <footer-bar />
     <!-- end: Footer -->
 
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c06bb1fb1428fa3"></script>
 </div>
 </template>
 
