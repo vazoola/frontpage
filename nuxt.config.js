@@ -30,14 +30,39 @@ module.exports = {
 
     /////https://nuxtjs.org/api/configuration-generate/#routes
     generate: {
-        routes: []
+        routes: function() {
+            var Prismic = require("prismic-javascript");
+            return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
+                .then(function(api) {
+                    return api.query('').then(function(response) {
+                            return response.results.map((r) => {
+                                return {
+                                    route: '/resources/'+r.type+'/'+r.uid,
+                                    payload: r
+                                }
+                            })
+                    })
+                })
+        }
+    },
+
+    router: {
+        linkActiveClass: 'is-active',
+        extendRoutes (routes) {
+            routes.unshift(
+                {
+        			path: "/resources/:type",
+        			component: 'pages/resources/index.vue',
+        			name: "resources-type",
+        		}
+            );
+        },
     },
 
     /*
     ** Build configuration
     */
     build: {
-        vendor: ['showdown', 'moment'],
             /*
             ** Run ESLint on save
             */
@@ -51,5 +76,5 @@ module.exports = {
                     })
                 }
             }
-        }
+        },
     }

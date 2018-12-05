@@ -41,18 +41,15 @@
         <div class="columns">
             <div class="column is-2-desktop is-1-tablet"> <!-- gutter --></div>
             <div class="article column is-8-desktop is-10-tablet">
-                <h1 class="title is-spaced">{{ post.real_title }}</h1>
+                <h1 class="title is-spaced">{{ post.title }}</h1>
                 <h2 class="subtitle has-text-centered"> {{ post.date }} </h2>
 
                 <figure class="image">
-                    <img :src="post.thumbnail">
+                    <img :src="post.cover_image.url">
                 </figure>
 
-                <div class="content" v-html="post.body" />
+                <div class="content" v-html="post.html" />
 
-            </div>
-            <div class="column is-2-desktop is-1-tablet">
-                <!-- social -->
             </div>
         </div>
     </section>
@@ -73,30 +70,41 @@
 import NavBar from '~/components/NavBar.vue'
 import FooterBar from '~/components/FooterBar.vue'
 import ContactForm from '~/components/ContactForm.vue'
-import showdown from 'showdown';
-import moment from 'moment';
 
 export default {
     components: { NavBar, FooterBar, ContactForm},
-    async asyncData({ params }) {
-        //get the data
-        let data = await import('~/content/resources/'+params.type+'/' + params.slug + '.json');
-        //convert MD to html
-        const converter = new showdown.Converter();
-        data.body = converter.makeHtml(data.body);
-        //convert the date to pretty
-        data.date = moment(data.date).format('MMMM Do, YYYY');
 
-        //return it
-        return {
-            post: data,
-            resourceType: data.type
-        }
+    async asyncData({ params, error, payload }) {
+        //return { post: payload }
+        var Prismic = require("prismic-javascript");
+        var apiEndpoint = "https://vazoola.cdn.prismic.io/api/v2";
+        return Prismic.getApi(apiEndpoint /*, {accessToken: apiToken} */)
+            .then(function(api) {
+                var myquery = api.query(
+                    Prismic.Predicates.at('my.'+params.type+'.uid', params.slug)
+                ).then(function(response) {
+                    var post = response.results[0].data;
+
+                    var PrismicDOM = require('prismic-dom');
+                    post.html = PrismicDOM.RichText.asHtml(post.content, function(doc) {
+                        // Pretty URLs for known types
+                        if (doc.type === 'article') return "/resources/article/" + doc.uid;
+                        if (doc.type === 'white-paper') return "/resources/white-paper/" + doc.uid;
+                        // Fallback for other types, in case new custom types get created
+                        return "/resources/article/" + doc.uid;
+                    })
+
+                    return { post: post, params: params, payload: payload};
+                });
+
+                return myquery;
+            });
     },
 
     head () {
         return {
-            title: "Vazoola Resources | "+this.post.real_title,
+            title: "Vazoola Resources | "+this.post.title,
+
             meta: [
                 { hid: 'description', name: 'description', content: this.post.summary },
                 { hid: 'keywords', name:'keywords', content: this.post.keywords },
@@ -104,10 +112,10 @@ export default {
                 { hid: 'twitter:description', name:'twitter:description', content: this.post.summary },
                 { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
                 { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
-                { hid: 'twitter:image', name:'og:image', content: 'https://vazoola.com'+this.post.thumbnail },
-                { hid: 'og:title', name:'og:title', content: this.post.real_title },
+                { hid: 'twitter:image', name:'og:image', content: this.post.cover_image.url },
+                { hid: 'og:title', name:'og:title', content: this.post.title },
                 { hid: 'og:url', name:'og:url', content: 'https://vazoola.com'+this.$route.path },
-                { hid: 'og:image', name:'og:image', content: 'https://vazoola.com'+this.post.thumbnail },
+                { hid: 'og:image', name:'og:image', content: this.post.cover_image.url },
                 { hid: 'og:description', name:'og:description', content: this.post.summary },
                 { hid: 'og:site_name', name:'og:site_name', content: 'Vazoola' },
             ]

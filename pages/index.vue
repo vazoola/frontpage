@@ -243,7 +243,6 @@ import FooterBar from '~/components/FooterBar.vue'
 import ContactForm from '~/components/ContactForm.vue'
 import ContactModal from '~/components/ContactModal.vue'
 import PostsHero from '~/components/PostsHero.vue'
-import moment from 'moment'
 
 export default {
     components: {
@@ -278,21 +277,18 @@ export default {
     },
 
     async asyncData() {
-        // Using webpacks context to gather all files from a folder
-        const context = require.context('~/content/resources', true, /\.json$/);
-        var posts = context.keys().map(key => ({
-            ...context(key),
-            _path: `/resources/${key.replace('.json', '').replace('./', '')}`
-        }));
+        var Prismic = require("prismic-javascript");
 
-        posts = posts.sort(function(a, b){
-            return a.date < b.date;
-        }).slice(0, 4);
-
-        return {
-            posts: posts,
-            resourceType: '',
-        };
+        return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
+            .then(function(api) {
+                return api.query('').then(function(response) {
+                    return {
+                        posts: response.results.sort(function(a, b){
+                          return a.data.publish_date < b.data.publish_date;
+                        }),
+                    };
+                });
+            })
     }
 }
 </script>

@@ -19,43 +19,18 @@
                 <div class="column">
                     <div class="tabs">
                         <ul>
-                            <li @click="resourceType = ''"
-                                :class="[resourceType == '' ? 'is-active' : '']">
-                                <a>All</a>
+                            <li :class="[$route.params.type ? '' : 'is-active']">
+                                <a href="/resources/">All</a>
                             </li>
-                            <li @click="resourceType = 'Article'"
-                                :class="[resourceType == 'Article' ? 'is-active' : '']">
-                                <a>Articles</a>
+                            <li :class="[$route.params.type == 'article' ? 'is-active' : '']">
+                                <a href="/resources/article">Articles</a>
                             </li>
-                            <li @click="resourceType = 'White Paper'"
-                                :class="[resourceType == 'Paper' ? 'is-active' : '']">
-                                <a>White Papers</a>
+                            <li :class="[$route.params.type == 'white-paper' ? 'is-active' : '']">
+                                <a href="/resources/white-paper">White Papers</a>
                             </li>
-                            <!--
-                            <li @click="resourceType = 'case'"
-                                :class="[resourceType == 'case' ? 'is-active' : '']">
-                                <a>Case Studies</a>
-                            </li>
-                            <li @click="resourceType = 'guide'"
-                                :class="[resourceType == 'guide' ? 'is-active' : '']">
-                                <a>Guides</a>
-                            </li>
-                            -->
                         </ul>
                     </div>
                 </div>
-                <!--
-                <div class="column">
-                    <div class="field search-hero">
-                        <div class="control has-icons-right">
-                            <input class="input" type="text" placeholder="Search" value="">
-                            <span class="icon is-small is-right">
-                                <i class="fas fa-search"></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                -->
             </div>
 			</div>
 	 	</section>
@@ -66,13 +41,12 @@
     <section class="posts">
     	<div class="container">
     		<div class="columns is-multiline">
-                <!--
-    			<div v-for="r in sortedResources" :key="r.id" class="column is-4-desktop is-6">
-                    <a :href="r._path">
+                <div v-for="r in resources" :key="r.id" class="column is-4-desktop is-6">
+                    <a :href="'/resources/'+r.type+'/'+r.uid">
                         <div class="card">
                         <div class="card-image">
-                            <figure v-if="r.thumbnail" class="image is-4by3">
-                                <img style="object-fit: cover" :src="r.thumbnail" alt="Placeholder image">
+                            <figure v-if="r.data.cover_image" class="image is-4by3">
+                                <img style="object-fit: cover" :src="r.data.cover_image.url" alt="Placeholder image">
                                 <span class="type">{{ r.type }}</span>
                             </figure>
                             <figure v-else>
@@ -82,49 +56,17 @@
                         <div class="card-content">
                             <div class="media">
                                 <div class="media-content">
-                                    <p class="title is-4">{{ r.title }}</p>
+                                    <p class="title is-4">{{ r.data.title }}</p>
                                 </div>
                             </div>
 
                             <div class="content">
-                                {{ r.summary }}
+                                {{ r.data.summary }}
                             </div>
                         </div>
 
                         <div class="card-footer">
-                            <span class="date" datetime="2016-1-1">{{ r.formatedDate }}</span>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-                -->
-
-                <div v-for="r in sortedResources" :key="r.id" class="column is-4-desktop is-6">
-                    <a :href="'/post-slug'">
-                        <div class="card">
-                        <div class="card-image">
-                            <figure v-if="r.data.cover_image" class="image is-4by3">
-                                <img style="object-fit: cover" :src="r.data.cover_image" alt="Placeholder image">
-                                <span class="type">{{ 'type' }}</span>
-                            </figure>
-                            <figure v-else>
-                                <img style="object-fit: cover" src="/images/post-img.png" alt="Placeholder image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4">{{ PrismicDOM.RichText.asText(r.data.title) }}</p>
-                                </div>
-                            </div>
-
-                            <div class="content">
-                                sdfsdfsdfs
-                            </div>
-                        </div>
-
-                        <div class="card-footer">
-                            <span class="date" datetime="2016-1-1">DAte</span>
+                            <span class="date" datetime="2016-1-1">{{ r.data.publish_date }}</span>
                         </div>
                     </div>
                     </a>
@@ -151,76 +93,29 @@ https://medium.com/@RifkiNada/how-to-fetch-content-from-prismic-when-youre-using
 
 import NavBar from '~/components/NavBar.vue'
 import FooterBar from '~/components/FooterBar.vue'
-import moment from 'moment';
 
 export default {
     components: { NavBar, FooterBar },
-    data() {
-        return {
-            resourceType: '',
-            PrismicDOM: require('prismic-dom')
-        }
-    },
 
-    mounted() {
-        var hash = this.$route.hash.split('/')[1];
-        if(hash)
-            this.resourceType = hash.replace(/^\w/, c => c.toUpperCase());
-    },
-
-    computed: {
-        sortedResources() {
-            if(!this.resourceType)
-                return this.resources;
-
-            return this.resources.filter( f => {
-                return f.type === this.resourceType
-            });
-        }
-    },
     async asyncData({ params }) {
         var Prismic = require("prismic-javascript");
-        var apiEndpoint = "https://vazoola.cdn.prismic.io/api/v2";
-        return Prismic.getApi(apiEndpoint /*, {accessToken: apiToken} */)
-          .then(function(api) {
-            var myquery = api.query( Prismic.Predicates.at("document.type", "blog_post") );
-            return myquery;
-          })
-          .then(
-            function(response) {
-              return { resources: response.results, resourceType: '' };
-            },
-            function(err) {
-              console.log("Something went wrong: ", err);
-              return { title: err };
-            }
-          );
 
-        // Using webpacks context to gather all files from a folder
-        /*
-        const context = require.context('~/content/resources', true, /\.json$/);
-        var posts = context.keys().map(key => ({
-            ...context(key),
-            _path: `/resources/${key.replace('.json', '').replace('./', '')}`
-        }));
+        var query = '';
+        if(params.type) {
+            query = Prismic.Predicates.at('document.type', params.type);
+        }
 
-        posts.forEach(function(item, index) {
-            posts[index].formatedDate = moment(item.date).format('MMMM Do, YYYY');
-        });
+        return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
+            .then(function(api) {
+                return api.query(query).then(function(response) {
+                    return {
+                        resources: response.results.sort(function(a, b){
+                          return a.data.publish_date < b.data.publish_date;
+                        }),
+                    };
+                });
+            })
+    },
 
-        posts = posts.sort(function(a, b){
-          return a.date < b.date;
-        });
-
-        return {
-            resources: posts,
-            resourceType: '',
-        };
-        */
-    }
 }
 </script>
-
-<style lang="css">
-
-</style>
