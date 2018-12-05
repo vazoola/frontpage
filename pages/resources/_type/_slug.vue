@@ -48,6 +48,8 @@
                     <img :src="post.cover_image.url">
                 </figure>
 
+                <div class="addthis_inline_share_toolbox" style="text-align: center; padding: 10px;"></div>
+
                 <div class="content" v-html="post.html" />
 
                 <div class="addthis_inline_share_toolbox" style="text-align: center; padding: 10px;"></div>
