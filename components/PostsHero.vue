@@ -29,6 +29,9 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="card-footer">
+                            <span class="date">{{ new Date(r.data.publish_date).toDateString() }}</span>
+                        </div>
                     </div>
                     </a>
                 </div>

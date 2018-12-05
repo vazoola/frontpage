@@ -66,7 +66,7 @@
                         </div>
 
                         <div class="card-footer">
-                            <span class="date" datetime="2016-1-1">{{ r.data.publish_date }}</span>
+                            <span class="date" datetime="2016-1-1">{{ new Date(r.data.publish_date).toDateString() }}</span>
                         </div>
                     </div>
                     </a>

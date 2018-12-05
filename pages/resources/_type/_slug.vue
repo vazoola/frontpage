@@ -23,10 +23,10 @@
                                 <a href="/resources">All</a>
                             </li>
                             <li>
-                                <a href="/resources#/article">Articles</a>
+                                <a href="/resources/article">Articles</a>
                             </li>
                             <li>
-                                <a href="/resources#/paper">White Papers</a>
+                                <a href="/resources/white-paper">White Papers</a>
                             </li>
                         </ul>
                     </div>
@@ -42,7 +42,7 @@
             <div class="column is-2-desktop is-1-tablet"> <!-- gutter --></div>
             <div class="article column is-8-desktop is-10-tablet">
                 <h1 class="title is-spaced">{{ post.title }}</h1>
-                <h2 class="subtitle has-text-centered"> {{ post.date }} </h2>
+                <h2 class="subtitle has-text-centered"> {{ post.publish_date }} </h2>
 
                 <figure class="image">
                     <img :src="post.cover_image.url">
@@ -75,10 +75,22 @@ export default {
     components: { NavBar, FooterBar, ContactForm},
 
     async asyncData({ params, error, payload }) {
+        var PrismicDOM = require('prismic-dom');
+        payload.data.html = PrismicDOM.RichText.asHtml(payload.data.content, function(doc) {
+            // Pretty URLs for known types
+            if (doc.type === 'article') return "/resources/article/" + doc.uid;
+            if (doc.type === 'white-paper') return "/resources/white-paper/" + doc.uid;
+            // Fallback for other types, in case new custom types get created
+            return "/resources/article/" + doc.uid;
+        })
+
+        payload.data.publish_date = new Date(payload.data.publish_date).toDateString()
+
+        return { post: payload.data, params: params };
         //return { post: payload }
+        /*
         var Prismic = require("prismic-javascript");
-        var apiEndpoint = "https://vazoola.cdn.prismic.io/api/v2";
-        return Prismic.getApi(apiEndpoint /*, {accessToken: apiToken} */)
+        return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
             .then(function(api) {
                 var myquery = api.query(
                     Prismic.Predicates.at('my.'+params.type+'.uid', params.slug)
@@ -94,11 +106,14 @@ export default {
                         return "/resources/article/" + doc.uid;
                     })
 
+                    post.publish_date = new Date(post.publish_date).toDateString()
+
                     return { post: post, params: params, payload: payload};
                 });
 
                 return myquery;
             });
+        */
     },
 
     head () {

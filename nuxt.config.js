@@ -35,13 +35,19 @@ module.exports = {
             return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
                 .then(function(api) {
                     return api.query('').then(function(response) {
-                            return response.results.map((r) => {
+                            var routes = response.results.map((r) => {
                                 return {
                                     route: '/resources/'+r.type+'/'+r.uid,
                                     payload: r
                                 }
                             })
+
+                            routes.push( { route: '/resources/article' })
+                            routes.push( { route: '/resources/white-paper' })
+
+                            return routes
                     })
+
                 })
         }
     },
