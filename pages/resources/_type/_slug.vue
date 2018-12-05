@@ -50,6 +50,8 @@
 
                 <div class="content" v-html="post.html" />
 
+                <div class="addthis_inline_share_toolbox" style="text-align: center; padding: 10px;"></div>
+
             </div>
         </div>
     </section>
@@ -63,6 +65,7 @@
     <footer-bar />
     <!-- end: Footer -->
 
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c06bb1fb1428fa3"></script>
 </div>
 </template>
 
