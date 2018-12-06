@@ -98,6 +98,7 @@ export default {
 
             return { post: post};
         }
+        
         //if on live
         if(payload) {
             return compilePost(payload.data);
