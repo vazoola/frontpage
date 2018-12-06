@@ -56,7 +56,7 @@
                         <div class="card-content">
                             <div class="media">
                                 <div class="media-content">
-                                    <p class="title is-4">{{ r.data.title }}</p>
+                                    <p class="title is-4">{{ r.data.short_title }}</p>
                                 </div>
                             </div>
 
@@ -107,11 +107,12 @@ export default {
 
         return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
             .then(function(api) {
-                return api.query(query).then(function(response) {
+                return api.query(
+                    query,
+                    { orderings : "[my.article.publish_date desc, my.white-paper.publish_date desc]"},
+                ).then(function(response) {
                     return {
-                        resources: response.results.sort(function(a, b){
-                          return a.data.publish_date < b.data.publish_date;
-                        }),
+                        resources: response.results,
                     };
                 });
             })

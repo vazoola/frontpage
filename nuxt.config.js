@@ -1,6 +1,3 @@
-var glob = require('glob');
-var path = require('path');
-
 module.exports = {
     /*
     ** Headers of the page
@@ -22,19 +19,18 @@ module.exports = {
         '@/assets/main.sass',
     ],
 
-
-    /*
-    ** Customize the progress bar color
-    */
+    /* Customize the progress bar color */
     loading: { color: '#3B8070' },
 
-    /////https://nuxtjs.org/api/configuration-generate/#routes
     generate: {
         routes: function() {
             var Prismic = require("prismic-javascript");
             return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
                 .then(function(api) {
-                    return api.query('').then(function(response) {
+                    return api.query(
+                        '',
+                        { orderings : "[my.article.publish_date desc, my.white-paper.publish_date desc]"}
+                    ).then(function(response) {
                             var routes = response.results.map((r) => {
                                 return {
                                     route: '/resources/'+r.type+'/'+r.uid,

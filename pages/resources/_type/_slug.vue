@@ -80,45 +80,39 @@ export default {
     components: { NavBar, FooterBar, ContactForm},
 
     async asyncData({ params, error, payload }) {
-        var PrismicDOM = require('prismic-dom');
-        payload.data.html = PrismicDOM.RichText.asHtml(payload.data.content, function(doc) {
-            // Pretty URLs for known types
-            if (doc.type === 'article') return "/resources/article/" + doc.uid;
-            if (doc.type === 'white-paper') return "/resources/white-paper/" + doc.uid;
-            // Fallback for other types, in case new custom types get created
-            return "/resources/article/" + doc.uid;
-        })
+        //preps post data
+        var compilePost = function(post) {
+            var PrismicDOM = require('prismic-dom');
+            //format the post content to html
+            post.html = PrismicDOM.RichText.asHtml(post.content, function(doc) {
+                // Pretty URLs for known types
+                if (doc.type === 'article') return "/resources/article/" + doc.uid;
+                if (doc.type === 'white-paper') return "/resources/white-paper/" + doc.uid;
+                // Fallback for other types, in case new custom types get created
+                return "/resources/article/" + doc.uid;
+            })
+            //format the title to plan text for now
+            post.title = PrismicDOM.RichText.asText(post.title)
+            //format the date
+            post.publish_date = new Date(post.publish_date).toDateString()
 
-        payload.data.publish_date = new Date(payload.data.publish_date).toDateString()
-
-        return { post: payload.data, params: params };
-        //return { post: payload }
-        /*
-        var Prismic = require("prismic-javascript");
-        return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
-            .then(function(api) {
-                var myquery = api.query(
-                    Prismic.Predicates.at('my.'+params.type+'.uid', params.slug)
-                ).then(function(response) {
-                    var post = response.results[0].data;
-
-                    var PrismicDOM = require('prismic-dom');
-                    post.html = PrismicDOM.RichText.asHtml(post.content, function(doc) {
-                        // Pretty URLs for known types
-                        if (doc.type === 'article') return "/resources/article/" + doc.uid;
-                        if (doc.type === 'white-paper') return "/resources/white-paper/" + doc.uid;
-                        // Fallback for other types, in case new custom types get created
-                        return "/resources/article/" + doc.uid;
-                    })
-
-                    post.publish_date = new Date(post.publish_date).toDateString()
-
-                    return { post: post, params: params, payload: payload};
+            return { post: post};
+        }
+        //if on live
+        if(payload) {
+            return compilePost(payload.data);
+        } else {
+            //query for dev
+            var Prismic = require("prismic-javascript");
+            return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
+                .then(function(api) {
+                    return api.query(
+                        Prismic.Predicates.at('my.'+params.type+'.uid', params.slug)
+                    ).then(function(response) {
+                        return compilePost(response.results[0].data);
+                    });
                 });
-
-                return myquery;
-            });
-        */
+        }
     },
 
     head () {
@@ -142,8 +136,5 @@ export default {
         }
     },
 
-    mounted() {
-        console.log(this.$route.path);
-    }
 };
 </script>

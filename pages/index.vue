@@ -281,11 +281,15 @@ export default {
 
         return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
             .then(function(api) {
-                return api.query('').then(function(response) {
+                return api.query(
+                    Prismic.Predicates.at('document.type', 'article'),
+                    {
+                        orderings : '[my.article.publish_date desc]',
+                        pageSize : 4
+                    }
+                ).then(function(response) {
                     return {
-                        posts: response.results.sort(function(a, b){
-                          return a.data.publish_date < b.data.publish_date;
-                        }),
+                        posts: response.results,
                     };
                 });
             })
