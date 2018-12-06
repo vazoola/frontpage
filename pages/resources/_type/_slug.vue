@@ -23,10 +23,10 @@
                                 <a href="/resources">All</a>
                             </li>
                             <li>
-                                <a href="/resources#/article">Articles</a>
+                                <a href="/resources/article">Articles</a>
                             </li>
                             <li>
-                                <a href="/resources#/paper">White Papers</a>
+                                <a href="/resources/white-paper">White Papers</a>
                             </li>
                         </ul>
                     </div>
@@ -41,22 +41,19 @@
         <div class="columns">
             <div class="column is-2-desktop is-1-tablet"> <!-- gutter --></div>
             <div class="article column is-8-desktop is-10-tablet">
-                <h1 class="title is-spaced">{{ post.real_title }}</h1>
-                <h2 class="subtitle has-text-centered"> {{ post.date }} </h2>
+                <h1 class="title is-spaced">{{ post.title }}</h1>
+                <h2 class="subtitle has-text-centered"> {{ post.publish_date }} </h2>
 
                 <figure class="image">
-                    <img :src="post.thumbnail">
+                    <img :src="post.cover_image.url">
                 </figure>
 
                 <div class="addthis_inline_share_toolbox" style="text-align: center; padding: 10px;"></div>
 
-                <div class="content" v-html="post.body" />
+                <div class="content" v-html="post.html" />
 
                 <div class="addthis_inline_share_toolbox" style="text-align: center; padding: 10px;"></div>
 
-            </div>
-            <div class="column is-2-desktop is-1-tablet">
-                <!-- social -->
             </div>
         </div>
     </section>
@@ -78,30 +75,51 @@
 import NavBar from '~/components/NavBar.vue'
 import FooterBar from '~/components/FooterBar.vue'
 import ContactForm from '~/components/ContactForm.vue'
-import showdown from 'showdown';
-import moment from 'moment';
 
 export default {
     components: { NavBar, FooterBar, ContactForm},
-    async asyncData({ params }) {
-        //get the data
-        let data = await import('~/content/resources/'+params.type+'/' + params.slug + '.json');
-        //convert MD to html
-        const converter = new showdown.Converter();
-        data.body = converter.makeHtml(data.body);
-        //convert the date to pretty
-        data.date = moment(data.date).format('MMMM Do, YYYY');
 
-        //return it
-        return {
-            post: data,
-            resourceType: data.type
+    async asyncData({ params, error, payload }) {
+        //preps post data
+        var compilePost = function(post) {
+            var PrismicDOM = require('prismic-dom');
+            //format the post content to html
+            post.html = PrismicDOM.RichText.asHtml(post.content, function(doc) {
+                // Pretty URLs for known types
+                if (doc.type === 'article') return "/resources/article/" + doc.uid;
+                if (doc.type === 'white-paper') return "/resources/white-paper/" + doc.uid;
+                // Fallback for other types, in case new custom types get created
+                return "/resources/article/" + doc.uid;
+            })
+            //format the title to plan text for now
+            post.title = PrismicDOM.RichText.asText(post.title)
+            //format the date
+            post.publish_date = new Date(post.publish_date).toDateString()
+
+            return { post: post};
+        }
+        
+        //if on live
+        if(payload) {
+            return compilePost(payload.data);
+        } else {
+            //query for dev
+            var Prismic = require("prismic-javascript");
+            return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
+                .then(function(api) {
+                    return api.query(
+                        Prismic.Predicates.at('my.'+params.type+'.uid', params.slug)
+                    ).then(function(response) {
+                        return compilePost(response.results[0].data);
+                    });
+                });
         }
     },
 
     head () {
         return {
-            title: "Vazoola Resources | "+this.post.real_title,
+            title: "Vazoola Resources | "+this.post.title,
+
             meta: [
                 { hid: 'description', name: 'description', content: this.post.summary },
                 { hid: 'keywords', name:'keywords', content: this.post.keywords },
@@ -109,18 +127,15 @@ export default {
                 { hid: 'twitter:description', name:'twitter:description', content: this.post.summary },
                 { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
                 { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
-                { hid: 'twitter:image', name:'og:image', content: 'https://vazoola.com'+this.post.thumbnail },
-                { hid: 'og:title', name:'og:title', content: this.post.real_title },
+                { hid: 'twitter:image', name:'og:image', content: this.post.cover_image.url },
+                { hid: 'og:title', name:'og:title', content: this.post.title },
                 { hid: 'og:url', name:'og:url', content: 'https://vazoola.com'+this.$route.path },
-                { hid: 'og:image', name:'og:image', content: 'https://vazoola.com'+this.post.thumbnail },
+                { hid: 'og:image', name:'og:image', content: this.post.cover_image.url },
                 { hid: 'og:description', name:'og:description', content: this.post.summary },
                 { hid: 'og:site_name', name:'og:site_name', content: 'Vazoola' },
             ]
         }
     },
 
-    mounted() {
-        console.log(this.$route.path);
-    }
 };
 </script>

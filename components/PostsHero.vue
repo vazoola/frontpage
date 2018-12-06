@@ -11,11 +11,11 @@
             </div>
             <div class="columns">
                 <div v-for="r in resources" :key="r.id" class="column is-3">
-                    <a :href="r._path">
+                    <a :href="'/resources/'+r.type+'/'+r.uid">
                         <div class="card">
                         <div class="card-image">
-                            <figure v-if="r.thumbnail" class="image is-4by3">
-                                <img style="object-fit: cover" :src="r.thumbnail" alt="Placeholder image">
+                            <figure v-if="r.data.cover_image" class="image is-4by3">
+                                <img style="object-fit: cover" :src="r.data.cover_image.url" alt="Placeholder image">
                                 <span class="type">{{ r.type }}</span>
                             </figure>
                             <figure v-else>
@@ -25,9 +25,12 @@
                         <div class="card-content">
                             <div class="media">
                                 <div class="media-content">
-                                    <p class="title is-4">{{ r.title }}</p>
+                                    <p class="title is-4">{{ r.data.short_title }}</p>
                                 </div>
                             </div>
+                        </div>
+                        <div class="card-footer">
+                            <span class="date">{{ new Date(r.data.publish_date).toDateString() }}</span>
                         </div>
                     </div>
                     </a>
@@ -38,7 +41,6 @@
 </template>
 
 <script>
-import moment from 'moment';
 
 export default {
     props: ['resources']
