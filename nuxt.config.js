@@ -27,10 +27,7 @@ module.exports = {
             var Prismic = require("prismic-javascript");
             return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
                 .then(function(api) {
-                    return api.query(
-                        '',
-                        { orderings : "[my.article.publish_date desc, my.white-paper.publish_date desc]"}
-                    ).then(function(response) {
+                    return api.query('').then(function(response) {
                             var routes = response.results.map((r) => {
                                 return {
                                     route: '/resources/'+r.type+'/'+r.uid,
