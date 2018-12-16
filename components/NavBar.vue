@@ -30,9 +30,8 @@
 								</a>
 							</div>
 						</div>
-						<a class="navbar-item" href="/our-technology">Our Technology</a>
-						<a class="navbar-item" href="/resources">Resources</a>
-						<a class="navbar-item" href="/about">Company</a>
+						<nuxt-link class="navbar-item" to="/our-technology">Our Technology</nuxt-link>
+						<nuxt-link class="navbar-item" to="/resources">Resources</nuxt-link>
 					</div>
 					<div class="navbar-end">
 						<div class="navbar-item">
