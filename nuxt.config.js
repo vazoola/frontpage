@@ -27,14 +27,14 @@ module.exports = {
             var Prismic = require("prismic-javascript");
             return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
                 .then(function(api) {
-                    return api.query('').then(function(response) {
+                    return api.query([
+                            Prismic.Predicates.any('document.type', ['article', 'white-paper'])
+                        ]).then(function(response) {
                             var routes = response.results.map((r) => {
-                                if(r.type == 'article' || r.type == 'white-paper') {
                                     return {
                                         route: '/resources/'+r.type+'/'+r.uid,
                                         payload: r
                                     }
-                                }
                             })
 
                             routes.push( { route: '/resources/article' })
