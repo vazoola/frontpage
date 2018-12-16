@@ -32,6 +32,7 @@
 						</div>
 						<nuxt-link class="navbar-item" to="/our-technology">Our Technology</nuxt-link>
 						<nuxt-link class="navbar-item" to="/resources">Resources</nuxt-link>
+						<nuxt-link class="navbar-item" to="/company">Company</nuxt-link>
 					</div>
 					<div class="navbar-end">
 						<div class="navbar-item">

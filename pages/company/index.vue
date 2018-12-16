@@ -23,6 +23,7 @@
                     </div>
                 </div>
 
+                <!--
                 <div class="columns">
                     <div class="column">
                         <figure class="image has-image-centered">
@@ -42,6 +43,8 @@
                         </figure>
                     </div>
                 </div>
+            -->
+
 
                 <hr class="mb-3">
                 <h2 class="title is-2 has-text-centered">Our Team</h2>
@@ -75,7 +78,7 @@
                            <p class="title is-4 has-text-centered ">{{ job.data.role_title }}</p>
                            <p>{{ job.data.short_description }}</p>
                            <div class="buttons has-addons is-centered">
-                               <span class="button is-info">Read more...</span>
+                               <a :href="'/company/careers/'+job.uid" class="button is-info" >Read more...</a>
                            </div>
                         </div>
                     </div>
@@ -101,11 +104,10 @@ export default {
   async asyncData({ params }) {
       var Prismic = require("prismic-javascript");
 
-      var compileHtml = function(page, prop) {
+      var compileHtml = function(data, prop) {
           var PrismicDOM = require('prismic-dom');
-          page.html = PrismicDOM.RichText.asHtml(page[prop])
-          return page;
-          // return compilePage(document.data);
+          data.html = PrismicDOM.RichText.asHtml(data[prop])
+          return data;
       }
 
       return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
