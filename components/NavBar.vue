@@ -19,15 +19,15 @@
 						<div class="navbar-item has-dropdown is-hoverable">
 							<a class="navbar-link" href="/">How it Works</a>
 							<div class="navbar-dropdown is-boxed">
-								<a class="navbar-item" href="/brands">
+								<nuxt-link to="/brands" class="navbar-item">
 									For Brands
-								</a>
-								<a class="navbar-item" href="/agencies">
+								</nuxt-link>
+								<nuxt-link class="navbar-item" to="/agencies">
 									For Agencies
-								</a>
-								<a class="navbar-item" href="/small-business">
+								</nuxt-link>
+								<nuxt-link class="navbar-item" to="/small-business">
 									For Small Business
-								</a>
+								</nuxt-link>
 							</div>
 						</div>
 						<nuxt-link class="navbar-item" to="/our-technology">Our Technology</nuxt-link>
