@@ -29,9 +29,11 @@ module.exports = {
                 .then(function(api) {
                     return api.query('').then(function(response) {
                             var routes = response.results.map((r) => {
-                                return {
-                                    route: '/resources/'+r.type+'/'+r.uid,
-                                    payload: r
+                                if(r.type == 'article' || r.type == 'white-paper') {
+                                    return {
+                                        route: '/resources/'+r.type+'/'+r.uid,
+                                        payload: r
+                                    }
                                 }
                             })
 
