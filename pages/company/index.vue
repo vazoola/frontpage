@@ -139,8 +139,8 @@ export default {
               { hid: 'twitter:card', name:'twitter:card', content: "summary_large_image" },
               { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
               { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
-              { hid: 'twitter:image', name:'twitter:image', content: 'https://www.vazoola.com/images/campaign-img.png' },
-              { hid: 'og:image', name:'og:image', content: 'https://www.vazoola.com/images/campaign-img.png' },
+              { hid: 'twitter:image', name:'twitter:image', content: 'https://www.vazoola.com/images/logo.png' },
+              { hid: 'og:image', name:'og:image', content: 'https://www.vazoola.com/images/logo.png' },
               { hid: 'og:title', name:'og:title', content:  'Vazoola | About the Company'},
               { hid: 'og:description', name:'og:description',  content: 'We are a SEO (Search Engine Optimization) and Social Media Marketing Company that connects brands and agencies with the web’s top influencers through Content Marketing, Social Media, Videos, and more.' },
           ]
