@@ -28,11 +28,11 @@ module.exports = {
             return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
                 .then(function(api) {
                     return api.query([
-                            Prismic.Predicates.any('document.type', ['article', 'white-paper'])
+                            Prismic.Predicates.any('document.type', ['article', 'white-paper', 'jobs'])
                         ]).then(function(response) {
                             var routes = response.results.map((r) => {
                                     return {
-                                        route: '/resources/'+r.type+'/'+r.uid,
+                                        route: r.type =='jobs' ? '/company/careers/'+r.uid : '/resources/'+r.type+'/'+r.uid,
                                         payload: r
                                     }
                             })
