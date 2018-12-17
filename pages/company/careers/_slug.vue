@@ -67,24 +67,24 @@ export default {
 
     head () {
         return {
-            title: "Vazoola Resources | Careers",
+            title: 'Vazoola Careers | '+this.role_title,
 
-            /*
+
             meta: [
-                { hid: 'description', name: 'description', content: this.post.summary },
-                { hid: 'keywords', name:'keywords', content: this.post.keywords },
+                { hid: 'description', name: 'description', content: this.short_description },
+                { hid: 'keywords', name:'keywords', content: 'Carrers, '+this.role_title },
                 { hid: 'twitter:card', name:'twitter:card', content: "summary_large_image" },
-                { hid: 'twitter:description', name:'twitter:description', content: this.post.summary },
+                { hid: 'twitter:description', name:'twitter:description', content: 'Vazoola Careers | '+this.short_description },
                 { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
                 { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
-                { hid: 'twitter:image', name:'og:image', content: this.post.cover_image.url },
-                { hid: 'og:title', name:'og:title', content: this.post.title },
+                { hid: 'twitter:image', name:'og:image', content: 'https://www.vazoola.com/images/logo.png' },
+                { hid: 'og:title', name:'og:title', content: 'Vazoola Careers | '+this.role_title },
                 { hid: 'og:url', name:'og:url', content: 'https://vazoola.com'+this.$route.path },
-                { hid: 'og:image', name:'og:image', content: this.post.cover_image.url },
-                { hid: 'og:description', name:'og:description', content: this.post.summary },
+                { hid: 'og:image', name:'og:image', content: 'https://www.vazoola.com/images/logo.png' },
+                { hid: 'og:description', name:'og:description', content: 'Vazoola Careers | '+this.short_description },
                 { hid: 'og:site_name', name:'og:site_name', content: 'Vazoola' },
             ]
-            */
+
         }
     },
 }
