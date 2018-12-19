@@ -45,8 +45,10 @@
                 </div>
             -->
 
+                <div class="mb-3">
+                    <hr>
+                </div>
 
-                <hr class="mb-3">
                 <h2 class="title is-2 has-text-centered">Our Team</h2>
 
                 <div class="columns is-multiline">
@@ -61,13 +63,17 @@
                     </div>
                 </div>
 
+                <div class="mb-3 mt-3">
+                    <hr>
+                </div>
+
                 <div class="columns">
                     <div class="column">
                         <div class="content" v-html="page.second_paragraph" />
                     </div>
                 </div>
 
-                <div class="mb-3 mt-3">
+                <div class="mb-3">
                     <hr>
                 </div>
 

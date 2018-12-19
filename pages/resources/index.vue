@@ -100,7 +100,9 @@ export default {
     async asyncData({ params }) {
         var Prismic = require("prismic-javascript");
 
-        var query = '';
+        var query = [
+                Prismic.Predicates.any('document.type', ['article', 'white-paper'])
+            ];
         if(params.type) {
             query = Prismic.Predicates.at('document.type', params.type);
         }
