@@ -120,5 +120,22 @@ export default {
             })
     },
 
+    head() {
+        return {
+            title: "Vazoola | Resources",
+            meta: [
+                { hid: 'description', name: 'description', content: "Learn from Vazoola's resource of articles, white papers and more!"},
+                { hid: 'keywords', name:'keywords', content: 'Influencer Marketing Platform, Link Building Platform, Content Marketing Platform' },
+                { hid: 'twitter:card', name:'twitter:card', content: "summary_large_image" },
+                { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
+                { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
+                { hid: 'twitter:image', name:'twitter:image', content: 'https://www.vazoola.com/images/logo.png' },
+                { hid: 'og:image', name:'og:image', content: 'https://www.vazoola.com/images/logo.png' },
+                { hid: 'og:title', name:'og:title', content:  'Vazoola | Resources'},
+                { hid: 'og:description', name:'og:description',  content: "Learn from Vazoola's resource of articles, white papers and more!" },
+            ]
+        }
+    }
+
 }
 </script>
