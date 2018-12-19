@@ -19,7 +19,7 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="content" v-html="page.html" />
+                        <div class="content" v-html="page.main_paragraph" />
                     </div>
                 </div>
 
@@ -48,6 +48,7 @@
 
                 <hr class="mb-3">
                 <h2 class="title is-2 has-text-centered">Our Team</h2>
+
                 <div class="columns is-multiline">
                     <div v-for="(member, index) in page.team" :key="index" class="column is-one-quarter">
                         <figure class="image is-175x175 has-image-centered">
@@ -57,6 +58,12 @@
                             <h4 class="title is-4">{{ member.name }}</h4>
                             <h5 class="subtitle is-5">{{ member.title }}</h5>
                         </div>
+                    </div>
+                </div>
+
+                <div class="columns">
+                    <div class="column">
+                        <div class="content" v-html="page.second_paragraph" />
                     </div>
                 </div>
 
@@ -96,39 +103,40 @@ import FooterBar from '~/components/FooterBar.vue'
 
 
 export default {
-      components: {
-      NavBar,
-      FooterBar
-  },
+    components: {
+        NavBar,
+        FooterBar
+    },
 
-  async asyncData({ params }) {
-      var Prismic = require("prismic-javascript");
+    async asyncData({ params }) {
+        var Prismic = require("prismic-javascript");
 
-      var compileHtml = function(data, prop) {
-          var PrismicDOM = require('prismic-dom');
-          data.html = PrismicDOM.RichText.asHtml(data[prop])
-          return data;
-      }
+        var compileHtml = function(data, props) {
+            var PrismicDOM = require('prismic-dom');
+            for (var k in props) {
+                data[props[k]] = PrismicDOM.RichText.asHtml(data[ props[k] ])
+            }
+            return data;
+        }
 
-      return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
-              .then(function(api) {
-                  var api = api;
-                return api.getSingle('company')
-                    .then(function(response) {
-                        return compileHtml(response.data, 'main_paragraph')
-                    })
-                    .then(function(page) {
-                        return api.query([Prismic.Predicates.at('document.type', 'jobs') ])
-                            .then(function(response) {
-                                return {
-                                    page: page,
-                                    jobs: response.results
-                                }
-                            })
-                    })
-              })
-
-  },
+        return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
+        .then(function(api) {
+            var api = api;
+            return api.getSingle('company')
+            .then(function(response) {
+                return compileHtml(response.data, ['main_paragraph', 'second_paragraph'])
+            })
+            .then(function(page) {
+                return api.query([Prismic.Predicates.at('document.type', 'jobs') ])
+                .then(function(response) {
+                    return {
+                        page: page,
+                        jobs: response.results
+                    }
+                })
+            })
+        })
+    },
 
   head() {
       return {
