@@ -40,7 +40,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/custom_proposals.png" >
+                                  <img src="/images/custom_proposals.png" alt="Custom Proposals">
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Custom Proposals</h4>
@@ -51,7 +51,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/create-icon.png" >
+                                  <img src="/images/create-icon.png" alt="Content Control">
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Content Control</h4>
@@ -64,7 +64,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/scale_your_agency.png" >
+                                  <img src="/images/scale_your_agency.png" alt="Scale Your Agency">
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Scale Your Agency</h4>
@@ -75,7 +75,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/track-icon.png" >
+                                  <img src="/images/track-icon.png" alt="Track Your Efforts">
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Track Your Efforts</h4>
@@ -88,7 +88,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/white_label_services.png" >
+                                  <img src="/images/white_label_services.png" alt="White Label Service">
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">White Label Service</h4>
@@ -99,7 +99,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/complete_transparency.png" >
+                                  <img src="/images/complete_transparency.png" alt="Complete Transparency">
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Complete Transparency</h4>
@@ -153,7 +153,7 @@
                               <li class="slide">
                                   <div class="columns">
                                       <div class="column">
-                                          <img src="/images/slider-1-img.png" alt="">
+                                          <img src="/images/slider-1-img.png" alt="Create Client Campaign">
                                       </div>
                                       <div class="column">
                                           <div class="headline">
@@ -175,7 +175,7 @@
                               <li class="slide">
                                   <div class="columns">
                                       <div class="column">
-                                          <img src="/images/slider-2-img.png" alt="">
+                                          <img src="/images/slider-2-img.png" alt="View Proposal">
                                       </div>
                                       <div class="column">
                                           <div class="headline">
@@ -197,7 +197,7 @@
                               <li class="slide">
                                   <div class="columns">
                                       <div class="column">
-                                          <img src="/images/slider-3-img.png" alt="">
+                                          <img src="/images/slider-3-img.png" alt="Enter Campaign Details">
                                       </div>
                                       <div class="column">
                                           <div class="headline">
@@ -219,7 +219,7 @@
                               <li class="slide">
                                   <div class="columns">
                                       <div class="column">
-                                          <img src="/images/slider-4-img.png" alt="">
+                                          <img src="/images/slider-4-img.png" alt="Monitoring Placements">
                                       </div>
                                       <div class="column">
                                           <div class="headline">

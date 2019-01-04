@@ -40,7 +40,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/team-icon.png" >
+                                  <img src="/images/team-icon.png" alt="Easy To Use Platform">
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Easy To Use Platform</h4>
@@ -51,7 +51,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/save-time-icon.png" >
+                                  <img src="/images/save-time-icon.png" alt="Save More Time">
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Save More Time</h4>
@@ -64,7 +64,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/create-icon.png" >
+                                  <img src="/images/create-icon.png" alt="Create Content">
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Create Content</h4>
@@ -75,7 +75,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/grow-icon.png" >
+                                  <img src="/images/grow-icon.png" alt="Grow Your Business">
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Grow Your Business</h4>
@@ -88,7 +88,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/track-icon.png" >
+                                  <img src="/images/track-icon.png" alt="Track Your Efforts">
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Track Your Efforts</h4>
@@ -99,7 +99,7 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/choose-icon.png" >
+                                  <img src="/images/choose-icon.png" alt="Choose Type of Service">
                               </div>
                               <div class="desc_wrapper">
                                   <h4 class="title">Choose Type of Service</h4>
@@ -152,7 +152,7 @@
                               <li class="slide">
                                   <div class="columns">
                                       <div class="column">
-                                          <img src="/images/slider-1-img.png" alt="">
+                                          <img src="/images/slider-1-img.png" alt="Create Campaign">
                                       </div>
                                       <div class="column">
                                           <div class="headline">
@@ -174,7 +174,7 @@
                               <li class="slide">
                                   <div class="columns">
                                       <div class="column">
-                                          <img src="/images/slider-2-img.png" alt="">
+                                          <img src="/images/slider-2-img.png" alt="View Proposal">
                                       </div>
                                       <div class="column">
                                           <div class="headline">
@@ -196,7 +196,7 @@
                               <li class="slide">
                                   <div class="columns">
                                       <div class="column">
-                                          <img src="/images/slider-3-img.png" alt="">
+                                          <img src="/images/slider-3-img.png" alt="Enter Campaign Details">
                                       </div>
                                       <div class="column">
                                           <div class="headline">
@@ -218,7 +218,7 @@
                               <li class="slide">
                                   <div class="columns">
                                       <div class="column">
-                                          <img src="/images/slider-4-img.png" alt="">
+                                          <img src="/images/slider-4-img.png" alt="Track Progress">
                                       </div>
                                       <div class="column">
                                           <div class="headline">

@@ -54,7 +54,7 @@
                 <div class="columns is-multiline">
                     <div v-for="(member, index) in page.team" :key="index" class="column is-one-quarter">
                         <figure class="image is-175x175 has-image-centered">
-                            <img class="is-rounded" :src="member.portrait.url">
+                            <img class="is-rounded" :src="member.portrait.url" alt="Team member portrait">
                         </figure>
                         <div class="has-text-centered mt-1">
                             <h4 class="title is-4">{{ member.name }}</h4>

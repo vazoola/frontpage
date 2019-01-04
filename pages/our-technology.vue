@@ -24,7 +24,7 @@
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <img src="/images/content-img.png" alt="Content">
+                    <img src="/images/content-img.png" alt="Content Library">
                 </div>
                 <div class="column">
                     <div class="headline">
@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <img src="/images/proposals.png" alt="Content">
+                    <img src="/images/proposals.png" alt="Proposals">
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <img src="/images/campaign-img.png" alt="Content">
+                    <img src="/images/campaign-img.png" alt="Campaign Tracking">
                 </div>
                 <div class="column">
                     <div class="headline">

@@ -46,7 +46,7 @@
                         <div class="card">
                         <div class="card-image">
                             <figure v-if="r.data.cover_image" class="image is-4by3">
-                                <img style="object-fit: cover" :src="r.data.cover_image.url" alt="Placeholder image">
+                                <img style="object-fit: cover" :src="r.data.cover_image.url" :alt="r.data.short_title">
                                 <span class="type">{{ r.type }}</span>
                             </figure>
                             <figure v-else>

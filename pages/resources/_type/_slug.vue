@@ -45,7 +45,7 @@
                 <h2 class="subtitle has-text-centered"> {{ post.publish_date }} </h2>
 
                 <figure class="image">
-                    <img :src="post.cover_image.url">
+                    <img :src="post.cover_image.url" :alt="post.title">
                 </figure>
 
                 <div class="addthis_inline_share_toolbox" style="text-align: center; padding: 10px;"></div>
@@ -98,7 +98,7 @@ export default {
 
             return { post: post};
         }
-        
+
         //if on live
         if(payload) {
             return compilePost(payload.data);
