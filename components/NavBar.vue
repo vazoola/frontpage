@@ -1,4 +1,5 @@
 <template lang="html">
+	<div>
 		<nav class="navbar nav is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
 				<div class="navbar-brand">
 					<a class="navbar-item" href="/">
@@ -45,6 +46,17 @@
 				<contact-modal :is-demo="true" :active.sync="showModal" />
 				<!-- end: Free demo -->
 		</nav>
+
+		<nav style="margin-top:72px" class="level">
+			<div class="level-item has-text-centered">
+				<div>
+					<p style="color: #f0ba69; font-weight: bold">
+						The Vazoola platform will be down for maintenance Januaray 29. Starting @ 10PM EST for about 2 hours.
+					</p>
+				</div>
+			</div>
+		</nav>
+	</div>
 
 
 </template>
