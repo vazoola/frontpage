@@ -33,6 +33,8 @@
 						<nuxt-link class="navbar-item" to="/our-technology">Our Technology</nuxt-link>
 						<nuxt-link class="navbar-item" to="/resources">Resources</nuxt-link>
 						<nuxt-link class="navbar-item" to="/company">Company</nuxt-link>
+						<!-- TODO ADD PRICING INTO NAV AND MAKE THE RESPONSIVNESS BETTER -->
+						<!-- <nuxt-link class="navbar-item" to="/pricing">Pricing</nuxt-link> -->
 					</div>
 					<div class="navbar-end">
 						<div class="navbar-item">
