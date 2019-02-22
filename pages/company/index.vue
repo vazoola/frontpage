@@ -22,29 +22,7 @@
                         <div class="content" v-html="page.main_paragraph" />
                     </div>
                 </div>
-
-                <!--
-                <div class="columns">
-                    <div class="column">
-                        <figure class="image has-image-centered">
-                            <img src="http://placehold.it/400x400">
-                        </figure>
-                    </div>
-
-                    <div class="column">
-                        <figure class="image has-image-centered">
-                            <img src="http://placehold.it/400x400">
-                        </figure>
-                    </div>
-
-                    <div class="column">
-                        <figure class="image has-image-centered">
-                            <img src="http://placehold.it/400x400">
-                        </figure>
-                    </div>
-                </div>
-            -->
-
+                
                 <div class="mb-3">
                     <hr>
                 </div>
