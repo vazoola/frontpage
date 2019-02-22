@@ -26,78 +26,96 @@
           <hr>
         </div>
 
-        <h2 class="title is-2 has-text-centered">Our Team</h2>
+        <h2 class="title is-2 has-text-centered">Our Plans</h2>
 
         <div class="pricing-table">
           <div class="pricing-plan">
-            <div class="plan-header">Starter</div>
+            <div class="plan-header">Free Account</div>
             <div class="plan-price">
               <span class="plan-price-amount">
-                <span class="plan-price-currency">$</span>20
-              </span>/month
+                Free
+              </span>
+            </div>
+            <div class="plan-description">
+                Looking to test out our services, but not sure if it's the right fit yet? Start with a Free Account.
             </div>
             <div class="plan-items">
-              <div class="plan-item">20GB Storage</div>
+              <div class="plan-item">Blog, Social, and Video Channel Data Provided</div>
               <div class="plan-item">100 Domains</div>
               <div class="plan-item">-</div>
               <div class="plan-item">-</div>
             </div>
             <div class="plan-footer">
-              <button class="button is-fullwidth" disabled="disabled">Current plan</button>
+              <button class="button is-fullwidth">Get Started</button>
             </div>
           </div>
 
           <div class="pricing-plan is-warning">
-            <div class="plan-header">Startups</div>
+            <div class="plan-header">Managed Account</div>
             <div class="plan-price">
               <span class="plan-price-amount">
-                <span class="plan-price-currency">$</span>40
+                <span class="plan-price-currency">$</span>149
               </span>/month
+              <p class="is-size-7 is-marginless">15% Discount 6 Months (paid in full)</p>
+              <p class="is-size-7 is-marginless">20% Discount Yearly (paid in full)</p>
             </div>
+            <div class="plan-description">
+                Are you an agency or brand that needs help with link building or influencer marketing, but wants more of a hands-off approach? A Managed Account will give you everything needed to be successful without having to do the work.
+            </div>
+
             <div class="plan-items">
-              <div class="plan-item">20GB Storage</div>
+              <div class="plan-item">Blog, Social, and Video Channel Data Provided</div>
               <div class="plan-item">25 Domains</div>
               <div class="plan-item">1TB Bandwidth</div>
               <div class="plan-item">-</div>
             </div>
             <div class="plan-footer">
-              <button class="button is-fullwidth">Choose</button>
+              <button class="button is-fullwidth">Get Started</button>
             </div>
           </div>
 
           <div class="pricing-plan is-active">
-            <div class="plan-header">Growing Team</div>
+            <div class="plan-header">Pro Account</div>
             <div class="plan-price">
               <span class="plan-price-amount">
-                <span class="plan-price-currency">$</span>60
+                <span class="plan-price-currency">$</span>349
               </span>/month
+                <p class="is-size-7 is-marginless">15% Discount 6 Months (paid in full)</p>
+                <p class="is-size-7 is-marginless">20% Discount Yearly (paid in full)</p>
             </div>
+            <div class="plan-description">
+                Are you an small to medium size agency or brand, and want the ability to search the marketplace and send jobs directly to influencers on your own? A pro account will give you everything you need.
+            </div>
+
             <div class="plan-items">
-              <div class="plan-item">200GB Storage</div>
+              <div class="plan-item">Blog, Social, and Video Channel Data Provided</div>
               <div class="plan-item">50 Domains</div>
               <div class="plan-item">1TB Bandwidth</div>
               <div class="plan-item">100 Email Boxes</div>
             </div>
             <div class="plan-footer">
-              <button class="button is-fullwidth">Choose</button>
+              <button class="button is-fullwidth">Get Started</button>
             </div>
           </div>
 
           <div class="pricing-plan is-danger">
-            <div class="plan-header">Enterprise</div>
+            <div class="plan-header">Enterprise Account</div>
             <div class="plan-price">
               <span class="plan-price-amount">
-                <span class="plan-price-currency">$</span>100
-              </span>/month
+                Custom
+              </span>
+            </div>
+            <div class="plan-description">
+                Are you a medium to large agency or brand, and want the ability to create unlimited campaigns with access to our full array of services including marketplace and post bounty access? An Enterprise Account is the right option for you.
             </div>
             <div class="plan-items">
-              <div class="plan-item">2TB Storage</div>
+              <div class="plan-item">Blog, Social, and Video Channel Data Provided</div>
               <div class="plan-item">100 Domains</div>
               <div class="plan-item">1TB Bandwidth</div>
               <div class="plan-item">1000 Email Boxes</div>
             </div>
             <div class="plan-footer">
-              <button class="button is-fullwidth">Choose</button>
+              <button class="button is-fullwidth">Get Started</button>
             </div>
           </div>
         </div>
@@ -211,4 +229,28 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+    .pricing-table {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    @media screen and (min-width: 769px) {
+        .pricing-table {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    @media screen and (min-width: 1024px) {
+        .pricing-table {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    @media screen and (min-width: 1216px) {
+        .pricing-table {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
+.plan-description {
+    font-size: 0.85rem;
+    padding: 0.7rem;
+}
+
 </style>
