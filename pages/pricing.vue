@@ -13,7 +13,6 @@
         </div>
       </div>
     </section>
-
     <section class="section how-we-work inside pt-2">
       <div class="container">
         <div class="columns">
@@ -21,13 +20,10 @@
             <p>Whether you're a brand or agency, want to be hands-on or hands-off, need white-labe capability or not, we have a plan for you. Our platform and influencer partnerships gives you the ability to streamline the process of running Link Building and Influencer Marketing campaigns at any scale. If you're an Agency, our White Label capabilities make it easy to prepare reports of completed campaigns and send them out to your clients. Stop suffering through the painful outreach process, and let us take that off your plate with our proven process.</p>
           </div>
         </div>
-
         <div class="mb-3">
           <hr>
         </div>
-
         <h2 class="title is-2 has-text-centered">Our Plans</h2>
-
         <div class="pricing-table">
           <div class="pricing-plan">
             <div class="plan-header">Free Account</div>
@@ -40,21 +36,15 @@
                 Looking to test out our services, but not sure if it's the right fit yet? Start with a Free Account.
             </div>
             <div class="plan-items">
-              <div class="plan-item">1 Active Campaigns</div>
+              <div class="plan-item">1 Active Campaign</div>
               <div class="plan-item">Free Demo & Exploratory Call</div>
               <div class="plan-item">Predetermined Rates (No Negotiation Necessary)</div>
               <div class="plan-item">Blog, Social, and Video Channel Data Provided</div>
-              <div class="plan-item">Review & Approve Content</div>
-              <div class="plan-item">Campaign Tracking</div>
-              <div class="plan-item">Full Transparency</div>
-              <div class="plan-item">Dedicated Account Manager</div>
-              <div class="plan-item">-</div>
             </div>
             <div class="plan-footer">
-              <button class="button is-fullwidth">Get Started</button>
+              <a href="https://app.vazoola.com/register" class="button is-fullwidth">Get Started</a>
             </div>
           </div>
-
           <div class="pricing-plan is-warning">
             <div class="plan-header">Managed Account</div>
             <div class="plan-price">
@@ -65,27 +55,18 @@
               <p class="is-size-7 is-marginless">20% Discount Yearly (paid in full)</p>
             </div>
             <div class="plan-description has-text-centered">
-                Are you an agency or brand that needs help with link building or influencer marketing, but wants more of a hands-off approach? A Managed Account will give you everything needed to be successful without having to do the work.
+                Get the support of an account manager to help build your campaigns.
             </div>
-
             <div class="plan-items">
-              <div class="plan-item">TBD Active Campaigns</div>
+              <div class="plan-item">TDB Active Campaigns</div>
               <div class="plan-item">Free Demo & Exploratory Call</div>
               <div class="plan-item">Predetermined Rates (No Negotiation Necessary)</div>
               <div class="plan-item">Blog, Social, and Video Channel Data Provided</div>
-              <div class="plan-item">Review & Approve Content</div>
-              <div class="plan-item">Campaign Tracking</div>
-              <div class="plan-item">Full Transparency</div>
-              <div class="plan-item">Dedicated Account Manager</div>
-              <div class="plan-item">Exportable Campaign Report</div>
-              <div class="plan-item">White Label Capability</div>
-              <div class="plan-item">Limited Post Bounty Access</div>
             </div>
             <div class="plan-footer">
-              <button class="button is-fullwidth">Get Started</button>
+              <a href="https://app.vazoola.com/register" class="button is-fullwidth">Get Started</a>
             </div>
           </div>
-
           <div class="pricing-plan is-primary">
             <div class="plan-header">Pro Account</div>
             <div class="plan-price">
@@ -96,31 +77,18 @@
                 <p class="is-size-7 is-marginless">20% Discount Yearly (paid in full)</p>
             </div>
             <div class="plan-description has-text-centered">
-                Are you an small to medium size agency or brand, and want the ability to search the marketplace and send jobs directly to influencers on your own? A pro account will give you everything you need.
+                Gain access to our marketplace features and send jobs directly to influencers.
             </div>
-
             <div class="plan-items">
               <div class="plan-item">20 Active Campaigns</div>
               <div class="plan-item">Free Demo & Exploratory Call</div>
-              <div class="plan-item">Predetermined Rates (No Negotiation Necessary)</div>
-              <div class="plan-item">Blog, Social, and Video Channel Data Provided</div>
-              <div class="plan-item">Review & Approve Content</div>
-              <div class="plan-item">Campaign Tracking</div>
-              <div class="plan-item">Full Transparency</div>
-              <div class="plan-item">Dedicated Account Manager</div>
-              <div class="plan-item">Exportable Campaign Report</div>
-              <div class="plan-item">White Label Capability</div>
-              <div class="plan-item">Limited Post Bounty Access</div>
-              <div class="plan-item">List Creation: 3 Per Campaign</div>
               <div class="plan-item">Access to over 100,000 Opted-in Influencers</div>
               <div class="plan-item">Influencer Marketplace Access</div>
-               <div class="plan-item">Influencer Pricing Discounted 15%</div>
             </div>
             <div class="plan-footer">
-              <button class="button is-fullwidth">Get Started</button>
+              <a href="https://app.vazoola.com/register" class="button is-fullwidth">Get Started</a>
             </div>
           </div>
-
           <div class="pricing-plan is-danger">
             <div class="plan-header">Enterprise Account</div>
             <div class="plan-price">
@@ -129,38 +97,293 @@
               </span>
             </div>
             <div class="plan-description has-text-centered">
-                Are you a medium to large agency or brand, and want the ability to create unlimited campaigns with access to our full array of services including marketplace and post bounty access? An Enterprise Account is the right option for you.
+                Create unlimited campaigns with access to our full array of services.
             </div>
             <div class="plan-items">
               <div class="plan-item">Unlimited Active Campaigns</div>
               <div class="plan-item">Free Demo & Exploratory Call</div>
-              <div class="plan-item">Predetermined Rates (No Negotiation Necessary)</div>
-              <div class="plan-item">Blog, Social, and Video Channel Data Provided</div>
-              <div class="plan-item">Review & Approve Content</div>
-              <div class="plan-item">Campaign Tracking</div>
-              <div class="plan-item">Full Transparency</div>
-              <div class="plan-item">Dedicated Account Manager</div>
-              <div class="plan-item">Exportable Campaign Report</div>
-              <div class="plan-item">White Label Capability</div>
-              <div class="plan-item">Limited Post Bounty Access</div>
-              <div class="plan-item">List Creation: Unlimited</div>
               <div class="plan-item">Access to over 100,000 Opted-in Influencers</div>
               <div class="plan-item">Influencer Marketplace Access</div>
-              <div class="plan-item">Post Bounty Access</div>
-              <div class="plan-item">Influencer Pricing Discounted 20%</div>
             </div>
             <div class="plan-footer">
-              <button class="button is-fullwidth">Get Started</button>
+              <a href="https://app.vazoola.com/register" class="button is-fullwidth">Get Started</a>
             </div>
           </div>
         </div>
-
         <div class="mb-3 mt-3">
           <hr>
         </div>
+        <div class="columns">
+          <div class="column">
+            <div style="overflow-x: auto;">
+              <table class="table is-fullwidth is-bordered is-striped">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th class="has-text-centered">Free Account</th>
+                    <th class="has-text-centered">Managed Account</th>
+                    <th class="has-text-centered">Pro Account</th>
+                    <th class="has-text-centered">Enterprise Account</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Monthly</strong></td>
+                    <td class="has-text-centered">Free</td>
+                    <td class="has-text-centered">$149</td>
+                    <td class="has-text-centered">$349</td>
+                    <td class="has-text-centered">Custom</td>
+                  </tr>
+                  <tr>
+                    <td><strong>6 Months (paid in full)</strong></td>
+                    <td class="has-text-centered">N/A</td>
+                    <td class="has-text-centered">15% Discount</td>
+                    <td class="has-text-centered">15% Discount</td>
+                    <td class="has-text-centered">TBD</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Yearly (paid in full)</strong></td>
+                    <td class="has-text-centered">N/A</td>
+                    <td class="has-text-centered">20% Discount</td>
+                    <td class="has-text-centered">20% Discount</td>
+                    <td class="has-text-centered">TBD</td>
+                  </tr>
+                  <tr>
+                    <td colspan="5">
+                      <hr>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Active Campaigns</strong></td>
+                    <td class="has-text-centered">1</td>
+                    <td class="has-text-centered">TBD</td>
+                    <td class="has-text-centered">20</td>
+                    <td class="has-text-centered">Unlimited</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Free Demo & Exploratory Call</strong></td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Predetermined Rates (No Negotiation Necessary)</strong></td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Content Library</strong></td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Blog, Social, and Video Channel Data Provided</strong></td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Review & Approve Content</strong></td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Campaign Tracking</strong></td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Full Transparency</strong></td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Influencer Pricing</strong></td>
+                    <td class="has-text-centered">Full</td>
+                    <td class="has-text-centered">Full</td>
+                    <td class="has-text-centered">Discounted 15%</td>
+                    <td class="has-text-centered">Discounted 20%+</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Dedicated Account Manager</strong></td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Exportable Campaign Report</strong></td>
+                    <td class="has-text-centered">
+                      <img src="../assets/times-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>White Label Capability</strong></td>
+                    <td class="has-text-centered">
+                      <img src="../assets/times-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>List Creation</strong></td>
+                    <td class="has-text-centered">N/A</td>
+                    <td class="has-text-centered">N/A</td>
+                    <td class="has-text-centered">3 Per Campaign</td>
+                    <td class="has-text-centered">Unlimited</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Access to over 100,000 Opted-in Influencers</strong></td>
+                    <td class="has-text-centered">
+                      <img src="../assets/times-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/times-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                    </td>      
+                  </tr>
+                  <tr>
+                    <td><strong>Influencer Marketplace Access</strong></td>
+                    <td class="has-text-centered">
+                      <img src="../assets/times-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/times-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                      <br>Full
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                      <br>Full
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Post Bounty Access</strong></td>
+                    <td class="has-text-centered">
+                      <img src="../assets/times-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      Limited
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/times-circle.svg" alt="" class="table-icon">
+                    </td>
+                    <td class="has-text-centered">
+                      <img src="../assets/check-circle.svg" alt="" class="table-icon">
+                      <br>Full
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="5" class="has-text-centered">
+                      <a href="https://app.vazoola.com/register" class="button is-primary">Get Started</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-
     <footer-bar/>
   </div>
 </template>
@@ -238,5 +461,15 @@ export default {
     border-bottom: 1px solid #d1d1d1;
     // TODO STYLE THIS SO IT LOOKS BETTER
 }
-
+.plan-price {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.table-icon {
+  width: 1.5rem;
+}
 </style>
