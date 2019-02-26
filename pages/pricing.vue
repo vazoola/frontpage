@@ -15,14 +15,6 @@
     </section>
     <section class="section how-we-work inside pt-2">
       <div class="container">
-        <div class="columns">
-          <div class="column">
-            <p>Whether you're a brand or agency, want to be hands-on or hands-off, need white-labe capability or not, we have a plan for you. Our platform and influencer partnerships gives you the ability to streamline the process of running Link Building and Influencer Marketing campaigns at any scale. If you're an Agency, our White Label capabilities make it easy to prepare reports of completed campaigns and send them out to your clients. Stop suffering through the painful outreach process, and let us take that off your plate with our proven process.</p>
-          </div>
-        </div>
-        <div class="mb-3">
-          <hr>
-        </div>
         <h2 class="title is-2 has-text-centered">Our Plans</h2>
         <div class="pricing-table">
           <div class="pricing-plan">
@@ -37,9 +29,9 @@
             </div>
             <div class="plan-items">
               <div class="plan-item">1 Active Campaign</div>
-              <div class="plan-item">Free Demo & Exploratory Call</div>
-              <div class="plan-item">Predetermined Rates (No Negotiation Necessary)</div>
-              <div class="plan-item">Blog, Social, and Video Channel Data Provided</div>
+              <div class="plan-item">Full Transparency</div>
+              <div class="plan-item">Predetermined Rates</div>
+              <div class="plan-item">White Label Capability</div>
             </div>
             <div class="plan-footer">
               <a href="https://app.vazoola.com/register" class="button is-fullwidth">Get Started</a>
@@ -51,17 +43,15 @@
               <span class="plan-price-amount">
                 <span class="plan-price-currency">$</span>149
               </span>/month
-              <p class="is-size-7 is-marginless">15% Discount 6 Months (paid in full)</p>
-              <p class="is-size-7 is-marginless">20% Discount Yearly (paid in full)</p>
             </div>
             <div class="plan-description has-text-centered">
-                Get the support of an account manager to help build your campaigns.
+                Recommended for agencies and brands looking for a completely hands-off approach. Let us handle the dirty work for you.
             </div>
             <div class="plan-items">
-              <div class="plan-item">TDB Active Campaigns</div>
-              <div class="plan-item">Free Demo & Exploratory Call</div>
-              <div class="plan-item">Predetermined Rates (No Negotiation Necessary)</div>
-              <div class="plan-item">Blog, Social, and Video Channel Data Provided</div>
+              <div class="plan-item">TBD Active Campaigns</div>
+              <div class="plan-item">Full Transparency</div>
+              <div class="plan-item">Predetermined Rates</div>
+              <div class="plan-item">White Label Capability</div>
             </div>
             <div class="plan-footer">
               <a href="https://app.vazoola.com/register" class="button is-fullwidth">Get Started</a>
@@ -73,16 +63,14 @@
               <span class="plan-price-amount">
                 <span class="plan-price-currency">$</span>349
               </span>/month
-                <p class="is-size-7 is-marginless">15% Discount 6 Months (paid in full)</p>
-                <p class="is-size-7 is-marginless">20% Discount Yearly (paid in full)</p>
             </div>
             <div class="plan-description has-text-centered">
-                Gain access to our marketplace features and send jobs directly to influencers.
+                Recommended for small to medium size agencies and brands looking for a hands-on approach with marketplace access.
             </div>
             <div class="plan-items">
               <div class="plan-item">20 Active Campaigns</div>
-              <div class="plan-item">Free Demo & Exploratory Call</div>
-              <div class="plan-item">Access to over 100,000 Opted-in Influencers</div>
+              <div class="plan-item">List Creation</div>
+              <div class="plan-item">Discounted Influencer Pricing</div>
               <div class="plan-item">Influencer Marketplace Access</div>
             </div>
             <div class="plan-footer">
@@ -97,13 +85,13 @@
               </span>
             </div>
             <div class="plan-description has-text-centered">
-                Create unlimited campaigns with access to our full array of services.
+                Recommended for medium to large agencies and brands looking for a hands-on approach with full access to our services and unlimited campaigns.
             </div>
             <div class="plan-items">
-              <div class="plan-item">Unlimited Active Campaigns</div>
-              <div class="plan-item">Free Demo & Exploratory Call</div>
-              <div class="plan-item">Access to over 100,000 Opted-in Influencers</div>
-              <div class="plan-item">Influencer Marketplace Access</div>
+              <div class="plan-item">Unlimited Campaigns</div>
+              <div class="plan-item">Unlimited Lists</div>
+              <div class="plan-item">Discounted Influencer Pricing</div>
+              <div class="plan-item">Influencer Marketplace & Bounty Access</div>
             </div>
             <div class="plan-footer">
               <a href="https://app.vazoola.com/register" class="button is-fullwidth">Get Started</a>
@@ -113,13 +101,12 @@
         <div class="mb-3 mt-3">
           <hr>
         </div>
-        <div class="columns">
-          <div class="column">
+
             <div style="overflow-x: auto;">
               <table class="table is-fullwidth is-bordered is-striped">
                 <thead>
                   <tr>
-                    <th></th>
+                    <th class="is-italic has-text-primary">Pricing</th>
                     <th class="has-text-centered">Free Account</th>
                     <th class="has-text-centered">Managed Account</th>
                     <th class="has-text-centered">Pro Account</th>
@@ -149,7 +136,10 @@
                     <td class="has-text-centered">TBD</td>
                   </tr>
                   <tr>
-                    <td colspan="5">
+                    <td class="is-italic has-text-primary has-text-weight-bold" style="vertical-align: middle;">
+                      Benefits
+                    </td>
+                    <td colspan="4">
                       <hr>
                     </td>
                   </tr>
@@ -373,14 +363,35 @@
                     </td>
                   </tr>
                   <tr>
-                    <td colspan="5" class="has-text-centered">
+                    <td></td>
+                    <td class="has-text-centered">
+                      <a href="https://app.vazoola.com/register" class="button is-primary is-small">Get Started</a>
+                    </td>
+                    <td class="has-text-centered">
                       <a href="https://app.vazoola.com/register" class="button is-primary">Get Started</a>
                     </td>
+                    <td class="has-text-centered">
+                      <a href="https://app.vazoola.com/register" class="button is-primary">Get Started</a>
+                    </td>
+                    <td class="has-text-centered">
+                      <a href="https://app.vazoola.com/register" class="button is-primary">Get Started</a>
+                    </td>
+
+
+
+
+
                   </tr>
                 </tbody>
               </table>
             </div>
-          </div>
+
+            <div class="box has-background-light">
+              <p class="is-size-4 callout">Whether you're a brand or agency, want to be hands-on or hands-off, need white-labe capability or not, we have a plan for you. Our platform and influencer partnerships gives you the ability to streamline the process of running Link Building and Influencer Marketing campaigns at any scale. If you're an Agency, our White Label capabilities make it easy to prepare reports of completed campaigns and send them out to your clients. Stop suffering through the painful outreach process, and let us take that off your plate with our proven process.</p>
+            </div>
+   
+        <div class="mb-2">
+          <hr>
         </div>
       </div>
     </section>
@@ -459,10 +470,16 @@ export default {
     padding: 0.7rem;
     border-top: 1px solid #d1d1d1;
     border-bottom: 1px solid #d1d1d1;
+height: 150px;
+align-content: center;
+align-items: center;
+align-self: center;
+display: flex;
+
     // TODO STYLE THIS SO IT LOOKS BETTER
 }
 .plan-price {
-  height: 150px;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -472,4 +489,10 @@ export default {
 .table-icon {
   width: 1.5rem;
 }
+.has-background-light {
+  background-color: hsl(0, 0%, 96%);
+}
+.callout { 
+  line-height: 2.2rem;
+} 
 </style>
