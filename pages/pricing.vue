@@ -101,7 +101,6 @@
         <div class="mb-3 mt-3">
           <hr>
         </div>
-
             <div style="overflow-x: auto;">
               <table class="table is-fullwidth is-bordered is-striped">
                 <thead>
@@ -376,20 +375,13 @@
                     <td class="has-text-centered">
                       <a href="https://app.vazoola.com/register" class="button is-primary">Get Started</a>
                     </td>
-
-
-
-
-
                   </tr>
                 </tbody>
               </table>
             </div>
-
             <div class="box has-background-light">
-              <p class="is-size-4 callout">Whether you're a brand or agency, want to be hands-on or hands-off, need white-labe capability or not, we have a plan for you. Our platform and influencer partnerships gives you the ability to streamline the process of running Link Building and Influencer Marketing campaigns at any scale. If you're an Agency, our White Label capabilities make it easy to prepare reports of completed campaigns and send them out to your clients. Stop suffering through the painful outreach process, and let us take that off your plate with our proven process.</p>
-            </div>
-   
+              <p class="is-size-4 callout">Whether you're a brand or agency, want to be hands-on or hands-off, need white-label capability or not, we have a plan for you. Our platform and influencer partnerships gives you the ability to streamline the process of running Link Building and Influencer Marketing campaigns at any scale. If you're an Agency, our White Label capabilities make it easy to prepare reports of completed campaigns and send them out to your clients. Stop suffering through the painful outreach process, and let us take that off your plate with our proven process.</p>
+          </div>  
         <div class="mb-2">
           <hr>
         </div>
