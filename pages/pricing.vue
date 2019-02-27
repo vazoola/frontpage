@@ -139,7 +139,7 @@
                       Benefits
                     </td>
                     <td colspan="4">
-                      <hr>
+                      
                     </td>
                   </tr>
                   <tr>
@@ -379,12 +379,12 @@
                 </tbody>
               </table>
             </div>
+            <div class="mb-2">
+              <hr>
+            </div>
             <div class="box has-background-light">
               <p class="is-size-4 callout">Whether you're a brand or agency, want to be hands-on or hands-off, need white-label capability or not, we have a plan for you. Our platform and influencer partnerships gives you the ability to streamline the process of running Link Building and Influencer Marketing campaigns at any scale. If you're an Agency, our White Label capabilities make it easy to prepare reports of completed campaigns and send them out to your clients. Stop suffering through the painful outreach process, and let us take that off your plate with our proven process.</p>
           </div>  
-        <div class="mb-2">
-          <hr>
-        </div>
       </div>
     </section>
     <footer-bar/>
@@ -467,8 +467,9 @@ align-content: center;
 align-items: center;
 align-self: center;
 display: flex;
-
-    // TODO STYLE THIS SO IT LOOKS BETTER
+}
+td {
+  vertical-align: middle;
 }
 .plan-price {
   height: 120px;
