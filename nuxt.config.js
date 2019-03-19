@@ -14,7 +14,7 @@ const prismicRoutes = function() {
 
                     routes.push( { route: '/resources/article' })
                     routes.push( { route: '/resources/white-paper' })
-
+                    
                     return routes
             })
 
@@ -67,11 +67,30 @@ module.exports = {
     },
 
     sitemap: {
+        generate: true,
         path: '/sitemap.xml',
         hostname: 'https://www.vazoola.com',
         cacheTime: 1000 * 60 * 15,
         gzip: true,
-        routes: prismicRoutes,
+        routes() {
+            var Prismic = require("prismic-javascript");
+            return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
+                .then(function(api) {
+                    return api.query([
+                            Prismic.Predicates.any('document.type', ['article', 'white-paper', 'jobs'])
+                        ]).then(function(response) {
+                            var routes = response.results.map((r) => {
+                                    return r.type =='jobs' ? '/company/careers/'+r.uid : '/resources/'+r.type+'/'+r.uid;
+                            })
+        
+                            routes.push('/resources/article')
+                            routes.push('/resources/white-paper')
+                            
+                            return routes
+                    })
+        
+                })
+        }
     },
 
     /*
