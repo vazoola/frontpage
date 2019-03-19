@@ -17,7 +17,7 @@
                 </div>
 
                 <div v-else class="hero-body">
-                    <h2 class="title is-4">Thanks, We look foward to working with you!</h2>
+                    <h2 class="title is-4">Thanks, We look forward to working with you!</h2>
                 </div>
 
                 </section>
