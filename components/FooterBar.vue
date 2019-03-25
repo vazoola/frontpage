@@ -3,7 +3,7 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-3">
-                    <p>© 2018 VAZOOLA</p>
+                    <p>© 2019 VAZOOLA</p>
                 </div>
                 <div class="column">
                     <ul class="footer-menu">

@@ -15,7 +15,8 @@
   "dependencies": {
     "@nuxtjs/sitemap": "^0.2.2",
     "bulma": "^0.6.2",
-    "nuxt": "^2.4.5",
+    "bulma-pricingtable": "^0.2.0",
+    "nuxt": "^2.5.1",
     "prismic-dom": "^2.1.0",
     "prismic-javascript": "^1.5.1"
   },
