@@ -34,7 +34,7 @@
               <div class="plan-item">White Label Capability</div>
             </div>
             <div class="plan-footer">
-              <a href="https://app.vazoola.com/register" class="button is-fullwidth">Get Started</a>
+              <a href="https://app.vazoola.com/register/#/free" class="button is-fullwidth">Get Started</a>
             </div>
           </div>
           <div class="pricing-plan is-warning">
@@ -54,7 +54,7 @@
               <div class="plan-item">White Label Capability</div>
             </div>
             <div class="plan-footer">
-              <a href="https://app.vazoola.com/register" class="button is-fullwidth">Get Started</a>
+              <a href="https://app.vazoola.com/register/#/managed" class="button is-fullwidth">Get Started</a>
             </div>
           </div>
           <div class="pricing-plan is-primary">
@@ -74,7 +74,7 @@
               <div class="plan-item">Influencer Marketplace Access</div>
             </div>
             <div class="plan-footer">
-              <a href="https://app.vazoola.com/register" class="button is-fullwidth">Get Started</a>
+              <a href="https://app.vazoola.com/register/#/pro" class="button is-fullwidth">Get Started</a>
             </div>
           </div>
           <div class="pricing-plan is-danger">
@@ -94,7 +94,7 @@
               <div class="plan-item">Influencer Marketplace & Bounty Access</div>
             </div>
             <div class="plan-footer">
-              <a href="https://app.vazoola.com/register" class="button is-fullwidth">Get Started</a>
+              <a href="https://app.vazoola.com/register/#/enterprise" class="button is-fullwidth">Get Started</a>
             </div>
           </div>
         </div>
@@ -364,16 +364,16 @@
                   <tr>
                     <td></td>
                     <td class="has-text-centered">
-                      <a href="https://app.vazoola.com/register" class="button is-primary is-small">Get Started</a>
+                      <a href="https://app.vazoola.com/register/#/free" class="button is-primary is-small">Get Started</a>
                     </td>
                     <td class="has-text-centered">
-                      <a href="https://app.vazoola.com/register" class="button is-primary">Get Started</a>
+                      <a href="https://app.vazoola.com/register/#/managed" class="button is-primary">Get Started</a>
                     </td>
                     <td class="has-text-centered">
-                      <a href="https://app.vazoola.com/register" class="button is-primary">Get Started</a>
+                      <a href="https://app.vazoola.com/register/#/pro" class="button is-primary">Get Started</a>
                     </td>
                     <td class="has-text-centered">
-                      <a href="https://app.vazoola.com/register" class="button is-primary">Get Started</a>
+                      <a href="https://app.vazoola.com/register/#/enterprise" class="button is-primary">Get Started</a>
                     </td>
                   </tr>
                 </tbody>
