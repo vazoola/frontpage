@@ -41,7 +41,7 @@
         			<div class="columns">
         				<div class="column text-center">
         					<div class="icon-box">
-        						<h3>For<br />Brands</h3>
+        						<h2>For<br />Brands</h2>
         						<img src="/images/brands-icon.png" alt="Brands Icon">
         						<p>Fuel your marketing efforts with the power of thousands of online influencers waiting to share your story.</p>
         						<a href="/brands" class="button is-info">Learn More</a>
@@ -49,7 +49,7 @@
         				</div>
                         <div class="column text-center">
         					<div class="icon-box">
-        						<h3>For<br />Agencies</h3>
+        						<h2>For<br />Agencies</h2>
         						<img src="/images/agencies-icon.png" alt="Brands Icon">
         						<p>Manage unlimited client campaigns in one place, and white label your efforts.</p>
         						<a href="/agencies" class="button is-info">Learn More</a>
@@ -57,7 +57,7 @@
         				</div>
         				<div class="column text-center">
         					<div class="icon-box">
-        						<h3>For Small<br />Businesses</h3>
+        						<h2>For Small<br />Businesses</h2>
         						<img src="/images/small-b-icon.png" alt="Brands Icon">
         						<p>Gain an edge on local competition by tapping into the audience of niche specific and geo-targeted influencers. </p>
         						<a href="/small-business" class="button is-info">Learn More</a>
@@ -84,21 +84,21 @@
                         <div class="column is-offset-1 text-center">
                             <div class="icon-box">
                                 <img src="/images/content-icon.png" alt="Content Marketing">
-                                <h3>Content<br />Marketing</h3>
+                                <h2>Content<br />Marketing</h2>
                                 <p>Share your brand message in sponsored articles and blog posts.</p>
                             </div>
                         </div>
                         <div class="column text-center">
                             <div class="icon-box">
                                 <img src="/images/link-icon.png" alt="Link Building">
-                                <h3>Link<br />Building</h3>
+                                <h2>Link<br />Building</h2>
                                 <p>Improve your search engine rankings by earning links on influential sites.</p>
                             </div>
                         </div>
                         <div class="column text-center">
                             <div class="icon-box">
                                 <img src="/images/youtube-icon.png" alt="YouTube Videos">
-                                <h3>YouTube<br />Videos</h3>
+                                <h2>YouTube<br />Videos</h2>
                                 <p>Get videos for and about your brand from expert creators.</p>
                             </div>
                         </div>
@@ -108,21 +108,21 @@
                         <div class="column is-offset-1 text-center">
                             <div class="icon-box">
                                 <img src="/images/social-media-icon.png" alt="Social Media">
-                                <h3>Social<br />Media</h3>
+                                <h2>Social<br />Media</h2>
                                 <p>Engage top social influencers to start an online conversation about your brand.</p>
                             </div>
                         </div>
                         <div class="column text-center">
                             <div class="icon-box">
                                 <img src="/images/sampling-icon.png" alt="Sampling Giveaways">
-                                <h3>Sampling &<br />Giveaways</h3>
+                                <h2>Sampling &<br />Giveaways</h2>
                                 <p>Put your product in the hands of influencers and their followers.</p>
                             </div>
                         </div>
                         <div class="column text-center">
                             <div class="icon-box">
                                 <img src="/images/custom-icon.png" alt="Managed Services">
-                                <h3>Managed<br />Services</h3>
+                                <h2>Managed<br />Services</h2>
                                 <p>Don't want to do all the work on your own? Ask us to do it for you.</p>
                             </div>
                         </div>
