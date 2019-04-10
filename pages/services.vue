@@ -1,20 +1,21 @@
 <template lang="html">
 <div>
-    <div class="modal"
-        :class="{'is-active': active}">
-        <div class="modal-background"></div>
-        <div class="modal-content" style="width:90%;">
-            <section class="hero">
-                <iframe style="width:100%;" width=1280 height=672 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqfQFyZI63&v=5&a=0&title=0&ff=1" allowfullscreen="true"></iframe>
-            </section>
-        </div>
+    <nav-bar />
+    <div class="container">
+        <section class="hero">
+            <iframe style="width:100%;" width=1280 height=672 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqfQFyZI63&v=5&a=0&title=0&ff=1" allowfullscreen="true"></iframe>
+        </section>
     </div>
 </div>
 </template>
 
 <script>
+import NavBar from '~/components/NavBar.vue'
 
 export default {
+    components: {
+        NavBar
+    },
     props: {
         active: false
     },
