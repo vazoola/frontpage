@@ -16,7 +16,7 @@
     <section class="section how-we-work inside pt-2">
       <div class="container">
         <h2 class="title is-2 has-text-centered">
-          <a @click="showModal = true">Take a tour of our new services</a>
+          <img style="cursor:pointer;" src="../static/images/click_to_watch_video.jpg" @click="showModal = true" />
         </h2>
         <div class="pricing-table">
           <div class="pricing-plan">
