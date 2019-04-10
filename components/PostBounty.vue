@@ -5,7 +5,7 @@
         <div class="modal-background" @click="closeIt"></div>
             <div class="modal-content" style="width:90%;">
                 <section class="hero">
-                    <iframe style="width:100%;" width=1280 height=672 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqfj0fZXdq&v=5&ff=1" allowfullscreen="true"></iframe>
+                    <iframe style="width:100%;" width=1280 height=672 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqfj0fZXdq&v=5&title=0&ff=1" allowfullscreen="true"></iframe>
                 </section>
             </div>
         <button @click="closeIt" class="modal-close is-large" aria-label="close"></button>
