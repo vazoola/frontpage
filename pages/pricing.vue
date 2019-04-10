@@ -15,7 +15,9 @@
     </section>
     <section class="section how-we-work inside pt-2">
       <div class="container">
-        <h2 class="title is-2 has-text-centered">Our Plans</h2>
+        <h2 class="title is-2 has-text-centered">
+          <a @click="showModal = true">Take a tour of our new services</a>
+        </h2>
         <div class="pricing-table">
           <div class="pricing-plan">
             <div class="plan-header">Free Account</div>
@@ -329,7 +331,11 @@
                     </td>      
                   </tr>
                   <tr>
-                    <td><strong>Influencer Marketplace Access</strong></td>
+                    <td>
+                      <strong>
+                        <a @click="showMarketplace = true">Influencer Marketplace Access &nbsp; <img class="icon is-small" src="../static/images/media-pict-camera.png" /></a>
+                      </strong>
+                    </td>
                     <td class="has-text-centered">
                       <img src="../assets/times-circle.svg" alt="" class="table-icon">
                     </td>
@@ -346,7 +352,11 @@
                     </td>
                   </tr>
                   <tr>
-                    <td><strong>Post Bounty Access</strong></td>
+                    <td>
+                      <strong>
+                        <a @click="showPostBounty = true">Post Bounty Access &nbsp; <img class="icon is-small" src="../static/images/media-pict-camera.png" /></a>
+                      </strong>
+                    </td>
                     <td class="has-text-centered">
                       <img src="../assets/times-circle.svg" alt="" class="table-icon">
                     </td>
@@ -388,16 +398,33 @@
       </div>
     </section>
     <footer-bar/>
+    <new-services :active.sync="showModal" />
+    <post-bounty :active.sync="showPostBounty" />
+    <marketplace :active.sync="showMarketplace" />
   </div>
 </template>
 <script>
 import NavBar from "~/components/NavBar.vue";
 import FooterBar from "~/components/FooterBar.vue";
+import NewServices from "~/components/NewServices.vue";
+import PostBounty from "~/components/PostBounty.vue";
+import Marketplace from "~/components/Marketplace.vue";
 
 export default {
   components: {
     NavBar,
-    FooterBar
+    FooterBar,
+    NewServices,
+    PostBounty,
+    Marketplace
+  },
+
+  data() {
+    return {
+        showModal: false,
+        showPostBounty: false,
+        showMarketplace: false
+    }
   },
 
   async asyncData({ params }) {
