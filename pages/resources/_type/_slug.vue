@@ -101,8 +101,10 @@ export default {
 
         //if on live
         if(payload) {
+            console.log('has payload')
             return compilePost(payload.data);
         } else {
+            console.log('no payload')
             //query for dev
             var Prismic = require("prismic-javascript");
             return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
