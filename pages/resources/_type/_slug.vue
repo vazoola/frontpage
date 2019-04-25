@@ -99,10 +99,10 @@ export default {
             return { post: post};
         }
 
-        //if on live
-        if(payload) {
-            return compilePost(payload.data);
-        } else {
+        // //if on live
+        // if(payload) {
+        //     return compilePost(payload.data);
+        // } else {
             //query for dev
             var Prismic = require("prismic-javascript");
             return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
@@ -113,7 +113,7 @@ export default {
                         return compilePost(response.results[0].data);
                     });
                 });
-        }
+       //}
     },
 
     head () {
