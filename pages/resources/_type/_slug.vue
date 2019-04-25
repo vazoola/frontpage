@@ -42,6 +42,7 @@
             <div class="column is-2-desktop is-1-tablet"> <!-- gutter --></div>
             <div class="article column is-8-desktop is-10-tablet">
                 <h1 class="title is-spaced">{{ post.title }}</h1>
+                <h1 class="title is-spaced">{{ isPayload }}</h1>
                 <h2 class="subtitle has-text-centered"> {{ post.publish_date }} </h2>
 
                 <figure class="image">
@@ -78,6 +79,11 @@ import ContactForm from '~/components/ContactForm.vue'
 
 export default {
     components: { NavBar, FooterBar, ContactForm},
+    data() {
+        return {
+            isPayload: false
+        }
+    },
 
     async asyncData({ params, error, payload }) {
         //preps post data
@@ -101,10 +107,9 @@ export default {
 
         //if on live
         if(payload) {
-            console.log('has payload')
+            this.isPayload = true
             return compilePost(payload.data);
         } else {
-            console.log('no payload')
             //query for dev
             var Prismic = require("prismic-javascript");
             return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
