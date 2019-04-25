@@ -86,6 +86,7 @@ export default {
     },
 
     async asyncData({ params, error, payload }) {
+        const self = this
         //preps post data
         var compilePost = function(post) {
             var PrismicDOM = require('prismic-dom');
@@ -107,7 +108,7 @@ export default {
 
         //if on live
         if(payload) {
-            this.isPayload = true
+            self.isPayload = true
             return compilePost(payload.data);
         } else {
             //query for dev
