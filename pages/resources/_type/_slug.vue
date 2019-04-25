@@ -111,6 +111,7 @@ export default {
                     return api.query(
                         Prismic.Predicates.at('my.'+params.type+'.uid', params.slug)
                     ).then(function(response) {
+                        console.log(response)
                         return compilePost(response.results[0].data);
                     });
                 });
