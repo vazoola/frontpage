@@ -111,7 +111,7 @@ export default {
             .then(function(api) {
                 return api.query(
                     query,
-                    { pageSize: 50, orderings : "[my.article.publish_date desc, my.white-paper.publish_date desc]"},
+                    { pageSize: 100, orderings : "[my.article.publish_date desc, my.white-paper.publish_date desc]"},
                 ).then(function(response) {
                     return {
                         resources: response.results,
