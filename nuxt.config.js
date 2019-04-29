@@ -2,20 +2,20 @@ const prismicRoutes = function() {
     var Prismic = require("prismic-javascript");
     return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
         .then(function(api) {
-            return api.query([
-                    Prismic.Predicates.any('document.type', ['article', 'white-paper', 'jobs'])
-                ]).then(function(response) {
-                    var routes = response.results.map((r) => {
-                            return {
-                                route: r.type =='jobs' ? '/company/careers/'+r.uid : '/resources/'+r.type+'/'+r.uid,
-                                payload: r
-                            }
-                    })
+            return api.query(
+                [ Prismic.Predicates.any('document.type', ['article', 'white-paper', 'jobs']) ],
+                { pageSize: 100 }).then(function(response) {
+                var routes = response.results.map((r) => {
+                        return {
+                            route: r.type =='jobs' ? '/company/careers/'+r.uid : '/resources/'+r.type+'/'+r.uid,
+                            payload: r
+                        }
+                })
 
-                    routes.push( { route: '/resources/article' })
-                    routes.push( { route: '/resources/white-paper' })
-                    
-                    return routes
+                routes.push( { route: '/resources/article' })
+                routes.push( { route: '/resources/white-paper' })
+                
+                return routes
             })
 
         })
@@ -76,9 +76,9 @@ module.exports = {
             var Prismic = require("prismic-javascript");
             return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2")
                 .then(function(api) {
-                    return api.query([
-                            Prismic.Predicates.any('document.type', ['article', 'white-paper', 'jobs'])
-                        ]).then(function(response) {
+                    return api.query(
+                        [ Prismic.Predicates.any('document.type', ['article', 'white-paper', 'jobs']) ],
+                        { pageSize: 100 }).then(function(response) {
                             var routes = response.results.map((r) => {
                                     return r.type =='jobs' ? '/company/careers/'+r.uid : '/resources/'+r.type+'/'+r.uid;
                             })
