@@ -65,7 +65,7 @@
 
         <div class="columns">
           <div class="column is-6 is-multiline">
-            <div class="box is-primary has-text-white">
+            <div class="box is-primary-gradient has-text-white">
               <p
                 class="title is-4 has-text-centered has-text-white"
               >Option 1 – Cash Earnings via Paypal</p>
@@ -80,7 +80,7 @@
             </div>
           </div>
           <div class="column is-6 is-multiline">
-            <div class="box is-primary has-text-white">
+            <div class="box is-primary-gradient has-text-white">
               <p
                 class="title is-4 has-text-centered has-text-white"
               >Option 2 – Credit for Our Services</p>
@@ -208,53 +208,6 @@ export default {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 20px;
-}
-.is-primary {
-  background: rgb(27, 20, 101);
-  background: -moz-linear-gradient(
-    0deg,
-    rgb(27, 20, 101) 30%,
-    rgb(0, 112, 187) 80%
-  );
-  background: -webkit-linear-gradient(
-    0deg,
-    rgb(27, 20, 101) 30%,
-    rgb(0, 112, 187) 80%
-  );
-  background: -o-linear-gradient(
-    0deg,
-    rgb(27, 20, 101) 30%,
-    rgb(0, 112, 187) 80%
-  );
-  background: -ms-linear-gradient(
-    0deg,
-    rgb(27, 20, 101) 30%,
-    rgb(0, 112, 187) 80%
-  );
-  background: linear-gradient(
-    90deg,
-    rgb(27, 20, 101) 30%,
-    rgb(0, 112, 187) 80%
-  );
-}
-
-td {
-  vertical-align: middle;
-}
-.plan-price {
-  height: 120px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.table-icon {
-  width: 1.5rem;
-}
-.has-background-light {
-  background-color: hsl(0, 0%, 96%);
 }
 .callout {
   line-height: 2.2rem;
