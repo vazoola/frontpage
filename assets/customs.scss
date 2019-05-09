@@ -1206,12 +1206,12 @@ ul.social-media li a:hover {
 /* REFERRALS
 =================================================================== */
 .referrals-hero {
-  background: url(/images/referrals-hero-bg.jpg) no-repeat top center;
+  background: url(/images/referrals-hero-bg.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /* Mediaqueries

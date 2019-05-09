@@ -13,37 +13,47 @@
         </div>
       </div>
     </section>
-    <section class="referrals-hero">
-      <h2 class="title is-2 has-text-centered has-text-white">Vazoola’s New Referral Program</h2>
+    <section class="referrals-hero hero is-info is-large is-fullheight-with-navbar">
+      <div class="hero-body">
+        <div class="container is-fluid referrals-container">
+          <h2 class="title">Vazoola’s New Referral Program</h2>
+          <p class="is-size-4 has-text-white">
+            Help spread the word about Vazoola, and earn cash doing it!
+            <br>
+            <br>We are eager to work with any friends, colleagues, or contacts you think could benefit from our services,
+            and we want to reward you for sending them our way.
+          </p>
+        </div>
+      </div>
     </section>
     <section class="section pt-2 how-we-work">
       <div class="container">
         <div class="mb-3">
           <hr class="blue">
         </div>
-        <h2 class="title is-2 has-text-centered">Earn Referral Cash in a Few Simple Stps</h2>
-        <div class="pricing-table">
-          <div class="pricing-plan">
+        <h2 class="title is-2 has-text-centered">Earn Referral Cash in a Few Simple Steps</h2>
+        <div class="pricing-table mt-3">
+          <div class="pricing-plan mt-1">
             <div
-              class="referrals-description has-text-centered"
+              class="referrals-description has-text-centered is-size-6"
               data-badge="1"
             >Reach out to us for your unique tracking URL.</div>
           </div>
-          <div class="pricing-plan">
+          <div class="pricing-plan mt-1">
             <div
-              class="referrals-description has-text-centered"
+              class="referrals-description has-text-centered is-size-6"
               data-badge="2"
             >Share it on your website, social channels, or however you prefer.</div>
           </div>
-          <div class="pricing-plan">
+          <div class="pricing-plan mt-1">
             <div
-              class="referrals-description has-text-centered"
+              class="referrals-description has-text-centered is-size-6"
               data-badge="3"
             >We’ll notify you whenever one of your referrals signs up with us.</div>
           </div>
-          <div class="pricing-plan">
+          <div class="pricing-plan mt-1">
             <div
-              class="referrals-description has-text-centered"
+              class="referrals-description has-text-centered is-size-6"
               data-badge="4"
             >Every time one of your referrals makes an order, you’ll earn a commission.</div>
           </div>
@@ -85,7 +95,6 @@
             </div>
           </div>
         </div>
-
         <div class="mt-3">
           <p
             class="is-size-4 callout"
@@ -98,9 +107,6 @@
       </div>
     </section>
     <footer-bar/>
-    <!-- <new-services :active.sync="showModal"/> -->
-    <!-- <post-bounty :active.sync="showPostBounty"/>
-    <marketplace :active.sync="showMarketplace"/>-->
   </div>
 </template>
 <script>
@@ -111,49 +117,7 @@ export default {
   components: {
     NavBar,
     FooterBar
-  },
-
-  data() {
-    return {
-      showModal: false
-    };
   }
-
-  // async asyncData({ params }) {
-  //   var Prismic = require("prismic-javascript");
-
-  //   var compileHtml = function(data, props) {
-  //     var PrismicDOM = require("prismic-dom");
-  //     for (var k in props) {
-  //       data[props[k]] = PrismicDOM.RichText.asHtml(data[props[k]]);
-  //     }
-  //     return data;
-  //   };
-
-  //   return Prismic.getApi("https://vazoola.cdn.prismic.io/api/v2").then(
-  //     function(api) {
-  //       var api = api;
-  //       return api
-  //         .getSingle("company")
-  //         .then(function(response) {
-  //           return compileHtml(response.data, [
-  //             "main_paragraph",
-  //             "second_paragraph"
-  //           ]);
-  //         })
-  //         .then(function(page) {
-  //           return api
-  //             .query([Prismic.Predicates.at("document.type", "jobs")])
-  //             .then(function(response) {
-  //               return {
-  //                 page: page,
-  //                 jobs: response.results
-  //               };
-  //             });
-  //         });
-  //     }
-  //   );
-  // }
 };
 </script>
 <style lang="scss" scoped>
@@ -161,13 +125,15 @@ export default {
   display: grid;
   grid-template-columns: 1fr;
 }
-.referrals-columns {
-  display: flex;
-  flex-direction: row;
+.referrals-container {
+  width: 100%;
 }
 @media screen and (min-width: 769px) {
   .pricing-table {
     grid-template-columns: 1fr 1fr;
+  }
+  .referrals-container {
+    width: 50%;
   }
 }
 @media screen and (min-width: 1024px) {
