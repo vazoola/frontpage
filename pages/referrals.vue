@@ -13,9 +13,14 @@
         </div>
       </div>
     </section>
-    <section class="section how-we-work inside pt-2">
+    <section class="referrals-hero">
+      <h2 class="title is-2 has-text-centered has-text-white">Vazoola’s New Referral Program</h2>
+    </section>
+    <section class="section pt-2 how-we-work">
       <div class="container">
-        <hr class="blue">
+        <div class="mb-3">
+          <hr class="blue">
+        </div>
         <h2 class="title is-2 has-text-centered">Earn Referral Cash in a Few Simple Stps</h2>
         <div class="pricing-table">
           <div class="pricing-plan">
@@ -43,358 +48,52 @@
             >Every time one of your referrals makes an order, you’ll earn a commission.</div>
           </div>
         </div>
-        <hr class="blue">
+
         <div class="mb-3 mt-3">
-          <hr>
+          <hr class="blue">
         </div>
-        <div style="overflow-x: auto;">
-          <table class="table is-fullwidth is-bordered is-striped">
-            <thead>
-              <tr>
-                <th class="is-italic has-text-primary">Pricing</th>
-                <th class="has-text-centered">Free Account</th>
-                <th class="has-text-centered">Managed Account</th>
-                <th class="has-text-centered">Pro Account</th>
-                <th class="has-text-centered">Enterprise Account</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <strong>Monthly</strong>
-                </td>
-                <td class="has-text-centered">Free</td>
-                <td class="has-text-centered">$149</td>
-                <td class="has-text-centered">$349</td>
-                <td class="has-text-centered">Custom</td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>6 Months (paid in full)</strong>
-                </td>
-                <td class="has-text-centered">N/A</td>
-                <td class="has-text-centered">15% Discount</td>
-                <td class="has-text-centered">15% Discount</td>
-                <td class="has-text-centered">TBD</td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>Yearly (paid in full)</strong>
-                </td>
-                <td class="has-text-centered">N/A</td>
-                <td class="has-text-centered">20% Discount</td>
-                <td class="has-text-centered">20% Discount</td>
-                <td class="has-text-centered">TBD</td>
-              </tr>
-              <tr>
-                <td
-                  class="is-italic has-text-primary has-text-weight-bold"
-                  style="vertical-align: middle;"
-                >Benefits</td>
-                <td colspan="4"></td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>Active Campaigns</strong>
-                </td>
-                <td class="has-text-centered">1</td>
-                <td class="has-text-centered">TBD</td>
-                <td class="has-text-centered">20</td>
-                <td class="has-text-centered">Unlimited</td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>Free Demo & Exploratory Call</strong>
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>Predetermined Rates (No Negotiation Necessary)</strong>
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>Content Library</strong>
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>Blog, Social, and Video Channel Data Provided</strong>
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>Review & Approve Content</strong>
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>Campaign Tracking</strong>
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>Full Transparency</strong>
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>Influencer Pricing</strong>
-                </td>
-                <td class="has-text-centered">Full</td>
-                <td class="has-text-centered">Full</td>
-                <td class="has-text-centered">Discounted 15%</td>
-                <td class="has-text-centered">Discounted 20%+</td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>Dedicated Account Manager</strong>
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>Exportable Campaign Report</strong>
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/times-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>White Label Capability</strong>
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/times-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>List Creation</strong>
-                </td>
-                <td class="has-text-centered">N/A</td>
-                <td class="has-text-centered">N/A</td>
-                <td class="has-text-centered">3 Per Campaign</td>
-                <td class="has-text-centered">Unlimited</td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>Access to over 100,000 Opted-in Influencers</strong>
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/times-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/times-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>
-                    <a @click="showMarketplace = true">
-                      Influencer Marketplace Access &nbsp;
-                      <img
-                        class="icon is-small"
-                        src="../static/images/media-pict-camera.png"
-                      >
-                    </a>
-                  </strong>
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/times-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/times-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                  <br>Full
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                  <br>Full
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>
-                    <a @click="showPostBounty = true">
-                      Post Bounty Access &nbsp;
-                      <img
-                        class="icon is-small"
-                        src="../static/images/media-pict-camera.png"
-                      >
-                    </a>
-                  </strong>
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/times-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">Limited</td>
-                <td class="has-text-centered">
-                  <img src="../assets/times-circle.svg" alt class="table-icon">
-                </td>
-                <td class="has-text-centered">
-                  <img src="../assets/check-circle.svg" alt class="table-icon">
-                  <br>Full
-                </td>
-              </tr>
-              <tr>
-                <td></td>
-                <td class="has-text-centered">
-                  <a
-                    href="https://app.vazoola.com/register/#/free"
-                    class="button is-primary is-small"
-                  >Get Started</a>
-                </td>
-                <td class="has-text-centered">
-                  <a
-                    href="https://app.vazoola.com/register/#/managed"
-                    class="button is-primary"
-                  >Get Started</a>
-                </td>
-                <td class="has-text-centered">
-                  <a
-                    href="https://app.vazoola.com/register/#/pro"
-                    class="button is-primary"
-                  >Get Started</a>
-                </td>
-                <td class="has-text-centered">
-                  <a
-                    href="https://app.vazoola.com/register/#/enterprise"
-                    class="button is-primary"
-                  >Get Started</a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+
+        <div class="columns">
+          <div class="column is-6 is-multiline">
+            <div class="box is-primary has-text-white">
+              <p
+                class="title is-4 has-text-centered has-text-white"
+              >Option 1 – Cash Earnings via Paypal</p>
+              <ul class="referrals-ul">
+                <li
+                  class="referrals-li"
+                >Receive cash payment equal to 10% of total monthly orders for the first 12 months</li>
+                <li
+                  class="referrals-li"
+                >Receive cash payment equal to 5% of total monthly orders for the next 12 months</li>
+              </ul>
+            </div>
+          </div>
+          <div class="column is-6 is-multiline">
+            <div class="box is-primary has-text-white">
+              <p
+                class="title is-4 has-text-centered has-text-white"
+              >Option 2 – Credit for Our Services</p>
+              <ul class="referrals-ul">
+                <li
+                  class="referrals-li"
+                >Receive credit to your account equal to 15% of total monthly order for the first 12 months</li>
+                <li
+                  class="referrals-li"
+                >Receive credit to your account equal to 10% of total monthly order for the next 12 months</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="mb-2">
-          <hr>
-        </div>
-        <div class="box has-background-light">
+
+        <div class="mt-3">
           <p
             class="is-size-4 callout"
-          >Whether you're a brand or agency, want to be hands-on or hands-off, need white-label capability or not, we have a plan for you. Our platform and influencer partnerships gives you the ability to streamline the process of running Link Building and Influencer Marketing campaigns at any scale. If you're an Agency, our White Label capabilities make it easy to prepare reports of completed campaigns and send them out to your clients. Stop suffering through the painful outreach process, and let us take that off your plate with our proven process.</p>
+          >With our Referral Program, you can easily build a passive income stream with little to no effort. You provide the introduction – we’ll do the work of bringing them on board.</p>
+          <p class="is-italic">
+            <span class="has-text-weight-semibold">**Pro tip**</span> If you can make a warm introduction through email or phone, the chances of successfully
+            landing that referral are significantly improved.
+          </p>
         </div>
       </div>
     </section>
@@ -461,6 +160,10 @@ export default {
 .pricing-table {
   display: grid;
   grid-template-columns: 1fr;
+}
+.referrals-columns {
+  display: flex;
+  flex-direction: row;
 }
 @media screen and (min-width: 769px) {
   .pricing-table {
@@ -531,6 +234,44 @@ export default {
     rgb(0, 112, 187) 80%
   );
 }
+.referrals-ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+.referrals-li {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.is-primary {
+  background: rgb(27, 20, 101);
+  background: -moz-linear-gradient(
+    0deg,
+    rgb(27, 20, 101) 30%,
+    rgb(0, 112, 187) 80%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgb(27, 20, 101) 30%,
+    rgb(0, 112, 187) 80%
+  );
+  background: -o-linear-gradient(
+    0deg,
+    rgb(27, 20, 101) 30%,
+    rgb(0, 112, 187) 80%
+  );
+  background: -ms-linear-gradient(
+    0deg,
+    rgb(27, 20, 101) 30%,
+    rgb(0, 112, 187) 80%
+  );
+  background: linear-gradient(
+    90deg,
+    rgb(27, 20, 101) 30%,
+    rgb(0, 112, 187) 80%
+  );
+}
+
 td {
   vertical-align: middle;
 }
@@ -542,6 +283,7 @@ td {
   align-items: center;
   flex-direction: column;
 }
+
 .table-icon {
   width: 1.5rem;
 }
