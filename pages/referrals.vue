@@ -37,7 +37,7 @@
             <div
               class="referrals-description has-text-centered is-size-6"
               data-badge="1"
-            >Reach out to us for your unique tracking URL.</div>
+            >Reach out to your account manager, or sales@vazoola.com, for your unique tracking URL.</div>
           </div>
           <div class="pricing-plan mt-1">
             <div
