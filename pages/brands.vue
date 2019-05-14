@@ -13,7 +13,7 @@
                       </div>
                       <div class="column">
                           <div class="hero-text">
-                              <h2>Expand your brand’s reach</h2>
+                              <h1 class="h1-as-h2">Expand your brand’s reach</h1>
                               <hr class="pink" />
                               <p class="subtitle">Tap into the power of influencer marketing</p>
                               <p class="text-center"><a @click="showModal = true" class="button is-primary">Request Proposal</a></p>
@@ -31,7 +31,7 @@
                   <div class="columns">
                       <div class="column">
                           <div class="headline">
-                              <h2>Your Brand & Vazoola</h2>
+                              <h1 class="h1-as-h2">Your Brand & Vazoola</h1>
                               <hr class="blue" />
                           </div>
                       </div>
@@ -117,7 +117,7 @@
               <div class="container">
                   <div class="columns">
                       <div class="column">
-                          <h2 class="title is-1">How Vazoola works.</h2>
+                          <h1 class="title is-1 h1-as-h2">How Vazoola works.</h1>
                       </div>
                   </div>
                   <div class="columns">
@@ -269,7 +269,7 @@
             <section class="section grow-your-brand inside">
         		<div class="container">
                     <div class="headline">
-                        <h2>Grow your brand.</h2>
+                        <h1 class="h1-as-h2">Grow your brand.</h1>
                         <hr class="light-blue">
                     </div>
 

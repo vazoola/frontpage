@@ -13,7 +13,7 @@
                       </div>
                       <div class="column">
                           <div class="hero-text">
-                              <h2>Streamline the process.</h2>
+                              <h1 class="h1-as-h2">Streamline the process.</h1>
                               <hr class="pink" />
                               <p class="subtitle">Generate better content and links in less time</p>
                               <p class="text-center"><a @click="showModal = true" class="button is-primary">Request Proposal</a></p>
@@ -31,7 +31,7 @@
                   <div class="columns">
                       <div class="column">
                           <div class="headline">
-                              <h2>Your Agency & Vazoola</h2>
+                              <h1 class="h1-as-h2">Your Agency & Vazoola</h1>
                               <hr class="blue" />
                           </div>
                       </div>
@@ -118,7 +118,7 @@
               <div class="container">
                   <div class="columns">
                       <div class="column">
-                          <h2 class="title is-1">How Vazoola works.</h2>
+                          <h1 class="title is-1 h1-as-h2">How Vazoola works.</h1>
                       </div>
                   </div>
                   <div class="columns">
@@ -157,7 +157,7 @@
                                       </div>
                                       <div class="column">
                                           <div class="headline">
-                                              <h2>Create Client Campaign</h2>
+                                              <h1 class="h1-as-h2">Create Client Campaign</h1>
                                               <hr />
                                           </div>
                                           <p>Outline your goals as an agency with us, request custom proposals for clients, and start creating content!</p>
@@ -179,7 +179,7 @@
                                       </div>
                                       <div class="column">
                                           <div class="headline">
-                                              <h2>View Proposal</h2>
+                                              <h1 class="h1-as-h2">View Proposal</h1>
                                               <hr />
                                           </div>
                                           <p>As an agency, this is where you access custom-tailored blog, social, and video proposals. This includes all influencers relevant to your campaign.</p>
@@ -201,7 +201,7 @@
                                       </div>
                                       <div class="column">
                                           <div class="headline">
-                                              <h2>Enter Campaign Details</h2>
+                                              <h1 class="h1-as-h2">Enter Campaign Details</h1>
                                               <hr />
                                           </div>
                                           <p>As you enter the pre-cart &amp; cart phase, review the job details for each of the selected influencers. Simply compile your order for check out and go live!</p>
@@ -223,7 +223,7 @@
                                       </div>
                                       <div class="column">
                                           <div class="headline">
-                                              <h2>Monitoring Placements</h2>
+                                              <h1 class="h1-as-h2">Monitoring Placements</h1>
                                               <hr />
                                           </div>
                                           <p>Sit back, and watch your campaigns in action. Our team will take care of the rest.</p>
@@ -270,7 +270,7 @@
             <section class="section grow-your-brand inside">
         		<div class="container">
                     <div class="headline">
-                        <h2>Grow your agency.</h2>
+                        <h1 class="h1-as-h2">Grow your agency.</h1>
                         <hr class="light-blue">
                     </div>
 

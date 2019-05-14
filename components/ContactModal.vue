@@ -6,8 +6,8 @@
             <div class="modal-content">
                 <section class="hero is-contact is-medium">
                 <div v-if="!sent" class="hero-body">
-                    <h2 v-if="isDemo" class="title is-4 has-text-white has-text-centered">Request a Demo and a member from our team will respond within one business day to schedule a date and time to speak.</h2>
-                    <h2 v-else class="title is-4 has-text-white has-text-centered">Request a Proposal and a member from our team will respond within one business day to provide an estimated completion date.</h2>
+                    <h1 v-if="isDemo" class="title is-4 has-text-white has-text-centered h1-as-h2">Request a Demo and a member from our team will respond within one business day to schedule a date and time to speak.</h1>
+                    <h1 v-else class="title is-4 has-text-white has-text-centered h1-as-h2">Request a Proposal and a member from our team will respond within one business day to provide an estimated completion date.</h1>
 
                     <form-fields
                         v-on:sentForm="sent = true"

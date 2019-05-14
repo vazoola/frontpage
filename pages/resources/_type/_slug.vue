@@ -10,7 +10,7 @@
         	<div class="columns">
 				<div class="column">
 					<div class="hero-text">
-  						<h2>Resources</h2>
+  						<h1 class="h1-as-h2">Resources</h1>
   						<hr class="blue" />
   					</div>
 				</div>

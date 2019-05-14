@@ -60,6 +60,13 @@ h2 {
   font-weight: 500;
 }
 
+.h1-as-h2 {
+  font-size: 52px;
+  color: #000000;
+  line-height: 56px;
+  font-weight: 500;
+}
+
 p {
   color: #000000;
   font-size: 20px;
@@ -453,6 +460,10 @@ a.navbar-link.is-active {
   font-weight: 300;
 }
 
+.how-we-work .headline .h1-as-h2 {
+  font-weight: 300;
+}
+
 .how-we-work hr {
   margin: 0 auto;
   margin-top: 25px;
@@ -494,6 +505,11 @@ a.navbar-link.is-active {
 
 .how-we-work.inside h2 {
   font-weight: 500;
+}
+
+.how-we-work.inside .h1-as-h2 {
+  font-weight: 500;
+  line-height: 1.125;
 }
 
 /* Grow Your Brand
@@ -937,6 +953,12 @@ ul.social-media li a:hover {
   font-weight: 300;
 }
 
+.how-vazoola-works .h1-as-h2 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 300;
+}
+
 /* slider
 ----------------------*/
 .slide-wrap {
@@ -991,6 +1013,11 @@ ul.social-media li a:hover {
 }
 
 .slide .headline h2 {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.slide .headline .h1-as-h2 {
   font-size: 32px;
   line-height: 38px;
 }
@@ -1052,6 +1079,10 @@ ul.social-media li a:hover {
 }
 
 .resources-hero .hero-text h2 {
+  max-width: initial;
+}
+
+.resources-hero .hero-text .h1-as-h2 {
   max-width: initial;
 }
 
@@ -1185,6 +1216,10 @@ ul.social-media li a:hover {
   max-width: initial;
 }
 
+.technology-hero .hero-text .h1-as-h2 {
+  max-width: initial;
+}
+
 .technology-hero .hero-text hr {
   background-color: #2f5092;
   margin: 0 auto;
@@ -1293,6 +1328,11 @@ ul.social-media li a:hover {
     line-height: 52px;
   }
 
+  .h1-as-h2 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
   .post-box h3,
   .post-box p.date,
   .post-box p.desc {
@@ -1368,6 +1408,10 @@ ul.social-media li a:hover {
   }
 
   h2 {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .h1-as-h2 {
     font-size: 42px;
     line-height: 48px;
   }
@@ -1492,6 +1536,11 @@ ul.social-media li a:hover {
   }
 
   h2 {
+    font-size: 38px;
+    line-height: 40px;
+  }
+
+  .h1-as-h2{
     font-size: 38px;
     line-height: 40px;
   }
@@ -1680,6 +1729,9 @@ ul.social-media li a:hover {
 }
 
 .company-hero .hero-text h2 {
+  max-width: initial;
+}
+.company-hero .hero-text .h1-as-h2 {
   max-width: initial;
 }
 

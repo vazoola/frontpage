@@ -6,7 +6,7 @@
         <div class="columns">
           <div class="column">
             <div class="hero-text">
-              <h2>Pricing</h2>
+              <h1 class="h1-as-h2">Pricing</h1>
               <hr class="blue">
             </div>
           </div>
@@ -422,7 +422,7 @@ export default {
     return {
         title: "Link Building Services Pricing for Agencies and Brands: Managed or Self-Serve",
         meta: [
-            { hid: 'description', name: 'description', content: 'Powerful platform that connects brands and agencies with vetted and trustworthy influencers for the purposes of: Link Building, Content Marketing, and Social Media Campaigns.' },
+            { hid: 'description', name: 'description', content: 'Link Building Services Pricing for Agencies and Brands: Managed or Self-Serve' },
             { hid: 'keywords', name:'keywords', content: 'Link Building, Influencer Marketing, Content Marketing' },
             { hid: 'twitter:card', name:'twitter:card', content: "summary_large_image" },
             { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
