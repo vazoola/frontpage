@@ -418,6 +418,22 @@ export default {
     PostBounty,
     Marketplace
   },
+  head () {
+    return {
+        title: "Link Building Services Pricing for Agencies and Brands: Managed or Self-Serve",
+        meta: [
+            { hid: 'description', name: 'description', content: 'Powerful platform that connects brands and agencies with vetted and trustworthy influencers for the purposes of: Link Building, Content Marketing, and Social Media Campaigns.' },
+            { hid: 'keywords', name:'keywords', content: 'Link Building, Influencer Marketing, Content Marketing' },
+            { hid: 'twitter:card', name:'twitter:card', content: "summary_large_image" },
+            { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
+            { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
+            { hid: 'twitter:image', name:'twitter:image', content: 'https://www.vazoola.com/images/home-hero-img.png' },
+            { hid: 'og:image', name:'og:image', content: 'https://www.vazoola.com/images/home-hero-img.png' },
+            { hid: 'og:title', name:'og:title', content: "Vazoola: Premier Link Building + Influencer Marketing Platform" },
+            { hid: 'og:description', name:'og:description', content: 'Powerful platform that connects brands and agencies with vetted and trustworthy influencers for the purposes of: Link Building, Content Marketing, and Social Media Campaigns.'  },
+        ]
+      }
+    },
 
   data() {
     return {
