@@ -16,7 +16,7 @@
     <section class="referrals-hero hero is-info is-large is-fullheight-with-navbar">
       <div class="hero-body">
         <div class="container is-fluid referrals-container">
-          <h1 class="title h1-as-h2">Vazoola’s New Referral Program</h1>
+          <h2 class="title">Vazoola’s New Referral Program</h2>
           <p class="is-size-4 has-text-white">
             Help spread the word about Vazoola, and earn cash doing it!
             <br>
