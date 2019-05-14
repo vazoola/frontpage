@@ -31,7 +31,7 @@
         <div class="mb-3">
           <hr class="blue">
         </div>
-        <h1 class="title is-2 has-text-centered h1-as-h2">Earn Referral Cash in a Few Simple Steps</h1>
+        <h2 class="title is-2 has-text-centered">Earn Referral Cash in a Few Simple Steps</h2>
         <div class="pricing-table mt-3">
           <div class="pricing-plan mt-1">
             <div
