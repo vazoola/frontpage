@@ -6,7 +6,7 @@
         <div class="columns">
           <div class="column">
             <div class="hero-text">
-              <h2>Referrals</h2>
+              <h1 class="h1-as-h2">Referrals</h1>
               <hr class="blue">
             </div>
           </div>
@@ -16,7 +16,7 @@
     <section class="referrals-hero hero is-info is-large is-fullheight-with-navbar">
       <div class="hero-body">
         <div class="container is-fluid referrals-container">
-          <h2 class="title">Vazoola’s New Referral Program</h2>
+          <h1 class="title h1-as-h2">Vazoola’s New Referral Program</h1>
           <p class="is-size-4 has-text-white">
             Help spread the word about Vazoola, and earn cash doing it!
             <br>
@@ -31,7 +31,7 @@
         <div class="mb-3">
           <hr class="blue">
         </div>
-        <h2 class="title is-2 has-text-centered">Earn Referral Cash in a Few Simple Steps</h2>
+        <h1 class="title is-2 has-text-centered h1-as-h2">Earn Referral Cash in a Few Simple Steps</h1>
         <div class="pricing-table mt-3">
           <div class="pricing-plan mt-1">
             <div
