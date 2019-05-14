@@ -20,7 +20,7 @@
                     <div class="tabs">
                         <ul>
                             <li>
-                                <a href="/resources">All</a>
+                                <a href="/resources/">All</a>
                             </li>
                             <li>
                                 <a href="/resources/article">Articles</a>

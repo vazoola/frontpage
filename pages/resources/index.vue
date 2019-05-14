@@ -122,9 +122,15 @@ export default {
 
     head() {
         return {
-            title: "Vazoola | Resources",
+            title: (this.$route.params.type == 'article') ? 'SEO, Link Building, and Influencer Marketing Articles' : 
+                            ((this.$route.params.type == 'white-paper') ? 'Link Building, SEO, Influencer Marketing White Papers' : 
+                                'SEO Link Building, Influencer Marketing, and Content Marketing Resources'),
             meta: [
-                { hid: 'description', name: 'description', content: "Learn from Vazoola's resource of articles, white papers and more!"},
+                { hid: 'description', name: 'description', 
+                    content: (this.$route.params.type == 'article') ? 'Link Building, SEO, Content Marketing, Backlinks, Influencer Outreach, and Blogging Articles from the Experts at Vazoola' : 
+                                (this.$route.params.type == 'white-paper' ? 'Link Building, SEO, Influencer Marketing White Papers to Help You Increase Your Rankings and Grow Your Business' : 
+                                    'SEO Blog Posts, Link Building Guides, and Other Tips. How to Build Backlinks, Keyword Research, Content Marketing Insights, and more from the Experts at Vazoola')
+                },
                 { hid: 'keywords', name:'keywords', content: 'Influencer Marketing Platform, Link Building Platform, Content Marketing Platform' },
                 { hid: 'twitter:card', name:'twitter:card', content: "summary_large_image" },
                 { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },

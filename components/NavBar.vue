@@ -33,7 +33,7 @@
 								</nuxt-link>
 							</div>
 						</div>
-						<nuxt-link class="navbar-item" to="/resources">Resources</nuxt-link>
+						<nuxt-link class="navbar-item" to="/resources/">Resources</nuxt-link>
 						<nuxt-link class="navbar-item" to="/company">Company</nuxt-link>
 						<nuxt-link class="navbar-item" to="/pricing">Pricing</nuxt-link>
 						<nuxt-link class="navbar-item" to="/referrals">Referrals</nuxt-link>
