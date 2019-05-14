@@ -6,7 +6,7 @@
             	<div class="columns">
   					<div class="column">
   						<div class="hero-text">
-	  						<h2>About</h2>
+	  						<h1 class="h1-as-h2">About</h1>
 	  						<hr class="blue" />
 	  					</div>
   					</div>
@@ -27,7 +27,7 @@
                     <hr>
                 </div>
 
-                <h2 class="title is-2 has-text-centered">Our Team</h2>
+                <h1 class="title is-2 has-text-centered h1-as-h2">Our Team</h1>
 
                 <div class="columns is-multiline">
                     <div v-for="(member, index) in page.team" :key="index" class="column is-one-quarter">
@@ -55,7 +55,7 @@
                     <hr>
                 </div>
 
-                <h2 class="title is-2 has-text-centered">Join the Team</h2>
+                <h1 class="title is-2 has-text-centered h1-as-h2">Join the Team</h1>
                 <div class="columns">
                     <div class="column is-8 is-offset-2 has-text-centered">
                        <p>We’re always on the lookout for talent to join our team. If you’re interested in becoming a part of the Vazoola team please send over your resume.</p>

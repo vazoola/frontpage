@@ -13,7 +13,7 @@
   	  					</div>
   	  					<div class="column">
   	  						<div class="hero-text">
-  		  						<h2>Content creators at your fingertips.</h2>
+  		  						<h1 class="h1-as-h2">Content creators at your fingertips.</h1>
   		  						<hr class="pink" />
   		  						<p class="subtitle">We’ve done the legwork.<br />Leverage our vast pool of trusted influencers.</p>
   		  						<p class="text-center">
@@ -33,7 +33,7 @@
         			<div class="columns">
         				<div class="column">
                             <div class="headline">
-                                <h2>How it works</h2>
+                                <h1 class="h1-as-h2">How it works</h1>
                                 <hr class="blue" />
                             </div>
         				</div>
@@ -41,7 +41,7 @@
         			<div class="columns">
         				<div class="column text-center">
         					<div class="icon-box">
-        						<h2>For<br />Brands</h2>
+        						<h1 class="h1-as-h2">For<br />Brands</h1>
         						<img src="/images/brands-icon.png" alt="Brands Icon">
         						<p>Fuel your marketing efforts with the power of thousands of online influencers waiting to share your story.</p>
         						<a href="/brands" class="button is-info">Learn More</a>
@@ -49,7 +49,7 @@
         				</div>
                         <div class="column text-center">
         					<div class="icon-box">
-        						<h2>For<br />Agencies</h2>
+        						<h1 class="h1-as-h2">For<br />Agencies</h1>
         						<img src="/images/agencies-icon.png" alt="Brands Icon">
         						<p>Manage unlimited client campaigns in one place, and white label your efforts.</p>
         						<a href="/agencies" class="button is-info">Learn More</a>
@@ -57,7 +57,7 @@
         				</div>
         				<div class="column text-center">
         					<div class="icon-box">
-        						<h2>For Small<br />Businesses</h2>
+        						<h1 class="h1-as-h2">For Small<br />Businesses</h1>
         						<img src="/images/small-b-icon.png" alt="Brands Icon">
         						<p>Gain an edge on local competition by tapping into the audience of niche specific and geo-targeted influencers. </p>
         						<a href="/small-business" class="button is-info">Learn More</a>
@@ -75,7 +75,7 @@
                     <div class="columns">
                         <div class="column">
                             <div class="headline">
-                                <h2>About Vazoola’s Services</h2>
+                                <h1 class="h1-as-h2">About Vazoola’s Services</h1>
                                 <hr class="blue" />
                             </div>
                         </div>
@@ -84,21 +84,21 @@
                         <div class="column is-offset-1 text-center">
                             <div class="icon-box">
                                 <img src="/images/content-icon.png" alt="Content Marketing">
-                                <h2>Content<br />Marketing</h2>
+                                <h1 class="h1-as-h2">Content<br />Marketing</h1>
                                 <p>Share your brand message in sponsored articles and blog posts.</p>
                             </div>
                         </div>
                         <div class="column text-center">
                             <div class="icon-box">
                                 <img src="/images/link-icon.png" alt="Link Building">
-                                <h2>Link<br />Building</h2>
+                                <h1 class="h1-as-h2">Link<br />Building</h1>
                                 <p>Improve your search engine rankings by earning links on influential sites.</p>
                             </div>
                         </div>
                         <div class="column text-center">
                             <div class="icon-box">
                                 <img src="/images/youtube-icon.png" alt="YouTube Videos">
-                                <h2>YouTube<br />Videos</h2>
+                                <h1 class="h1-as-h2">YouTube<br />Videos</h1>
                                 <p>Get videos for and about your brand from expert creators.</p>
                             </div>
                         </div>
@@ -108,21 +108,21 @@
                         <div class="column is-offset-1 text-center">
                             <div class="icon-box">
                                 <img src="/images/social-media-icon.png" alt="Social Media">
-                                <h2>Social<br />Media</h2>
+                                <h1 class="h1-as-h2">Social<br />Media</h1>
                                 <p>Engage top social influencers to start an online conversation about your brand.</p>
                             </div>
                         </div>
                         <div class="column text-center">
                             <div class="icon-box">
                                 <img src="/images/sampling-icon.png" alt="Sampling Giveaways">
-                                <h2>Sampling &<br />Giveaways</h2>
+                                <h1 class="h1-as-h2">Sampling &<br />Giveaways</h1>
                                 <p>Put your product in the hands of influencers and their followers.</p>
                             </div>
                         </div>
                         <div class="column text-center">
                             <div class="icon-box">
                                 <img src="/images/custom-icon.png" alt="Managed Services">
-                                <h2>Managed<br />Services</h2>
+                                <h1 class="h1-as-h2">Managed<br />Services</h1>
                                 <p>Don't want to do all the work on your own? Ask us to do it for you.</p>
                             </div>
                         </div>
@@ -175,7 +175,7 @@
             <section class="grow-your-brand">
         		<div class="container">
                     <div class="headline">
-                        <h2>Why we're different</h2>
+                        <h1 class="h1-as-h2">Why we're different</h1>
                         <hr class="light-blue">
                     </div>
 
@@ -203,7 +203,7 @@
           				</div>
           				<div class="column">
           					<div class="headline">
-          						<h2>Succeed<br />with Vazoola.</h2>
+          						<h1 class="h1-as-h2">Succeed<br />with Vazoola.</h1>
           						<hr class="green" />
           						<p>
                                     Our robust platform provides you with the tools and data needed to lock in on the influencers that will have the biggest impact on your marketing strategy. Streamline the process of finding the best influencers, creating shareworthy content, tracking your progress, and measuring success across any number of campaigns.

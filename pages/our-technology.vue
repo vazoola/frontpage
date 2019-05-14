@@ -10,7 +10,7 @@
             	<div class="columns">
   					<div class="column">
   						<div class="hero-text">
-	  						<h2>Our Technology</h2>
+	  						<h1 class="h1-as-h2">Our Technology</h1>
 	  						<hr class="blue" />
 	  					</div>
   					</div>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="column">
                     <div class="headline">
-                        <h2>Content<br />Library.</h2>
+                        <h1 class="h1-as-h2">Content<br />Library.</h1>
                         <hr class="green" />
                         <p>
                             Simplify the process by managing all your content in one place.
@@ -51,7 +51,7 @@
             <div class="columns">
                 <div class="column">
                     <div class="headline">
-                        <h2>Proposals.</h2>
+                        <h1 class="h1-as-h2">Proposals.</h1>
                         <hr class="green" />
                         <p>
                             Request custom blog, social, and video proposals by setting a budget and detailing your campaign goals.
@@ -82,7 +82,7 @@
                 </div>
                 <div class="column">
                     <div class="headline">
-                        <h2>Campaign<br />Tracking.</h2>
+                        <h1 class="h1-as-h2">Campaign<br />Tracking.</h1>
                         <hr class="green" />
                         <p>
                             Receive daily notifications of campaign activity such as content awaiting approval, new placements, and more.

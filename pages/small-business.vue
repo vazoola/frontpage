@@ -13,7 +13,7 @@
                       </div>
                       <div class="column">
                           <div class="hero-text">
-                              <h2>Rise above local competition</h2>
+                              <h1 class="h1-as-h2">Rise above local competition</h1>
                               <hr class="pink" />
                               <p class="subtitle">Close more deals using proven marketing strategies</p>
                               <p class="text-center"><a @click="showModal = true" class="button is-primary">Request Proposal</a></p>
@@ -31,7 +31,7 @@
                   <div class="columns">
                       <div class="column">
                           <div class="headline">
-                              <h2>Your Business & Vazoola</h2>
+                              <h1 class="h1-as-h2">Your Business & Vazoola</h1>
                               <hr class="blue" />
                           </div>
                       </div>
@@ -117,7 +117,7 @@
               <div class="container">
                   <div class="columns">
                       <div class="column">
-                          <h2 class="title is-1">How Vazoola works.</h2>
+                          <h1 class="title is-1 h1-as-h2">How Vazoola works.</h1>
                       </div>
                   </div>
                   <div class="columns">
@@ -156,7 +156,7 @@
                                       </div>
                                       <div class="column">
                                           <div class="headline">
-                                              <h2>Create Campaign</h2>
+                                              <h1 class="h1-as-h2">Create Campaign</h1>
                                               <hr />
                                           </div>
                                           <p>Outline your goals as a small business with us, request custom proposals for clients, and start creating content!</p>
@@ -178,7 +178,7 @@
                                       </div>
                                       <div class="column">
                                           <div class="headline">
-                                              <h2>View Proposal</h2>
+                                              <h1 class="h1-as-h2">View Proposal</h1>
                                               <hr />
                                           </div>
                                           <p>As a small business, this is where you access custom-tailored blog, social, and video proposals. This includes all influencers relevant to your campaign.</p>
@@ -200,7 +200,7 @@
                                       </div>
                                       <div class="column">
                                           <div class="headline">
-                                              <h2>Enter Campaign Details</h2>
+                                              <h1 class="h1-as-h2">Enter Campaign Details</h1>
                                               <hr />
                                           </div>
                                           <p>As you enter the pre-cart &amp; cart phase, review the job details for each of the selected influencers. Simply compile your order for check out and go live!</p>
@@ -222,7 +222,7 @@
                                       </div>
                                       <div class="column">
                                           <div class="headline">
-                                              <h2>Track Progress</h2>
+                                              <h1 class="h1-as-h2">Track Progress</h1>
                                               <hr />
                                           </div>
                                           <p>Sit back, and watch your campaigns in action. Our team will take care of the rest.</p>
@@ -269,7 +269,7 @@
             <section class="section grow-your-brand inside">
         		<div class="container">
                     <div class="headline">
-                        <h2>Grow your business.</h2>
+                        <h1 class="h1-as-h2">Grow your business.</h1>
                         <hr class="light-blue">
                     </div>
 

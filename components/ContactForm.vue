@@ -4,7 +4,7 @@
             <div class="columns">
                 <div class="column is-offset-1">
                     <div class="headline">
-                        <h2>Let’s Get Started...</h2>
+                        <h1 class="h1-as-h2">Let’s Get Started...</h1>
                         <hr class="pink" />
                         <p class="title">Call Today (855) 399-7518</p>
                         <p>Tell us more about your marketing goals.</p>
