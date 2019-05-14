@@ -119,25 +119,12 @@ export default {
                 });
             })
     },
-    data(){
-        return {
-            newTitle: null
-        }
-    },
-
-    mounted(){
-        if( this.$route.params.type == 'article' ){
-            this.newTitle = 'SEO, Link Building, and Influencer Marketing Articles'
-        }else if( this.$route.params.type == 'white-paper' ){
-            this.newTitle = 'Link Building, SEO, Influencer Marketing White Papers'
-        }else{
-            this.newTitle = 'SEO Link Building, Influencer Marketing, and Content Marketing Resources'
-        }
-    },
 
     head() {
         return {
-            title: 'Vazoola | ' + this.newTitle,
+            title: (this.$route.params.type == 'article') ? 'SEO, Link Building, and Influencer Marketing Articles' : 
+                            ((this.$route.params.type == 'white-paper') ? 'Link Building, SEO, Influencer Marketing White Papers' : 
+                                'SEO Link Building, Influencer Marketing, and Content Marketing Resources'),
             meta: [
                 { hid: 'description', name: 'description', 
                     content: (this.$route.params.type == 'article') ? 'Link Building, SEO, Content Marketing, Backlinks, Influencer Outreach, and Blogging Articles from the Experts at Vazoola' : 
