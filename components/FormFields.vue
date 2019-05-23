@@ -12,7 +12,7 @@
                 <div class="field">
                     <label class="label">Company Website</label>
                     <div class="control">
-                        <input v-model="fields.company" class="input" tabindex="3" name="website" type="url" required>
+                        <input v-model="fields.company" class="input" tabindex="3" name="website" required>
                     </div>
                 </div>
                 <div class="field">
