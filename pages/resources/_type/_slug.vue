@@ -52,6 +52,8 @@
 
                 <div class="content" v-html="post.html" />
 
+                <div v-if="post.embed" class="video-container" v-html="post.embed.html" />
+
                 <div class="addthis_inline_share_toolbox" style="text-align: center; padding: 10px;"></div>
 
             </div>
@@ -139,3 +141,20 @@ export default {
 
 };
 </script>
+<style lang="css">
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
