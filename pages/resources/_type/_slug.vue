@@ -52,7 +52,7 @@
 
                 <div class="content" v-html="post.html" />
 
-                <div v-if="post.embed" class="video-container" v-html="post.embed.html" />
+                <div v-if="post.embed && post.embed.html" class="video-container" v-html="post.embed.html" />
 
                 <div class="addthis_inline_share_toolbox" style="text-align: center; padding: 10px;"></div>
 
