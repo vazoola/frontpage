@@ -55,7 +55,7 @@
             <div
               class="referrals-description has-text-centered is-size-6"
               data-badge="4"
-            >Every time one of your referrals makes an order, you’ll earn a commission.</div>
+            >For the next 12 months, every time your referral makes an order, you'll earn a commission.</div>
           </div>
         </div>
 
@@ -68,14 +68,11 @@
             <div class="box is-primary-gradient has-text-white">
               <p
                 class="title is-4 has-text-centered has-text-white"
-              >Option 1 – Cash Earnings via Paypal</p>
+              >Option 1 – Redeem Your Commission as Cash</p>
               <ul class="referrals-ul">
-                <li
-                  class="referrals-li"
-                >Receive cash payment equal to 10% of total monthly orders for the first 12 months</li>
-                <li
-                  class="referrals-li"
-                >Receive cash payment equal to 5% of total monthly orders for the next 12 months</li>
+                <li class="referrals-li">
+                  On the first of each month, if you have this option selected, we'll send you a cash payment
+                  via Paypal equal to 10% of the total amount spent by your referral in the previous month.</li>
               </ul>
             </div>
           </div>
@@ -83,14 +80,12 @@
             <div class="box is-primary-gradient has-text-white">
               <p
                 class="title is-4 has-text-centered has-text-white"
-              >Option 2 – Credit for Our Services</p>
+              >Option 2 – Redeem Your Commission as Credit in Your Account</p>
               <ul class="referrals-ul">
-                <li
-                  class="referrals-li"
-                >Receive credit to your account equal to 15% of total monthly order for the first 12 months</li>
-                <li
-                  class="referrals-li"
-                >Receive credit to your account equal to 10% of total monthly order for the next 12 months</li>
+                <li class="referrals-li">
+                  On the first of each month, if you have this option selected, we'll add credit into your account equal to 15%
+                  of the total amount spent by your referral in the previous month. You can then use this credit towards any new orders with us.
+                </li>
               </ul>
             </div>
           </div>
