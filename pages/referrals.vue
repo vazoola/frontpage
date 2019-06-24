@@ -69,7 +69,7 @@
               <p
                 class="title is-4 has-text-centered has-text-white"
               >Option 1 – Redeem Your Commission as Cash</p>
-              <ul class="referrals-ul">
+              <ul class="referrals-ul option1">
                 <li class="referrals-li">
                   On the first of each month, if you have this option selected, we'll send you a cash payment
                   via Paypal equal to 10% of the total amount spent by your referral in the previous month.</li>
@@ -219,6 +219,10 @@ export default {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 20px;
+}
+.option1 {
+  margin-top: 55px;
+  padding-bottom: 30px;
 }
 .callout {
   line-height: 2.2rem;
