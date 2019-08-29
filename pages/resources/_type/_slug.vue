@@ -48,30 +48,18 @@
                     <img :src="post.cover_image.url" :alt="post.title">
                 </figure>
 
-                <div class="addthis_inline_share_toolbox" style="text-align: center; padding: 10px;"></div>
+                <div class="addthis_inline_share_toolbox" style="text-align: center;"></div>
 
                 <div class="content" v-html="post.html" />
 
                 <div v-if="post.embed && post.embed.html" class="video-container" v-html="post.embed.html" />
 
                 <div class="addthis_inline_share_toolbox" style="text-align: center; padding: 10px;"></div>
-                <div>
-                    <!--[if lte IE 8]>
-                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-                    <![endif]-->
-                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-                    <script>
-                    hbspt.forms.create({
-                                portalId: "3379619",
-                                formId: "6f016f01-dd15-4b93-a0e6-2667d5edb912"
-                    });
-                    </script>
-                </div>
+                <div id="hubspotContainer"></div>
             </div>
         </div>
     </section>
     <!-- start: Resources -->
-
     <!-- start: Let’s Get Started -->
     <contact-form />
     <!-- end: Let’s Get Started -->
@@ -81,6 +69,17 @@
     <!-- end: Footer -->
 
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c06bb1fb1428fa3"></script>
+    <!--[if lte IE 8]>
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+    <script defer>
+        hbspt.forms.create({
+                    portalId: '3379619',
+                    formId: '6f016f01-dd15-4b93-a0e6-2667d5edb912',
+                    target: '#hubspotContainer'
+        });
+    </script>
 </div>
 </template>
 
