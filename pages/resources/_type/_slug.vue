@@ -55,7 +55,16 @@
                 <div v-if="post.embed && post.embed.html" class="video-container" v-html="post.embed.html" />
 
                 <div class="addthis_inline_share_toolbox" style="text-align: center; padding: 10px;"></div>
-
+                <!--[if lte IE 8]>
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+                <![endif]-->
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                <script>
+                hbspt.forms.create({
+                            portalId: "3379619",
+                            formId: "6f016f01-dd15-4b93-a0e6-2667d5edb912"
+                });
+                </script>
             </div>
         </div>
     </section>
