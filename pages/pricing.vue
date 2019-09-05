@@ -148,7 +148,7 @@
                     <td><strong>Active Campaigns</strong></td>
                     <td class="has-text-centered">1</td>
                     <td class="has-text-centered">TBD</td>
-                    <td class="has-text-centered">20</td>
+                    <td class="has-text-centered">10</td>
                     <td class="has-text-centered">Unlimited</td>
                   </tr>
                   <tr>
