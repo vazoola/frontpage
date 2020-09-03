@@ -3,7 +3,7 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-3">
-                    <p>© 2019 VAZOOLA</p>
+                    <p>© {{ new Date().getFullYear() }} VAZOOLA</p>
                 </div>
                 <div class="column">
                     <ul class="footer-menu">
