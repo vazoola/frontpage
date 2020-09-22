@@ -41,6 +41,11 @@
                         </div>
                         <div class="column">
                             <p class="title is-5">
+                                <animated :value="displayPublishers" :formatValue="numberFormat" :duration="3000" />+ Publishers
+                            </p>
+                        </div>
+                        <div class="column">
+                            <p class="title is-5">
                                 <animated :value="displayYears" :formatValue="yearFormat" :duration="3000" />+ Years of Service
                             </p>
                         </div>
@@ -308,6 +313,7 @@ export default {
             showModal: false,
             displayLinks: 1492002,
             displayAdvertisers: 10990,
+            displayPublishers: 100000,
             displayYears: 10,
             swiperOptions: {
                 pagination: '.swiper-pagination',
