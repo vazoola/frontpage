@@ -5,7 +5,7 @@
     <!-- end: NavBar -->
 
               <!-- start: Hero -->
-              <section class="home-hero">
+            <section class="home-hero">
               	<div class="container">
   	            	<div class="columns">
   	  					<div class="column hero-img">
@@ -23,8 +23,8 @@
   		  					</div>
   	  					</div>
   	  				</div>
-    				</div>
-         	 	</section>
+    			</div>
+         	</section>
           	<!-- end: Hero -->
             <section class="counter metrics">
                 <div class="container metrics-inside">
@@ -119,6 +119,10 @@
                             </swiper-slide>
                         </swiper>
                     </div>
+                    <div class="headline">
+                        <h3 class="h3">Testimonials...</h3>
+                        <hr class="light-blue">
+                    </div>
                     <div>
                         <swiper ref="mySwiper" :options="swiperOptions">
                             <swiper-slide>
@@ -211,6 +215,8 @@
                                 </div>
                             </swiper-slide>
                             <div class="swiper-pagination" slot="pagination"></div>
+                            <div class="swiper-button-prev prevNext" slot="button-prev" @click="prev()"></div>
+                            <div class="swiper-button-next prevNext" slot="button-next" @click="next()"></div>
                         </swiper>
                     </div>
                 </div>
@@ -326,13 +332,11 @@ export default {
                 autoplay: {
                     delay: 4000
                 },
-                slidesPerView: 3,
+                slidesPerView: 1,
                 spaceBetween: 50,
                 autoHeight: true
             },
             swiperTwoOptions: {
-                pagination: '.swiper-pagination',
-                paginationClickable: true,
                 loop: true,
                 navigation: {
                     nextEl: '.swiper-button-next',
@@ -356,6 +360,12 @@ export default {
         },
         onSlideChange(){
             console.log('slide change')
+        },
+        next(){
+
+        },
+        prev(){
+
         }
     },
     computed: {

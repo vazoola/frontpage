@@ -6,7 +6,7 @@
             	<div class="columns">
   					<div class="column">
   						<div class="hero-text">
-	  						<h1 class="h1-as-h2">About</h1>
+	  						<h1 class="h1-as-h2">About Us</h1>
 	  						<hr class="blue" />
 	  					</div>
   					</div>

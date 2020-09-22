@@ -25,9 +25,12 @@
                     <a href="https://www.linkedin.com/Vazoola" target="_blank"><i class="fa fa-linkedin"></i></a>
                 </div>
                 <div class="column is-2">
-                    <p class="mb-1">2505 Main Street</p>
-                    <p class="mb-1">Suite 212</p>
+                    <p>Vazoola</p>
+                    <p>2505 Main Street</p>
+                    <p>Suite 212</p>
                     <p>Stratford, CT 06615</p>
+                    <p>Phone #</p>
+                    <p><a href="mailto:sales@vazoola.com">support@vazoola.com</a></p>
                 </div>
                 <div class="column is-2">
                     <p>
