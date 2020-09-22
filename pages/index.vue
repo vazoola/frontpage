@@ -61,27 +61,6 @@
         		</div>
         	</section>
         	<!-- end: How We Work -->
-            <section class="counter metrics">
-                <div class="container metrics-inside">
-                    <div class="columns">
-                        <div class="column">
-                            <p class="title is-5 has-text-white">
-                                <animated :value="displayLinks" :formatValue="numberFormat" :duration="1500" />+ Links Built
-                            </p>
-                        </div>
-                        <div class="column">
-                            <p class="title is-5 has-text-white">
-                                <animated :value="displayAdvertisers" :formatValue="numberFormat" :duration="1500" />+ Agencies/Brands Served
-                            </p>
-                        </div>
-                        <div class="column">
-                            <p class="title is-5 has-text-white">
-                                <animated :value="displayYears" :formatValue="yearFormat" :duration="1500" />+ Years of Service
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <section class="testimonials">
                 <div class="container">
@@ -92,21 +71,21 @@
                     <div class="mb-2">
                         <swiper ref="caseSwiper" :options="swiperOptions">
                             <swiper-slide>
-                                <div class="box">
+                                <div class="box swiper-box">
                                     <p class="title is-5">Case Study 1</p>
                                     <p class="title is-5">Problem: TBD</p>
                                     <p class="title is-5">Link: TBD</p>
                                 </div>
                             </swiper-slide>
                             <swiper-slide>
-                                <div class="box">
+                                <div class="box swiper-box">
                                     <p class="title is-5">Case Study 2</p>
                                     <p class="title is-5">Problem: TBD</p>
                                     <p class="title is-5">Link: TBD</p>
                                 </div>
                             </swiper-slide>
                             <swiper-slide>
-                                <div class="box">
+                                <div class="box swiper-box">
                                     <p class="title is-5">Case Study 3</p>
                                     <p class="title is-5">Problem: TBD</p>
                                     <p class="title is-5">Link: TBD</p>
@@ -117,7 +96,7 @@
                     <div>
                         <swiper ref="mySwiper" :options="swiperOptions">
                             <swiper-slide>
-                                <div class="box">
+                                <div class="box swiper-box">
                                     <p class="title is-5">Name: Brian Hansen</p>
                                     <p class="title is-5">Company: Rocket Pilots</p>
                                     <p class="title is-5">Title: CEO</p>
@@ -130,7 +109,7 @@
                                 </div>
                             </swiper-slide>
                             <swiper-slide>
-                                <div class="box">
+                                <div class="box swiper-box">
                                     <p class="title is-5">Name: </p>
                                     <p class="title is-5">Company: Reputation Management Agency</p>
                                     <p class="title is-5">Title: Project Manager</p>
@@ -142,7 +121,7 @@
                                 </div>
                             </swiper-slide>
                             <swiper-slide>
-                                <div class="box">
+                                <div class="box swiper-box">
                                     <p class="title is-5">Name: Dellon S.</p>
                                     <p class="title is-5">Company: Vista College</p>
                                     <p class="title is-5">Title: Digital Marketing Director</p>
@@ -154,7 +133,7 @@
                                 </div>
                             </swiper-slide>
                             <swiper-slide>
-                                <div class="box">
+                                <div class="box swiper-box">
                                     <p class="title is-5">Name: Alison L.</p>
                                     <p class="title is-5">Company: SEO Agency</p>
                                     <p class="title is-5">Title: Owner</p>
@@ -169,7 +148,7 @@
                                 </div>
                             </swiper-slide>
                             <swiper-slide>
-                                <div class="box">
+                                <div class="box swiper-box">
                                     <p class="title is-5">Name: Jon Bingham</p>
                                     <p class="title is-5">Company: BKA Content</p>
                                     <p class="title is-5">Title: Director of Marketing</p>
@@ -181,7 +160,7 @@
                                 </div>
                             </swiper-slide>
                             <swiper-slide>
-                                <div class="box">
+                                <div class="box swiper-box">
                                     <p class="title is-5">Name: Skyler Malley</p>
                                     <p class="title is-5">Company: Firestarter</p>
                                     <p class="title is-5">Title: President</p>
@@ -195,7 +174,7 @@
                                 </div>
                             </swiper-slide>
                             <swiper-slide>
-                                <div class="box">
+                                <div class="box swiper-box">
                                     <p class="title is-5">Name: AJ Wurtz</p>
                                     <p class="title is-5">Company: Nu Image Medical</p>
                                     <p class="title is-5">Title: SEO Specialist</p>
