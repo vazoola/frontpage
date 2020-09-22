@@ -14,11 +14,14 @@
   },
   "dependencies": {
     "@nuxtjs/sitemap": "^0.2.2",
+    "animated-number-vue": "^1.0.0",
     "bulma": "^0.6.2",
     "bulma-pricingtable": "^0.2.0",
     "nuxt": "^2.5.1",
     "prismic-dom": "^2.1.0",
-    "prismic-javascript": "^1.5.1"
+    "prismic-javascript": "^1.5.1",
+    "swiper": "^5.4.1",
+    "vue-awesome-swiper": "^4.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",

@@ -13,11 +13,11 @@
   	  					</div>
   	  					<div class="column">
   	  						<div class="hero-text">
-  		  						<h1 class="h1-as-h2">Content creators at your fingertips.</h1>
+  		  						<h1 class="h1-as-h2">Premium Links and Content at Scale.</h1>
   		  						<hr class="pink" />
-  		  						<p class="subtitle">We’ve done the legwork.<br />Leverage our vast pool of trusted influencers.</p>
+  		  						<p class="subtitle">Supercharge your (growth/marketing/SEO) with out AI-powered Bounty software. Pain-free process generates better results, in less time, at a price you control.</p>
   		  						<p class="text-center">
-                                    <span @click="showModal = true" class="button is-primary">Request A Proposal</span>
+                                    <a class="button is-primary" @click="showModal = true">Request a Free Demo</a>
                                 </p>
   		  						<p class="btn-text">No contract necessary</p>
   		  					</div>
@@ -26,41 +26,34 @@
     				</div>
          	 	</section>
           	<!-- end: Hero -->
-
-            <!-- start: How We Work -->
+              <!-- start: How We Work -->
         	<section class="how-we-work">
         		<div class="container">
-        			<div class="columns">
-        				<div class="column">
-                            <div class="headline">
-                                <h1 class="h1-as-h2">How it works</h1>
-                                <hr class="blue" />
-                            </div>
-        				</div>
-        			</div>
+                    <div class="headline">
+                        <h3 class="h3">Vazoola was created with Agencies and Brands in mind</h3>
+                        <hr class="light-blue">
+                    </div>
         			<div class="columns">
         				<div class="column text-center">
         					<div class="icon-box">
-        						<h1 class="h1-as-h2">For<br />Brands</h1>
+        						<h1 class="h1-as-h2">White Label Agency</h1>
         						<img src="/images/brands-icon.png" alt="Brands Icon">
-        						<p>Fuel your marketing efforts with the power of thousands of online influencers waiting to share your story.</p>
+        						<p>Streamline the link building process, reduce costs, and speed up turnaround time. 
+                                    Vazoola was created with the goal of giving you the tools to increase your profit margin so you can scale. 
+                                    Your clients demand a lot. With our white-label solution, we'll do the dirty work - you take all the credit.</p>
         						<a href="/brands" class="button is-info">Learn More</a>
         					</div>
         				</div>
                         <div class="column text-center">
         					<div class="icon-box">
-        						<h1 class="h1-as-h2">For<br />Agencies</h1>
+        						<h1 class="h1-as-h2">Grow Your Brand</h1>
         						<img src="/images/agencies-icon.png" alt="Brands Icon">
-        						<p>Manage unlimited client campaigns in one place, and white label your efforts.</p>
+        						<p>
+                                    Struggling to secure links that actually impact your rankings? We'll take that off your plate, and make you look like an all-star in your office. 
+                                    We build better links, for a fraction of the cost, and at lighting fast speeds. 
+                                    Sit back, and watch the organic traffic roll in.
+                                </p>
         						<a href="/agencies" class="button is-info">Learn More</a>
-        					</div>
-        				</div>
-        				<div class="column text-center">
-        					<div class="icon-box">
-        						<h1 class="h1-as-h2">For Small<br />Businesses</h1>
-        						<img src="/images/small-b-icon.png" alt="Brands Icon">
-        						<p>Gain an edge on local competition by tapping into the audience of niche specific and geo-targeted influencers. </p>
-        						<a href="/small-business" class="button is-info">Learn More</a>
         					</div>
         				</div>
 
@@ -68,124 +61,177 @@
         		</div>
         	</section>
         	<!-- end: How We Work -->
-
-            <!-- start: About Vazoola’s Services -->
-            <section class="about-services">
-                <div class="container">
+            <section class="counter metrics">
+                <div class="container metrics-inside">
                     <div class="columns">
                         <div class="column">
-                            <div class="headline">
-                                <h1 class="h1-as-h2">About Vazoola’s Services</h1>
-                                <hr class="blue" />
-                            </div>
+                            <p class="title is-5 has-text-white">
+                                <animated :value="displayLinks" :formatValue="numberFormat" :duration="1500" />+ Links Built
+                            </p>
                         </div>
-                    </div>
-                    <div class="columns">
-                        <div class="column is-offset-1 text-center">
-                            <div class="icon-box">
-                                <img src="/images/content-icon.png" alt="Content Marketing">
-                                <h1 class="h1-as-h2">Content<br />Marketing</h1>
-                                <p>Share your brand message in sponsored articles and blog posts.</p>
-                            </div>
+                        <div class="column">
+                            <p class="title is-5 has-text-white">
+                                <animated :value="displayAdvertisers" :formatValue="numberFormat" :duration="1500" />+ Agencies/Brands Served
+                            </p>
                         </div>
-                        <div class="column text-center">
-                            <div class="icon-box">
-                                <img src="/images/link-icon.png" alt="Link Building">
-                                <h1 class="h1-as-h2">Link<br />Building</h1>
-                                <p>Improve your search engine rankings by earning links on influential sites.</p>
-                            </div>
+                        <div class="column">
+                            <p class="title is-5 has-text-white">
+                                <animated :value="displayYears" :formatValue="yearFormat" :duration="1500" />+ Years of Service
+                            </p>
                         </div>
-                        <div class="column text-center">
-                            <div class="icon-box">
-                                <img src="/images/youtube-icon.png" alt="YouTube Videos">
-                                <h1 class="h1-as-h2">YouTube<br />Videos</h1>
-                                <p>Get videos for and about your brand from expert creators.</p>
-                            </div>
-                        </div>
-                        <div class="column is-1"></div>
-                    </div>
-                    <div class="columns">
-                        <div class="column is-offset-1 text-center">
-                            <div class="icon-box">
-                                <img src="/images/social-media-icon.png" alt="Social Media">
-                                <h1 class="h1-as-h2">Social<br />Media</h1>
-                                <p>Engage top social influencers to start an online conversation about your brand.</p>
-                            </div>
-                        </div>
-                        <div class="column text-center">
-                            <div class="icon-box">
-                                <img src="/images/sampling-icon.png" alt="Sampling Giveaways">
-                                <h1 class="h1-as-h2">Sampling &<br />Giveaways</h1>
-                                <p>Put your product in the hands of influencers and their followers.</p>
-                            </div>
-                        </div>
-                        <div class="column text-center">
-                            <div class="icon-box">
-                                <img src="/images/custom-icon.png" alt="Managed Services">
-                                <h1 class="h1-as-h2">Managed<br />Services</h1>
-                                <p>Don't want to do all the work on your own? Ask us to do it for you.</p>
-                            </div>
-                        </div>
-                        <div class="column is-1"></div>
                     </div>
                 </div>
             </section>
-            <!-- end: About Vazoola’s Services -->
 
-          	<!-- start: Grow Your Brand
-          	<section v-if="sections.grow_your_brand" class="grow-your-brand">
-          		<div class="container">
-          			<div class="columns">
-          				<div class="column">
-          					<div class="headline">
-          						<h2 v-html="sections.grow_your_brand.header" />
-          						<hr class="light-blue" />
-          						<p v-html="sections.grow_your_brand.header" />
-                                <p class="text-center"><a href="#" class="button is-primary">Find Out How</a></p>
-          					</div>
-          				</div>
-          				<div class="column">
-          					<img src="/images/grow-img.png" alt="Grow">
-          				</div>
-          			</div>
-          		</div>
-          	</section>
-          	 end: Grow Your Brand -->
-            <!--
-            <section class="grow-your-brand">
-        		<div class="container">
-        			<div class="columns">
-        				<div class="column">
-        					<div class="headline">
-        						<h2>Why we're different</h2>
-        						<hr class="light-blue">
-                                <p>This isn’t your typical Influencer Marketing Platform. Forget about searching through thousands of influencers to locate the most suitable options, then having to handle the outreach and negotiation on your own. Who has time for that</p>
-                                <p>We match you up with the influencers that meet your needs, and are seeking opportunities from Advertisers like yourself. And, with over 100,000 influencers to choose from, you can be confident we’ll find the right home for your content. Now, sit back, and watch the ROI pile up… </p>
-								<p class="text-center"><a href="#" class="button is-primary">Become different</a></p>
-        					</div>
-        				</div>
-        				<div class="column">
-        					<img src="/images/compare.png" alt="Grow">
-        				</div>
-        			</div>
-        		</div>
-        	</section>
-            -->
+            <section class="testimonials">
+                <div class="container">
+                    <div class="headline">
+                        <h3 class="h3">Don't take our word for it. Listen to what some of our clients have to say...</h3>
+                        <hr class="light-blue">
+                    </div>
+                    <div class="mb-2">
+                        <swiper ref="caseSwiper" :options="swiperOptions">
+                            <swiper-slide>
+                                <div class="box">
+                                    <p class="title is-5">Case Study 1</p>
+                                    <p class="title is-5">Problem: TBD</p>
+                                    <p class="title is-5">Link: TBD</p>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="box">
+                                    <p class="title is-5">Case Study 2</p>
+                                    <p class="title is-5">Problem: TBD</p>
+                                    <p class="title is-5">Link: TBD</p>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="box">
+                                    <p class="title is-5">Case Study 3</p>
+                                    <p class="title is-5">Problem: TBD</p>
+                                    <p class="title is-5">Link: TBD</p>
+                                </div>
+                            </swiper-slide>
+                        </swiper>
+                    </div>
+                    <div>
+                        <swiper ref="mySwiper" :options="swiperOptions">
+                            <swiper-slide>
+                                <div class="box">
+                                    <p class="title is-5">Name: Brian Hansen</p>
+                                    <p class="title is-5">Company: Rocket Pilots</p>
+                                    <p class="title is-5">Title: CEO</p>
+                                    <div class="has-text-centered">
+                                        At Rocket Pilots we provide comprehensive SEO solutions for small to medium sized companies throughout the United States. 
+                                        To fulfill certain aspects of a scope of work we often align ourselves with partner companies. We partnered with Vazoola after several Link Building agencies failed to meet our quality standards. 
+                                        The team at Vazoola is top notch and best in class in the trade of guest posting and link building fulfillment for digital marketing agencies. Their links have been consistently high quality, relevant and delivered in a timely fashion. 
+                                        If you're frustrated with your Link Building partner, I highly recommend working with the Vazoola team and technology. You will not be disappointed!
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="box">
+                                    <p class="title is-5">Name: </p>
+                                    <p class="title is-5">Company: Reputation Management Agency</p>
+                                    <p class="title is-5">Title: Project Manager</p>
+                                    <div class="has-text-centered">
+                                        Link building is an important component of the strategy we implement for rebuilding the online reputation of our clients, but having the time or resources to do it successfully, is difficult. 
+                                        It’s even harder to find a trustworthy link building company to outsource this work to. That’s why we were lucky to come across Vazoola  – we were able to agree on tiered pricing structure that made it easier to include link building in the packages we sell to clients. 
+                                        This has helped us to produce better and more predictable results for clients, as well as to allow us to focus on growing our client base. 
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="box">
+                                    <p class="title is-5">Name: Dellon S.</p>
+                                    <p class="title is-5">Company: Vista College</p>
+                                    <p class="title is-5">Title: Digital Marketing Director</p>
+                                    <div class="has-text-centered">
+                                        Every digital marketer knows how important link building is to increasing organic rankings, but finding the time to do it successfully is another story. 
+                                        That’s why it can be helpful to use a link building company that has the experience and resources to execute your strategy.  
+                                        I’ve been utilizing Vazoola for several years to help strategically build links from high level domains, and it’s been very effective. They are not your typical link builder. 
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="box">
+                                    <p class="title is-5">Name: Alison L.</p>
+                                    <p class="title is-5">Company: SEO Agency</p>
+                                    <p class="title is-5">Title: Owner</p>
+                                    <div class="has-text-centered">
+                                        Vazoola has been an excellent partner to my agency for over a year.  
+                                        They've stood out in three ways versus many other link building and outreach teams we have worked with.  
+                                        First, the Vazoola team is responsive, timely, and efficient with taking orders, reporting on progress and answering questions.  
+                                        Second, the quality of their placements is consistently strong and they deliver exactly what we ask for.  
+                                        Finally, they have scaled our link building output from a single project to 7 consecutive projects with no interruptions or delays.  
+                                        I'd recommend them to any agency looking for a reliable, reputable link building resource.
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="box">
+                                    <p class="title is-5">Name: Jon Bingham</p>
+                                    <p class="title is-5">Company: BKA Content</p>
+                                    <p class="title is-5">Title: Director of Marketing</p>
+                                    <div class="has-text-centered">
+                                        For the past few months we’ve been using Vazoola for link building to increase our rankings on some of the more difficult keywords we target. 
+                                        In just a short period of time we’ve seen some of our rankings improve 30+ spots. 
+                                        The links are solid and are posted on quality websites. We’ve been very impressed.
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="box">
+                                    <p class="title is-5">Name: Skyler Malley</p>
+                                    <p class="title is-5">Company: Firestarter</p>
+                                    <p class="title is-5">Title: President</p>
+                                    <div class="has-text-centered">
+                                        It has been great working with the Vazoola team.  
+                                        I’ve worked with many other link building companies in the past but none of them were able to deliver quality links at as low of a cost as Vazoola. 
+                                        We brought a small test budget to them and found we were able to increase margins on links by 40%! 
+                                        We’ve since grown our agency much faster than expected with Vazoola as our only partner for links. 
+                                        Their white label link building service has really changed the game for us.
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="box">
+                                    <p class="title is-5">Name: AJ Wurtz</p>
+                                    <p class="title is-5">Company: Nu Image Medical</p>
+                                    <p class="title is-5">Title: SEO Specialist</p>
+                                    <div class="has-text-centered">
+                                        We have been working with Vazoola for over a year now and have seen our organic traffic increase exponentially since hiring them. 
+                                        Their “Bounty Express” has been delivering great backlinks at prices within are budget. I would highly recommend testing them out. 
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            <div class="swiper-pagination" slot="pagination"></div>
+                        </swiper>
+                    </div>
+                </div>
+            </section>
 
             <section class="grow-your-brand">
         		<div class="container">
                     <div class="headline">
-                        <h1 class="h1-as-h2">Why we're different</h1>
+                        <h1 class="h1-as-h2">Why we're different...</h1>
                         <hr class="light-blue">
                     </div>
 
 					<div class="columns">
                         <div class="column is-5">
-                                <p>Forget about searching through thousands of influencers to locate the most suitable options, then having to reach out and negotiate on your own. Who has time for that?</p>
-                                <p>We match you up with the influencers that meet your needs. And, with over 100,000 influencers to choose from, have confidence we’ll find the right home for your content.</p>
-                                <p class="text-center">
-                                    <button @click="showModal = true" class="button is-primary">Become different</button>
-                                </p>
+                            <p>
+                                We're not your average link building and content creation company. We know how important it is to build high quality
+                                links and content, and we understand all of the common challenges and pain points facing marketers.
+                                Here at Vazoola, we have been there, and we set out to develop a real solution that provides agencies and brands the ability to sidestep these obstacles so that
+                                they can focus on growing.
+                            </p>
+                            <p>
+                                We have now supported thousands of agencies and brands to successfully enhance their digital presence.
+                                We AID brands to Assess their specific heartburns and rankings, Identify the best areas for digital leverage, and Deploy our Bounty software and network of over 100,000 influencers 
+                                to deliver long-lasting results. Bounty Express is your secret weapon in the marketing game.
+
+                            </p>
         				</div>
                         <div class="column">
         					<img src="/images/compair.png" alt="Grow">
@@ -193,28 +239,6 @@
                     </div>
         		</div>
         	</section>
-
-            <!-- start: Succeed -->
-          	<section class="succeed">
-          		<div class="container">
-          			<div class="columns">
-          				<div class="column">
-          					<img src="/images/succeed.png" alt="Succeed">
-          				</div>
-          				<div class="column">
-          					<div class="headline">
-          						<h1 class="h1-as-h2">Succeed<br />with Vazoola.</h1>
-          						<hr class="green" />
-          						<p>
-                                    Our robust platform provides you with the tools and data needed to lock in on the influencers that will have the biggest impact on your marketing strategy. Streamline the process of finding the best influencers, creating shareworthy content, tracking your progress, and measuring success across any number of campaigns.
-                                </p>
-  								<p class="text-center"><a href="/our-technology" class="button is-primary">More About Our Tech</a></p>
-          					</div>
-          				</div>
-          			</div>
-          		</div>
-          	</section>
-          	<!-- end: Succeed -->
 
 
           	<!-- start: Posts & Resources -->
@@ -243,6 +267,9 @@ import FooterBar from '~/components/FooterBar.vue'
 import ContactForm from '~/components/ContactForm.vue'
 import ContactModal from '~/components/ContactModal.vue'
 import PostsHero from '~/components/PostsHero.vue'
+import Animated from 'animated-number-vue'
+import { Swiper, SwiperSlide, directive, Pagination, Mousewheel, Autoplay } from 'vue-awesome-swiper'
+import "swiper/css/swiper.css";
 
 export default {
     components: {
@@ -250,7 +277,14 @@ export default {
         FooterBar,
         PostsHero,
         ContactForm,
-        ContactModal
+        ContactModal,
+        Animated,
+        Swiper,
+        SwiperSlide,
+        Pagination, Mousewheel, Autoplay
+    },
+    directives: {
+        swiper: directive
     },
     head () {
         return {
@@ -269,13 +303,52 @@ export default {
         }
     },
 
-
     data() {
         return {
             showModal: false,
+            displayLinks: 1492002,
+            displayAdvertisers: 10990,
+            displayYears: 10,
+            swiperOptions: {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                loop: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev'
+                },
+                autoplay: {
+                    delay: 4000
+                },
+                slidesPerView: 2,
+                spaceBetween: 50,
+                autoHeight: true
+            }
         }
     },
-
+    methods: {
+        numberFormat(value){
+            return parseInt(value).toLocaleString()
+        },
+        yearFormat(value){
+            return parseInt(value)
+        },
+        onSwiper(swiper){
+            console.log(swiper)
+        },
+        onSlideChange(){
+            console.log('slide change')
+        }
+    },
+    computed: {
+        swiper() {
+            return this.$refs.mySwiper.$swiper
+        }
+    },
+    mounted(){
+        //this.$refs.mySwiper.$swiper.autoplay.start()
+        console.log(this.swiper)
+    },
     async asyncData() {
         var Prismic = require("prismic-javascript");
 
@@ -293,6 +366,6 @@ export default {
                     };
                 });
             })
-    }
+    },
 }
 </script>
