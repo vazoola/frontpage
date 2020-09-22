@@ -13,7 +13,7 @@
   	  					</div>
   	  					<div class="column">
   	  						<div class="hero-text">
-  		  						<h1 class="h1-as-h2">Premium Links and Content at Scale.</h1>
+  		  						<h1 class="h1-as-h2">Premium Link Building and Content at Scale.</h1>
   		  						<hr class="pink" />
   		  						<p class="subtitle">Supercharge your SEO with our AI-powered Bounty software. Pain-free process generates better results, in less time, at a price you control.</p>
   		  						<p class="text-center">
@@ -297,7 +297,7 @@ export default {
                 { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
                 { hid: 'twitter:image', name:'twitter:image', content: 'https://www.vazoola.com/images/home-hero-img.png' },
                 { hid: 'og:image', name:'og:image', content: 'https://www.vazoola.com/images/home-hero-img.png' },
-                { hid: 'og:title', name:'og:title', content: "Vazoola: Premium Links and Content at Scale." },
+                { hid: 'og:title', name:'og:title', content: "Vazoola: Premium Link Building and Content at Scale." },
                 { hid: 'og:description', name:'og:description', content: 'Powerful platform that connects brands and agencies with vetted and trustworthy influencers for the purposes of: Link Building, Content Marketing, and Social Media Campaigns.'  },
             ]
         }
