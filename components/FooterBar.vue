@@ -2,10 +2,10 @@
     <footer>
         <div class="container">
             <div class="columns">
-                <div class="column is-3">
+                <div class="column is-2">
                     <p>© {{ new Date().getFullYear() }} VAZOOLA</p>
                 </div>
-                <div class="column">
+                <div class="column is-3">
                     <ul class="footer-menu">
                         <!--
                         <li><a href="#">ABOUT</a></li>
@@ -16,9 +16,23 @@
                     </ul>
                 </div>
                 <div class="column is-3">
-                    <a href="https://www.facebook.com/Vazoola/"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.twitter.com/Vazoola/"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/Vazoola/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/Vazoola/" target="_blank">
+                        <span class="icon">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                    <a href="https://www.twitter.com/Vazoola/" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/Vazoola" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <div class="column is-2">
+                    <p class="mb-1">2505 Main Street</p>
+                    <p class="mb-1">Suite 212</p>
+                    <p>Stratford, CT 06615</p>
+                </div>
+                <div class="column is-2">
+                    <p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.2460675234543!2d-73.13475198425365!3d41.194608615886054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e80cf65d88cb77%3A0x3e46df6992c07522!2s2505%20Main%20St%20%23212%2C%20Stratford%2C%20CT%2006615!5e0!3m2!1sen!2sus!4v1600804067285!5m2!1sen!2sus" width="400" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </p>
                 </div>
             </div>
         </div>
