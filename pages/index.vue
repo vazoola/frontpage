@@ -36,12 +36,12 @@
                         </div>
                         <div class="column">
                             <p class="title is-5">
-                                <animated :value="displayAdvertisers" :formatValue="numberFormat" :duration="3000" />+ Agencies/Brands Served
+                                <animated :value="displayPublishers" :formatValue="numberFormat" :duration="3000" />+ Publishers
                             </p>
                         </div>
                         <div class="column">
                             <p class="title is-5">
-                                <animated :value="displayPublishers" :formatValue="numberFormat" :duration="3000" />+ Publishers
+                                <animated :value="displayAdvertisers" :formatValue="numberFormat" :duration="3000" />+ Agencies/Brands Served
                             </p>
                         </div>
                         <div class="column">
