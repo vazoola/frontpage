@@ -15,7 +15,7 @@
   	  						<div class="hero-text">
   		  						<h1 class="h1-as-h2">Premium Links and Content at Scale.</h1>
   		  						<hr class="pink" />
-  		  						<p class="subtitle">Supercharge your (growth/marketing/SEO) with out AI-powered Bounty software. Pain-free process generates better results, in less time, at a price you control.</p>
+  		  						<p class="subtitle">Supercharge your SEO with our AI-powered Bounty software. Pain-free process generates better results, in less time, at a price you control.</p>
   		  						<p class="text-center">
                                     <a class="button is-primary" @click="showModal = true">Request a Free Demo</a>
                                 </p>
