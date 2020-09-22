@@ -30,22 +30,22 @@
                 <div class="container metrics-inside">
                     <div class="columns">
                         <div class="column">
-                            <p class="title is-5">
+                            <p class="title is-5" style="font-style: italic">
                                 <animated :value="displayLinks" :formatValue="numberFormat" :duration="3000" />+ Links Built
                             </p>
                         </div>
                         <div class="column">
-                            <p class="title is-5">
+                            <p class="title is-5" style="font-style: italic">
                                 <animated :value="displayPublishers" :formatValue="numberFormat" :duration="3000" />+ Publishers
                             </p>
                         </div>
                         <div class="column">
-                            <p class="title is-5">
+                            <p class="title is-5" style="font-style: italic">
                                 <animated :value="displayAdvertisers" :formatValue="numberFormat" :duration="3000" />+ Agencies/Brands Served
                             </p>
                         </div>
                         <div class="column">
-                            <p class="title is-5">
+                            <p class="title is-5" style="font-style: italic">
                                 <animated :value="displayYears" :formatValue="yearFormat" :duration="3000" />+ Years of Service
                             </p>
                         </div>
@@ -95,7 +95,7 @@
                         <hr class="light-blue">
                     </div>
                     <div class="mb-2">
-                        <swiper ref="caseSwiper" :options="swiperOptions">
+                        <swiper ref="caseSwiper" :options="swiperTwoOptions">
                             <swiper-slide>
                                 <div class="box swiper-box">
                                     <p class="title is-5">Case Study 1</p>
@@ -326,7 +326,19 @@ export default {
                 autoplay: {
                     delay: 4000
                 },
-                slidesPerView: 2,
+                slidesPerView: 3,
+                spaceBetween: 50,
+                autoHeight: true
+            },
+            swiperTwoOptions: {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                loop: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev'
+                },
+                slidesPerView: 3,
                 spaceBetween: 50,
                 autoHeight: true
             }
