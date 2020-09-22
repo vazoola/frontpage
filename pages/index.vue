@@ -30,18 +30,18 @@
                 <div class="container metrics-inside">
                     <div class="columns">
                         <div class="column">
-                            <p class="title is-5 has-text-white">
-                                <animated :value="displayLinks" :formatValue="numberFormat" :duration="1500" />+ Links Built
+                            <p class="title is-5">
+                                <animated :value="displayLinks" :formatValue="numberFormat" :duration="3000" />+ Links Built
                             </p>
                         </div>
                         <div class="column">
-                            <p class="title is-5 has-text-white">
-                                <animated :value="displayAdvertisers" :formatValue="numberFormat" :duration="1500" />+ Agencies/Brands Served
+                            <p class="title is-5">
+                                <animated :value="displayAdvertisers" :formatValue="numberFormat" :duration="3000" />+ Agencies/Brands Served
                             </p>
                         </div>
                         <div class="column">
-                            <p class="title is-5 has-text-white">
-                                <animated :value="displayYears" :formatValue="yearFormat" :duration="1500" />+ Years of Service
+                            <p class="title is-5">
+                                <animated :value="displayYears" :formatValue="yearFormat" :duration="3000" />+ Years of Service
                             </p>
                         </div>
                     </div>
