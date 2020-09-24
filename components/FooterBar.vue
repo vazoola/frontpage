@@ -29,8 +29,8 @@
                     <p>2505 Main Street</p>
                     <p>Suite 212</p>
                     <p>Stratford, CT 06615</p>
-                    <p>Phone #</p>
-                    <p><a href="mailto:sales@vazoola.com">support@vazoola.com</a></p>
+                    <p>(855) 205-5145</p>
+                    <p><a href="mailto:sales@vazoola.com">sales@vazoola.com</a></p>
                 </div>
                 <div class="column is-2">
                     <p>

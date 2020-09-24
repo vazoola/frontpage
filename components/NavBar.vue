@@ -34,13 +34,13 @@
 						<div class="navbar-item has-dropdown is-hoverable">
 							<a class="navbar-link" href="/">Case Studies</a>
 							<div class="navbar-dropdown is-boxed">
-								<nuxt-link to="/brands" class="navbar-item">
+								<nuxt-link to="/case-study-1" class="navbar-item">
 									Case Study 1
 								</nuxt-link>
-								<nuxt-link class="navbar-item" to="/agencies">
+								<nuxt-link class="navbar-item" to="/case-study-2">
 									Case Study 2
 								</nuxt-link>
-								<nuxt-link class="navbar-item" to="/referrals">
+								<nuxt-link class="navbar-item" to="/case-study-3">
 									Case Study 3
 								</nuxt-link>
 							</div>
