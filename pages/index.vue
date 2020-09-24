@@ -439,9 +439,11 @@ export default {
         },
         updatePublishers(){
             this.displayPublishers += 1
+            return setTimeout(this.updatePublishers, 20000)
         },
         updateAdvertisers(){
             this.displayAdvertisers += 1
+            return setTimeout(this.updateAdvertisers, 30000)
         }
     },
     computed: {
