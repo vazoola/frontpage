@@ -146,7 +146,7 @@
                                 <div class="box swiper-box">
                                     <div class="columns">
                                         <div class="column is-2">
-                                            <img src="/images/blank-profile-pic.png" alt="Profile Pic" />
+                                            <img src="/images/circle-cropped_brian.png" alt="Profile Pic" />
                                         </div>
                                         <div class="column is-8">
                                             <p class="title is-5">Name: Brian Hansen</p>
@@ -185,7 +185,7 @@
                                 <div class="box swiper-box">
                                     <div class="columns">
                                         <div class="column is-2">
-                                            <img src="/images/blank-profile-pic.png" alt="Profile Pic" />
+                                            <img src="/images/circle-cropped_dellon.png" alt="Profile Pic" />
                                         </div>
                                         <div class="column is-8">
                                             <p class="title is-5">Name: Dellon S.</p>
@@ -226,7 +226,7 @@
                                 <div class="box swiper-box">
                                     <div class="columns">
                                         <div class="column is-2">
-                                            <img src="/images/blank-profile-pic.png" alt="Profile Pic" />
+                                            <img src="/images/circle-cropped_jon.png" alt="Profile Pic" />
                                         </div>
                                         <div class="column is-8">
                                             <p class="title is-5">Name: Jon Bingham</p>
@@ -245,7 +245,7 @@
                                 <div class="box swiper-box">
                                     <div class="columns">
                                         <div class="column is-2">
-                                            <img src="/images/blank-profile-pic.png" alt="Profile Pic" />
+                                            <img src="/images/circle-cropped_skyler.png" alt="Profile Pic" />
                                         </div>
                                         <div class="column is-8">
                                             <p class="title is-5">Name: Skyler Malley</p>
@@ -266,7 +266,7 @@
                                 <div class="box swiper-box">
                                     <div class="columns">
                                         <div class="column is-2">
-                                            <img src="/images/blank-profile-pic.png" alt="Profile Pic" />
+                                            <img src="/images/circle-cropped_aj.png" alt="Profile Pic" />
                                         </div>
                                         <div class="column is-8">
                                             <p class="title is-5">Name: AJ Wurtz</p>
