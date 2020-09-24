@@ -166,7 +166,7 @@
                                 <div class="box swiper-box">
                                     <div class="columns">
                                         <div class="column is-2">
-                                            <img src="/images/blank-profile-pic.png" alt="Profile Pic" />
+                                            <img src="/images/circle-cropped_blank.png" alt="Profile Pic" />
                                         </div>
                                         <div class="column is-8">
                                             <p class="title is-5">Name: </p>
@@ -204,7 +204,7 @@
                                 <div class="box swiper-box">
                                     <div class="columns">
                                         <div class="column is-2">
-                                            <img src="/images/blank-profile-pic.png" alt="Profile Pic" />
+                                            <img src="/images/circle-cropped_blank.png" alt="Profile Pic" />
                                         </div>
                                         <div class="column is-8">
                                             <p class="title is-5">Name: Alison L.</p>
