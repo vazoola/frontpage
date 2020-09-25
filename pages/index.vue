@@ -94,6 +94,9 @@
                         <h3 class="h3">Don't take our word for it. Listen to what some of our clients have to say...</h3>
                         <hr class="light-blue">
                     </div>
+                    <div class="headline">
+                        <h3 class="h3" style="font-weight: bold;">Case Studies...</h3>
+                    </div>
                     <div class="mb-2 case-study-container">
                         <swiper ref="caseSwiper" :options="swiperTwoOptions">
                             <swiper-slide class="swiper-border">
@@ -136,9 +139,8 @@
                             </swiper-slide>
                         </swiper>
                     </div>
-                    <div class="headline">
-                        <h3 class="h3">Testimonials...</h3>
-                        <hr class="light-blue">
+                    <div class="headline" style="margin-top: 75px;">
+                        <h3 class="h3" style="font-weight: bold;">Testimonials...</h3>
                     </div>
                     <div class="case-study-container">
                         <swiper ref="mySwiper" :options="swiperOptions">
