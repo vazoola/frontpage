@@ -31,17 +31,17 @@
                     <div class="columns">
                         <div class="column">
                             <p class="title is-5" style="font-style: italic">
-                                <animated :value="displayLinks" :formatValue="numberFormat" :duration="3000" />+ Links Built
+                                <animated :value="displayLinks" :formatValue="numberFormat" :duration="3000" /> Links Built
                             </p>
                         </div>
                         <div class="column">
                             <p class="title is-5" style="font-style: italic">
-                                <animated :value="displayPublishers" :formatValue="numberFormat" :duration="3000" />+ Publishers
+                                <animated :value="displayPublishers" :formatValue="numberFormat" :duration="3000" /> Publishers
                             </p>
                         </div>
                         <div class="column">
                             <p class="title is-5" style="font-style: italic">
-                                <animated :value="displayAdvertisers" :formatValue="numberFormat" :duration="3000" />+ Agencies/Brands Served
+                                <animated :value="displayAdvertisers" :formatValue="numberFormat" :duration="3000" /> Agencies/Brands Served
                             </p>
                         </div>
                         <div class="column">
