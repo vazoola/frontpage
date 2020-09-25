@@ -9,13 +9,13 @@
               <div class="container">
                   <div class="columns">
                       <div class="column hero-img">
-                          <img src="/images/home-hero-img-1.png" alt="Hero Image">
+                          <img src="/images/updated_hero_img.png" alt="Hero Image">
                       </div>
                       <div class="column">
                           <div class="hero-text">
-                              <h1 class="h1-as-h2">Expand your brand’s reach</h1>
+                              <h1 class="h1-as-h2">Grow Your Brand</h1>
                               <hr class="pink" />
-                              <p class="subtitle">Tap into the power of influencer marketing</p>
+                              <p class="subtitle">Fuel your marketing efforts by securing high quality backlinks without the usual pain points. Our Bounty software gives you immediate access to over 100,000 influencers that are ready to promote your brand.</p>
                               <p class="text-center"><a @click="showModal = true" class="button is-primary">Request Proposal</a></p>
                               <p class="btn-text">No contract necessary</p>
                           </div>
@@ -31,7 +31,7 @@
                   <div class="columns">
                       <div class="column">
                           <div class="headline">
-                              <h1 class="h1-as-h2">Your Brand & Vazoola</h1>
+                              <h1 class="h1-as-h2">Why Vazoola</h1>
                               <hr class="blue" />
                           </div>
                       </div>
@@ -40,22 +40,22 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/team-icon.png" alt="Team Friendly Platform">
+                                  <img src="/images/custom_proposals.png" alt="Custom Proposals">
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Team Friendly Platform</h4>
-                                  <div class="desc">Manage search, social, and video campaigns all in one place</div>
+                                  <h4 class="title">Cutting-Edge Software</h4>
+                                  <div class="desc">We give you the tools to simplify the process, while maximizing the results from your budget.</div>
                               </div>
                           </div>
                       </div>
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/save-time-icon.png" alt="Save More Time">
+                                  <img src="/images/create-icon.png" alt="Content Control">
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Save More Time</h4>
-                                  <div class="desc">Pick from a curated list of influencers that match your niche and budget</div>
+                                  <h4 class="title">Unrivaled Turnaround Times</h4>
+                                  <div class="desc">Easily complete campaigns in under 20 days, but with the ability to do it in less than a week.</div>
                               </div>
                           </div>
                       </div>
@@ -64,204 +64,77 @@
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/create-icon.png" alt="Create Content">
+                                  <img src="/images/scale_your_agency.png" alt="Scale Your Agency">
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Create Content</h4>
-                                  <div class="desc">Purchase high quality articles from our writers or upload your own content</div>
+                                  <h4 class="title">Price Setting</h4>
+                                  <div class="desc">No more negotiating. You se the price points you need, and we'll utilize our software to deliver.</div>
                               </div>
                           </div>
                       </div>
-                      <div class="column">
-                          <div class="icon_box icon_position_left no_border">
-                              <div class="image_wrapper">
-                                  <img src="/images/grow-icon.png" alt="Grow Your Brand">
-                              </div>
-                              <div class="desc_wrapper">
-                                  <h4 class="title">Grow Your Brand</h4>
-                                  <div class="desc">Increase your brand awareness, improve search rankings, and deliver viral content.</div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="columns">
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
                                   <img src="/images/track-icon.png" alt="Track Your Efforts">
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Track Your Efforts</h4>
-                                  <div class="desc">Receive updates in real time, every time a new placement goes live.</div>
+                                  <h4 class="title">Content Control</h4>
+                                  <div class="desc">We have hundreds of writers trained to deliver articles that follow your specific instructions.</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="columns">
+                      <div class="column">
+                          <div class="icon_box icon_position_left no_border">
+                              <div class="image_wrapper">
+                                  <img src="/images/white_label_services.png" alt="White Label Service">
+                              </div>
+                              <div class="desc_wrapper">
+                                  <h4 class="title">Unlimited Reach</h4>
+                                  <div class="desc">Tap into our marketplace of over 100k publisher relationships and growing. We cover all verticals, including more specialized niches.</div>
                               </div>
                           </div>
                       </div>
                       <div class="column">
                           <div class="icon_box icon_position_left no_border">
                               <div class="image_wrapper">
-                                  <img src="/images/choose-icon.png" alt="Choose Type of Service">
+                                  <img src="/images/complete_transparency.png" alt="Complete Transparency">
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Choose Type of Service</h4>
-                                  <div class="desc">Run campaigns and place orders on your own, or just ask us to do it for you.</div>
+                                  <h4 class="title">Flexibility</h4>
+                                  <div class="desc">You choose the type of account that matches your needs. Run campaigns on your own with our self-serve platform, or let us manage everything for you.</div>
                               </div>
                           </div>
                       </div>
                   </div>
+
               </div>
             </section>
             <!-- end: How We Work -->
 
             <!-- start: How Vazoola works. -->
-            <section class="how-vazoola-works">
-              <div class="container">
-                  <div class="columns">
-                      <div class="column">
-                          <h1 class="title is-1 h1-as-h2">How Vazoola works.</h1>
-                      </div>
-                  </div>
-                  <div class="columns">
-                      <div class="column is-paddingless is-6 is-offset-3">
-                        <nav class="level is-mobile">
-                            <a class="level-item has-text-centered button has-text-weight-semibold is-rounded is-link"
-                                @click="step = 0"
-                                :class="{ 'is-outlined' : step !== 0 }">
-                                Step 1
-                            </a>
-                            <a class="level-item has-text-centered button has-text-weight-semibold is-rounded is-link"
-                                @click="step = 1"
-                                :class="{ 'is-outlined' : step !== 1 }">
-                                Step 2
-                            </a>
-                            <a class="level-item has-text-centered button has-text-weight-semibold is-rounded is-link"
-                                @click="step = 2"
-                                :class="{ 'is-outlined' : step !== 2 }">
-                                Step 3
-                            </a>
-                            <a class="level-item has-text-centered button has-text-weight-semibold is-rounded is-link"
-                                @click="step = 3"
-                                :class="{ 'is-outlined' : step !== 3 }">
-                                Step 4
-                            </a>
-                        </nav>
-                      </div>
-                  </div>
-                  <div class="slide-wrap">
-                      <div class="slide-mask">
-                          <ul :style="slideOffset" class="slide-group">
-                              <li class="slide">
-                                  <div class="columns">
-                                      <div class="column">
-                                          <img src="/images/slider-1-img.png" alt="Create Campaign">
-                                      </div>
-                                      <div class="column">
-                                          <div class="headline">
-                                              <h2>Create Campaign</h2>
-                                              <hr />
-                                          </div>
-                                          <p>Outline your goals as a brand with us, request custom proposals for clients, and start creating content!</p>
-                                          <div class="slider-list">
-                                              <ul>
-                                                  <li><span>Choose from blog posts, social posts, video posts, or any combo.</span></li>
-                                                  <li><span>Set your estimated budget and number of posts needed.</span></li>
-                                                  <li><span>Use filters to help us lock in on the metrics that matter to you.</span></li>
-                                                  <li><span>Provide goals and any key performance indicator’s.</span></li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </li>
-                              <li class="slide">
-                                  <div class="columns">
-                                      <div class="column">
-                                          <img src="/images/slider-2-img.png" alt="View Proposal">
-                                      </div>
-                                      <div class="column">
-                                          <div class="headline">
-                                              <h2>View Proposal</h2>
-                                              <hr />
-                                          </div>
-                                          <p>As a brand, this is where you access custom-tailored blog, social, and video proposals. This includes all influencers relevant to your campaign.</p>
-                                          <div class="slider-list">
-                                              <ul>
-                                                  <li><span>Evaluate influencer recommendations custom picked for you.</span></li>
-                                                  <li><span>Browse influencer’s website, social channel, and or video channel.</span></li>
-                                                  <li><span>Review website/social channel data and price to complete the job.</span></li>
-                                                  <li><span>Select influencers for your campaign. </span></li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </li>
-                              <li class="slide">
-                                  <div class="columns">
-                                      <div class="column">
-                                          <img src="/images/slider-3-img.png" alt="Enter Campaign Details">
-                                      </div>
-                                      <div class="column">
-                                          <div class="headline">
-                                              <h2>Enter Campaign Details</h2>
-                                              <hr />
-                                          </div>
-                                          <p>As you enter the pre-cart &amp; cart phase, review the job details for each of the selected influencers. Simply compile your order for check out and go live!</p>
-                                          <div class="slider-list">
-                                              <ul>
-                                                  <li><span>Input all relevant campaign details ie: influencer instructions, post/link requirements, etc.</span></li>
-                                                  <li><span>Choose source of content: Vazoola writers, content library, or influencer.</span></li>
-                                                  <li><span>Review and approve campaign details.</span></li>
-                                                  <li><span>Confirm payment method and checkout. </span></li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </li>
-                              <li class="slide">
-                                  <div class="columns">
-                                      <div class="column">
-                                          <img src="/images/slider-4-img.png" alt="Track Progress">
-                                      </div>
-                                      <div class="column">
-                                          <div class="headline">
-                                              <h2>Track Progress</h2>
-                                              <hr />
-                                          </div>
-                                          <p>Sit back, and watch your campaigns in action. Our team will take care of the rest.</p>
-                                          <div class="slider-list">
-                                              <ul>
-                                                  <li><span>Examine and approve pending content.</span></li>
-                                                  <li><span>View completed and pending placements in real time.</span></li>
-                                                  <li><span>Receive daily notifications of campaign progress.</span></li>
-                                                  <li><span>Export spreadsheets of campaign details for your convenience. </span></li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </li>
-                          </ul>
-                      </div>
+            <section class=" how-vazoola-works">
+                <div class="container">
+                    <div class="headline">
+                        <h1 class="h1-as-h2">A new way to build links.</h1>
+                        <hr class="light-blue">
+                    </div>
 
-                      <div class="slide-nav">
-                          <ul>
-                              <li @click="step = 0"
-                                class="bullet"
-                                :class="{ 'current' : step == 0 }"></li>
-
-                              <li @click="step = 1"
-                                class="bullet"
-                                :class="{ 'current' : step == 1 }"></li>
-
-                              <li @click="step = 2"
-                                class="bullet"
-                                :class="{ 'current' : step == 2 }"></li>
-
-                              <li @click="step = 3"
-                                class="bullet"
-                                :class="{ 'current' : step == 3 }"></li>
-                          </ul>
-                      </div>
-                  </div>
-
-              </div>
+					<div class="columns">
+                        <div class="column is-5">
+                            <p class="is-size-6">
+                                Link building is essential if you want to improve your search rankings and increase organic search traffic. Unfortunately, running successful link building campaigns can be difficult, time-consuming, and often unsuccessful. Vazoola is not your average link building company. We remove the obstacles and streamline the whole process so you can focus on growing your brand in other ways. Let us worry about link acquisitions. We’ve built millions of links over the last 10 years, and our software is literally “plug & play”.
+                            </p>
+                            <p class="is-size-6">
+                                Join thousands of brands that have already benefited from our link building services to improve organic traffic and rankings, reduce link acquisition costs, increase profit margin, and much more. There’s no long-term contract or minimum spend required. Create an account, or request a demo to get started today.
+                            </p>
+        				</div>
+                        <div class="column">
+        					<img src="/images/succeed.png" alt="Grow">
+        				</div>
+                    </div>
+        		</div>
             </section>
             <!-- end: How Vazoola works. -->
 
@@ -269,33 +142,77 @@
             <section class="section grow-your-brand inside">
         		<div class="container">
                     <div class="headline">
-                        <h1 class="h1-as-h2">Grow your brand.</h1>
+                        <h1 class="h1-as-h2">Some of our Agency Testimonials</h1>
                         <hr class="light-blue">
                     </div>
 
-					<div class="columns is-gapless">
-                        <div class="column is-6">
-                            <p>Link building and influencer marketing are difficult and time-consuming, but essential to SEO and growing your brand.
-                                At Vazoola, you can streamline link building and influencer marketing all-in-one place.
-                                Let us worry about link acquisitions and running social campaigns, so you can focus your efforts elsewhere.
-                            </p>
-                            <p>
-                              Our self-serve or managed platform, allows you to scale content creation, within any industry.
-                              We offer training and education, phone support, and detailed reports.
-                              There are no contracts or minimum spend to start working with us.
-                              </p>
-                            <p class="text-center">
-                                <button @click="showModal = true" class="button is-primary">Find Out How</button>
-                            </p>
-        				</div>
-                        <div class="column">
-        					<img src="/images/grow-img.png" alt="Grow">
-        				</div>
+					<div class="case-study-container">
+                        <swiper ref="mySwiper" :options="swiperOptions">
+                            <swiper-slide>
+                                <div class="box swiper-box">
+                                    <div class="columns">
+                                        <div class="column is-2">
+                                            <img src="/images/circle-cropped_aj.png" alt="Profile Pic" />
+                                        </div>
+                                        <div class="column is-8">
+                                            <p class="title is-5">Name: AJ Wurtz</p>
+                                            <p class="title is-5">Company: Nu Image Medical</p>
+                                            <p class="title is-5">Title: SEO Specialist</p>
+                                            <div class="has-text-centered">
+                                                We have been working with Vazoola for over a year now and have seen our organic traffic increase exponentially since hiring them. 
+                                                Their “Bounty Express” has been delivering great backlinks at prices within are budget. I would highly recommend testing them out. 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="box swiper-box">
+                                    <div class="columns">
+                                        <div class="column is-2">
+                                            <img src="/images/circle-cropped_jon.png" alt="Profile Pic" />
+                                        </div>
+                                        <div class="column is-8">
+                                            <p class="title is-5">Name: Jon Bingham</p>
+                                            <p class="title is-5">Company: BKA Content</p>
+                                            <p class="title is-5">Title: Director of Marketing</p>
+                                            <div class="has-text-centered">
+                                                For the past few months we’ve been using Vazoola for link building to increase our rankings on some of the more difficult keywords we target. 
+                                                In just a short period of time we’ve seen some of our rankings improve 30+ spots. 
+                                                The links are solid and are posted on quality websites. We’ve been very impressed.
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="box swiper-box">
+                                    <div class="columns">
+                                        <div class="column is-2">
+                                            <img src="/images/circle-cropped_dellon.png" alt="Profile Pic" />
+                                        </div>
+                                        <div class="column is-8">
+                                            <p class="title is-5">Name: Dellon S.</p>
+                                            <p class="title is-5">Company: Vista College</p>
+                                            <p class="title is-5">Title: Digital Marketing Director</p>
+                                            <div class="has-text-centered">
+                                                Every digital marketer knows how important link building is to increasing organic rankings, but finding the time to do it successfully is another story. 
+                                                That’s why it can be helpful to use a link building company that has the experience and resources to execute your strategy.  
+                                                I’ve been utilizing Vazoola for several years to help strategically build links from high level domains, and it’s been very effective. They are not your typical link builder. 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            
+                            <div class="swiper-pagination" slot="pagination"></div>
+                            <div class="swiper-button-prev prevNext" slot="button-prev" @click="prev()"></div>
+                            <div class="swiper-button-next prevNext" slot="button-next" @click="next()"></div>
+                        </swiper>
                     </div>
         		</div>
         	</section>
             <!-- end: Grow Your Brand -->
-
 
           	<!-- start: Let’s Get Started -->
           	<contact-form />
@@ -317,46 +234,77 @@ import FooterBar from '~/components/FooterBar.vue'
 import ContactModal from '~/components/ContactModal.vue'
 import ContactForm from '~/components/ContactForm.vue'
 import PostsHero from '~/components/PostsHero.vue'
+import { Swiper, SwiperSlide, directive, Pagination, Mousewheel, Autoplay } from 'vue-awesome-swiper'
+import "swiper/css/swiper.css";
 
 export default {
   components: {
-      NavBar,
-      FooterBar,
-      PostsHero,
-      ContactForm,
-      ContactModal
+        NavBar,
+        FooterBar,
+        PostsHero,
+        ContactForm,
+        ContactModal,
+        Swiper,
+        SwiperSlide,
+        Pagination, Mousewheel, Autoplay
   },
 
   data() {
       return {
           step: 0,
           showModal: false,
+          swiperOptions: {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                loop: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev'
+                },
+                autoplay: {
+                    delay: 4000
+                },
+                slidesPerView: 1,
+                spaceBetween: 50,
+                autoHeight: true
+            },
       }
   },
+  methods: {
+        next(){
+
+        },
+        prev(){
+
+        },
+  },
   computed: {
-      slideOffset() {
-          return {
-              top: '-' + this.step + '00%'
-          }
-      }
+        slideOffset() {
+            return {
+                top: '-' + this.step + '00%'
+            }
+        },
+        swiper() {
+            return this.$refs.mySwiper.$swiper
+        }
   },
 
   head () {
       return {
-          title: "Vazoola for Brands Serious About Influencer Marketing | Vazoola",
+          title: "Vazoola for Agencies Serious About ScalabilityBrands | Vazoola",
           meta: [
-              { hid: 'description', name: 'description', content: 'Find out how your brand can succeed with Vazoola. Manage link building, social, and video campaigns all in one place. We work with over 100,000+ vetted influencers from all industries.' },
-              { hid: 'keywords', name:'keywords', content: 'Link Building for Brands, Content Marketing for Brands, Influencer Marketing for Brands' },
+              { hid: 'description', name: 'description', content: 'Streamline influencer marketing and link building all-in-one place. You can scale content creation for any number of clients, in any industry. Save time and money by using our platform designed for agencies. Our 100,000+ influencers are already registered and ready to work.' },
+              { hid: 'keywords', name:'keywords', content: 'Content Marketing for Brands, Link Building for Brands, Influencer Marketing for Brands' },
               { hid: 'twitter:card', name:'twitter:card', content: "summary_large_image" },
               { hid: 'twitter:site', name:'twitter:site', content: "@vazoola" },
               { hid: 'twitter:creator', name:'twitter:creator', content: "@vazoola" },
               { hid: 'twitter:image', name:'twitter:image', content: 'https://www.vazoola.com/images/home-hero-img-1.png' },
               { hid: 'og:image', name:'og:image', content: 'https://www.vazoola.com/images/home-hero-img-1.png' },
-              { hid: 'og:title', name:'og:title', content:  'Vazoola for Brands Serious About Influencer Marketing'},
-              { hid: 'og:description', name:'og:description',  content: 'Find out how your brand can succeed with Vazoola. Manage link building, social, and video campaigns all in one place. We work with over 100,000+ vetted influencers from all industries.'},
+              { hid: 'og:title', name:'og:title', content: 'Vazoola for Agencies Serious About Scalability' },
+              { hid: 'og:description', name:'og:description',  content: 'Streamline influencer marketing and link building all-in-one place. You can scale content creation for any number of clients, in any industry. Save time and money by using our platform designed for agencies. Our 100,000+ influencers are already registered and ready to work.' },
           ]
       }
-  },
+  }
 
 }
 </script>

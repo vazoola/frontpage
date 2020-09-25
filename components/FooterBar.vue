@@ -16,6 +16,7 @@
                     </ul>
                 </div>
                 <div class="column is-3">
+                    <p>Follow us on:</p>
                     <a href="https://www.facebook.com/Vazoola/" target="_blank">
                         <span class="icon">
                             <i class="fa fa-facebook" aria-hidden="true"></i>

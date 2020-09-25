@@ -537,7 +537,14 @@ a.navbar-link.is-active {
 }
 
 .grow-your-brand .headline {
+  text-align: center;
   margin-bottom: 40px;
+}
+
+.grow-your-brand hr {
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .grow-your-brand .button {
@@ -961,6 +968,12 @@ ul.social-media li a:hover {
   color: #ffffff;
   text-align: center;
   font-weight: 300;
+}
+
+.how-vazoola-works hr {
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 /* slider
