@@ -142,7 +142,7 @@
             <section class="section grow-your-brand inside">
         		<div class="container">
                     <div class="headline">
-                        <h1 class="h1-as-h2">Some of our Agency Testimonials</h1>
+                        <h1 class="h1-as-h2">Some of our Brand Testimonials</h1>
                         <hr class="light-blue">
                     </div>
 
