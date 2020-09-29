@@ -123,10 +123,10 @@
 
 					<div class="columns">
                         <div class="column is-5">
-                            <p class="is-size-6">
+                            <p class="is-size-6" style="color: #1b1464;">
                                 Link building is essential if you want to improve your search rankings and increase organic search traffic. Unfortunately, running successful link building campaigns can be difficult, time-consuming, and often unsuccessful. Vazoola is not your average link building company. We remove the obstacles and streamline the whole process so you can focus on growing your brand in other ways. Let us worry about link acquisitions. We’ve built millions of links over the last 10 years, and our software is literally “plug & play”.
                             </p>
-                            <p class="is-size-6">
+                            <p class="is-size-6" style="color: #1b1464;">
                                 Join thousands of brands that have already benefited from our link building services to improve organic traffic and rankings, reduce link acquisition costs, increase profit margin, and much more. There’s no long-term contract or minimum spend required. Create an account, or request a demo to get started today.
                             </p>
         				</div>

@@ -13,9 +13,10 @@
   	  					</div>
   	  					<div class="column">
   	  						<div class="hero-text">
-  		  						<h1 class="h1-as-h2">Premium Link Building and Content at Scale.</h1>
+  		  						<h1 class="h1-as-h2">Need better links at prices you control?</h1>
   		  						<hr class="pink" />
-  		  						<p class="subtitle">Supercharge your SEO with our AI-powered Bounty software. Pain-free process generates better results, in less time, at a price you control.</p>
+                                <p class="title" style="margin-bottom: 50px;">Try Bounty Express!</p>
+  		  						<p class="subtitle">Partner with us today and take advantage of our price control feature. Our <span style="font-weight: bold;">AI-powered Bounty Express software</span> with over 100k publishers offers a truly scalable link building solution. Join thousands of agencies and brands that are already getting naturally built US-based links and content, in less time, at a fraction of the price.</p>
   		  						<p class="text-center">
                                     <a class="button is-primary" @click="showModal = true">Request a Free Demo</a>
                                 </p>

@@ -123,10 +123,10 @@
 
 					<div class="columns">
                         <div class="column is-5">
-                            <p class="is-size-6">
+                            <p class="is-size-6" style="color: #1b1464;">
                                 Whether you are managing link building in-house, or outsourcing to a vendor to handle it for you, there's a high likelihood you are searching for a better solution. In fact, many of the agencies we have helped were ready to give up on offering it as a service because it is too expensive, time-consuming, and more often than not, unsuccessful. Vazoola is not your average link building agency. We've developed an innovative platform that removes these pain points so you can be successful 100% of the time. Our Bounty technology, combined with over 100K publisher relationships, means you never have to worry about links again, no matter how many clients you have. And, with our white-label service, you'll get reports that you can easily add your branding to before sending our to clients. Let us show you the power of the Bounty Express. We’ve built millions of links over the last 10 years, and our software is literally “plug & play”. 
                             </p>
-                            <p class="is-size-6">
+                            <p class="is-size-6" style="color: #1b1464;">
                                 Join thousands of agencies that have already benefited from our white label link building services to scale link building, reduce link acquisition costs, increase profit margins, and much more. There’s no long-term contract or minimum spend required. Create an account, or request a demo to get started today.
                             </p>
         				</div>
@@ -316,7 +316,7 @@ export default {
 
   head () {
       return {
-          title: "Vazoola for Agencies Serious About Scalability | Vazoola",
+          title: "White Label Link Building | Vazoola",
           meta: [
               { hid: 'description', name: 'description', content: 'Streamline influencer marketing and link building all-in-one place. You can scale content creation for any number of clients, in any industry. Save time and money by using our platform designed for agencies. Our 100,000+ influencers are already registered and ready to work.' },
               { hid: 'keywords', name:'keywords', content: 'Content Marketing for Agencies, Link Building for Agencies, Influencer Marketing for Agencies' },
