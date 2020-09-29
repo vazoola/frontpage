@@ -25,29 +25,34 @@
 								<nuxt-link class="navbar-item" to="/agencies">
 									For Agencies
 								</nuxt-link>
-								<nuxt-link class="navbar-item" to="/small-business">
-									For Small Business
+								<nuxt-link class="navbar-item" to="/referrals">
+									Referral Program
 								</nuxt-link>
-								<nuxt-link class="navbar-item" to="/our-technology">
-									Our Technology
+							</div>
+						</div>
+						<nuxt-link class="navbar-item" to="/company">About Us</nuxt-link>
+						<div class="navbar-item has-dropdown is-hoverable">
+							<a class="navbar-link" href="/">Case Studies</a>
+							<div class="navbar-dropdown is-boxed">
+								<nuxt-link to="/case-study-1" class="navbar-item">
+									Case Study 1
+								</nuxt-link>
+								<nuxt-link class="navbar-item" to="/case-study-2">
+									Case Study 2
+								</nuxt-link>
+								<nuxt-link class="navbar-item" to="/case-study-3">
+									Case Study 3
 								</nuxt-link>
 							</div>
 						</div>
 						<nuxt-link class="navbar-item" to="/resources/">Resources</nuxt-link>
-						<nuxt-link class="navbar-item" to="/company">Company</nuxt-link>
-						<nuxt-link class="navbar-item" to="/pricing">Pricing</nuxt-link>
-						<nuxt-link class="navbar-item" to="/referrals">Referrals</nuxt-link>
 					</div>
 					<div class="navbar-end">
 						<div class="navbar-item">
 							<a class="button login-btn" href="https://app.vazoola.com/login">Log In/Sign Up</a>
-							<a class="button signup-btn" @click="showModal = true">Free Demo</a>
 						</div>
 					</div>
 				</div>
-				<!-- start: Free Demo -->
-				<contact-modal :is-demo="true" :active.sync="showModal" />
-				<!-- end: Free demo -->
 		</nav>
 
 
@@ -63,8 +68,7 @@ export default {
 	},
 	data() {
 		return {
-			navActive: false,
-			showModal: false,
+			navActive: false
 		}
 	}
 }

@@ -9,13 +9,13 @@
               <div class="container">
                   <div class="columns">
                       <div class="column hero-img">
-                          <img src="/images/home-hero-img-1.png" alt="Hero Image">
+                          <img src="/images/updated_hero_img.png" alt="Hero Image">
                       </div>
                       <div class="column">
                           <div class="hero-text">
-                              <h1 class="h1-as-h2">Streamline the process.</h1>
+                              <h1 class="h1-as-h2">White Label Link Building.</h1>
                               <hr class="pink" />
-                              <p class="subtitle">Generate better content and links in less time</p>
+                              <p class="subtitle">A truly scalable solution. With Bounty Express, secure better links at price points you determine, and our white label reporting makes it simple to provide proof of your efforts to clients. Setup takes minutes, and there is no limit on the number of clients you onboard into your account.</p>
                               <p class="text-center"><a @click="showModal = true" class="button is-primary">Request Proposal</a></p>
                               <p class="btn-text">No contract necessary</p>
                           </div>
@@ -31,7 +31,7 @@
                   <div class="columns">
                       <div class="column">
                           <div class="headline">
-                              <h1 class="h1-as-h2">Your Agency & Vazoola</h1>
+                              <h1 class="h1-as-h2">Why Vazoola</h1>
                               <hr class="blue" />
                           </div>
                       </div>
@@ -43,8 +43,8 @@
                                   <img src="/images/custom_proposals.png" alt="Custom Proposals">
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Custom Proposals</h4>
-                                  <div class="desc">Pick from a curated list of influencers that match your niche and budget</div>
+                                  <h4 class="title">Cutting-Edge Software</h4>
+                                  <div class="desc">We give you the tools to simplify the process, while maximizing the results from your budget.</div>
                               </div>
                           </div>
                       </div>
@@ -54,8 +54,8 @@
                                   <img src="/images/create-icon.png" alt="Content Control">
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Content Control</h4>
-                                  <div class="desc">Purchase high quality articles from our writers or upload your own content</div>
+                                  <h4 class="title">Unrivaled Turnaround Times</h4>
+                                  <div class="desc">Easily complete campaigns in under 20 days, but with the ability to do it in less than a week.</div>
                               </div>
                           </div>
                       </div>
@@ -67,8 +67,8 @@
                                   <img src="/images/scale_your_agency.png" alt="Scale Your Agency">
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Scale Your Agency</h4>
-                                  <div class="desc">Easily track multiple campaigns simultaneously</div>
+                                  <h4 class="title">Price Setting</h4>
+                                  <div class="desc">No more negotiating. You se the price points you need, and we'll utilize our software to deliver.</div>
                               </div>
                           </div>
                       </div>
@@ -78,8 +78,8 @@
                                   <img src="/images/track-icon.png" alt="Track Your Efforts">
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Track Your Efforts</h4>
-                                  <div class="desc">Receive updates in real time, every time a new placement goes live.</div>
+                                  <h4 class="title">Content Control</h4>
+                                  <div class="desc">We have hundreds of writers trained to deliver articles that follow your specific instructions.</div>
                               </div>
                           </div>
                       </div>
@@ -91,8 +91,8 @@
                                   <img src="/images/white_label_services.png" alt="White Label Service">
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">White Label Service</h4>
-                                  <div class="desc">Export spreadsheets of completed campaigns and send them to your clients.</div>
+                                  <h4 class="title">Infinite Reach</h4>
+                                  <div class="desc">Tap into our marketplace of over 100k publisher relationships and growing. We cover all verticals, including more specialized niches.</div>
                               </div>
                           </div>
                       </div>
@@ -102,8 +102,8 @@
                                   <img src="/images/complete_transparency.png" alt="Complete Transparency">
                               </div>
                               <div class="desc_wrapper">
-                                  <h4 class="title">Complete Transparency</h4>
-                                  <div class="desc">Know exactly where your placement will go live and for what cost.</div>
+                                  <h4 class="title">No Limits</h4>
+                                  <div class="desc">Build links for one client, or 100 clients. There is no limit to how many link campaigns you run simultaneously. Our platform was developed for this purpose.</div>
                               </div>
                           </div>
                       </div>
@@ -115,154 +115,26 @@
 
             <!-- start: How Vazoola works. -->
             <section class=" how-vazoola-works">
-              <div class="container">
-                  <div class="columns">
-                      <div class="column">
-                          <h1 class="title is-1 h1-as-h2">How Vazoola works.</h1>
-                      </div>
-                  </div>
-                  <div class="columns">
-                      <div class="column is-paddingless is-6 is-offset-3">
-                        <nav class="level is-mobile">
-                            <a class="level-item has-text-centered button has-text-weight-semibold is-rounded is-link"
-                                @click="step = 0"
-                                :class="{ 'is-outlined' : step !== 0 }">
-                                Step 1
-                            </a>
-                            <a class="level-item has-text-centered button has-text-weight-semibold is-rounded is-link"
-                                @click="step = 1"
-                                :class="{ 'is-outlined' : step !== 1 }">
-                                Step 2
-                            </a>
-                            <a class="level-item has-text-centered button has-text-weight-semibold is-rounded is-link"
-                                @click="step = 2"
-                                :class="{ 'is-outlined' : step !== 2 }">
-                                Step 3
-                            </a>
-                            <a class="level-item has-text-centered button has-text-weight-semibold is-rounded is-link"
-                                @click="step = 3"
-                                :class="{ 'is-outlined' : step !== 3 }">
-                                Step 4
-                            </a>
-                        </nav>
-                      </div>
-                  </div>
-                  <div class="slide-wrap">
-                      <div class="slide-mask">
-                          <ul :style="slideOffset" class="slide-group">
-                              <li class="slide">
-                                  <div class="columns">
-                                      <div class="column">
-                                          <img src="/images/slider-1-img.png" alt="Create Client Campaign">
-                                      </div>
-                                      <div class="column">
-                                          <div class="headline">
-                                              <h1 class="h1-as-h2">Create Client Campaign</h1>
-                                              <hr />
-                                          </div>
-                                          <p>Outline your goals as an agency with us, request custom proposals for clients, and start creating content!</p>
-                                          <div class="slider-list">
-                                              <ul>
-                                                  <li><span>Choose from blog posts, social posts, video posts, or any combo.</span></li>
-                                                  <li><span>Set your estimated budget and number of posts needed.</span></li>
-                                                  <li><span>Use filters to help us lock in on the metrics that matter to you.</span></li>
-                                                  <li><span>Provide goals and any key performance indicator’s.</span></li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </li>
-                              <li class="slide">
-                                  <div class="columns">
-                                      <div class="column">
-                                          <img src="/images/slider-2-img.png" alt="View Proposal">
-                                      </div>
-                                      <div class="column">
-                                          <div class="headline">
-                                              <h1 class="h1-as-h2">View Proposal</h1>
-                                              <hr />
-                                          </div>
-                                          <p>As an agency, this is where you access custom-tailored blog, social, and video proposals. This includes all influencers relevant to your campaign.</p>
-                                          <div class="slider-list">
-                                              <ul>
-                                                  <li><span>Evaluate influencer recommendations custom picked for you.</span></li>
-                                                  <li><span>Browse influencer’s website, social channel, and or video channel.</span></li>
-                                                  <li><span>Review website/social channel data and price to complete the job.</span></li>
-                                                  <li><span>Select influencers for your campaign. </span></li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </li>
-                              <li class="slide">
-                                  <div class="columns">
-                                      <div class="column">
-                                          <img src="/images/slider-3-img.png" alt="Enter Campaign Details">
-                                      </div>
-                                      <div class="column">
-                                          <div class="headline">
-                                              <h1 class="h1-as-h2">Enter Campaign Details</h1>
-                                              <hr />
-                                          </div>
-                                          <p>As you enter the pre-cart &amp; cart phase, review the job details for each of the selected influencers. Simply compile your order for check out and go live!</p>
-                                          <div class="slider-list">
-                                              <ul>
-                                                  <li><span>Input all relevant campaign details ie: influencer instructions, post/link requirements, etc.</span></li>
-                                                  <li><span>Choose source of content: Vazoola writers, content library, or influencer.</span></li>
-                                                  <li><span>Process multiple campaign orders simultaneously.</span></li>
-                                                  <li><span>Review campaign details on cart page, confirm payment, and checkout. </span></li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </li>
-                              <li class="slide">
-                                  <div class="columns">
-                                      <div class="column">
-                                          <img src="/images/slider-4-img.png" alt="Monitoring Placements">
-                                      </div>
-                                      <div class="column">
-                                          <div class="headline">
-                                              <h1 class="h1-as-h2">Monitoring Placements</h1>
-                                              <hr />
-                                          </div>
-                                          <p>Sit back, and watch your campaigns in action. Our team will take care of the rest.</p>
-                                          <div class="slider-list">
-                                              <ul>
-                                                  <li><span>Examine and approve pending content.</span></li>
-                                                  <li><span>View completed and pending placements in real time.</span></li>
-                                                  <li><span>Receive daily notifications of campaign progress.</span></li>
-                                                  <li><span>Export spreadsheets of campaign details, white label them, and send out to clients. </span></li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </li>
-                          </ul>
-                      </div>
+                <div class="container">
+                    <div class="headline">
+                        <h1 class="h1-as-h2">A new way to build links.</h1>
+                        <hr class="light-blue">
+                    </div>
 
-                      <div class="slide-nav">
-                          <ul>
-                              <li @click="step = 0"
-                                class="bullet"
-                                :class="{ 'current' : step == 0 }"></li>
-
-                              <li @click="step = 1"
-                                class="bullet"
-                                :class="{ 'current' : step == 1 }"></li>
-
-                              <li @click="step = 2"
-                                class="bullet"
-                                :class="{ 'current' : step == 2 }"></li>
-
-                              <li @click="step = 3"
-                                class="bullet"
-                                :class="{ 'current' : step == 3 }"></li>
-                          </ul>
-                      </div>
-                  </div>
-
-              </div>
+					<div class="columns">
+                        <div class="column is-5">
+                            <p class="is-size-6" style="color: #1b1464;">
+                                Whether you are managing link building in-house, or outsourcing to a vendor to handle it for you, there's a high likelihood you are searching for a better solution. In fact, many of the agencies we have helped were ready to give up on offering it as a service because it is too expensive, time-consuming, and more often than not, unsuccessful. Vazoola is not your average link building agency. We've developed an innovative platform that removes these pain points so you can be successful 100% of the time. Our Bounty technology, combined with over 100K publisher relationships, means you never have to worry about links again, no matter how many clients you have. And, with our white-label service, you'll get reports that you can easily add your branding to before sending our to clients. Let us show you the power of the Bounty Express. We’ve built millions of links over the last 10 years, and our software is literally “plug & play”. 
+                            </p>
+                            <p class="is-size-6" style="color: #1b1464;">
+                                Join thousands of agencies that have already benefited from our white label link building services to scale link building, reduce link acquisition costs, increase profit margins, and much more. There’s no long-term contract or minimum spend required. Create an account, or request a demo to get started today.
+                            </p>
+        				</div>
+                        <div class="column">
+        					<img src="/images/succeed.png" alt="Grow">
+        				</div>
+                    </div>
+        		</div>
             </section>
             <!-- end: How Vazoola works. -->
 
@@ -270,29 +142,98 @@
             <section class="section grow-your-brand inside">
         		<div class="container">
                     <div class="headline">
-                        <h1 class="h1-as-h2">Grow your agency.</h1>
+                        <h1 class="h1-as-h2">Some of our Agency Testimonials</h1>
                         <hr class="light-blue">
                     </div>
 
-					<div class="columns is-gapless">
-                        <div class="column is-6">
-                            <p>
-                                Link building and influencer marketing are difficult and time-consuming, but essential to SEO and growing your clients brand.
-                                At Vazoola, you can streamline link building and influencer marketing all-in-one place.
-                                Let us worry about link acquisitions and running social campaigns for your clients, so you can focus your efforts elsewhere.
-                            </p>
-                            <p>
-                                Our self-serve or managed service platform, allows you to scale content creation for any number of clients, in any industry.
-                                We offer reduced rates, white label capabilities, training and education, phone support, and detailed reports.
-                                Our technology was created with agencies in mind.
-                            </p>
-                            <p class="text-center">
-                                <button @click="showModal = true" class="button is-primary">Find Out How</button>
-                            </p>
-        				</div>
-                        <div class="column">
-        					<img src="/images/grow-img.png" alt="Grow">
-        				</div>
+					<div class="case-study-container">
+                        <swiper ref="mySwiper" :options="swiperOptions">
+                            <swiper-slide>
+                                <div class="box swiper-box">
+                                    <div class="columns">
+                                        <div class="column is-2">
+                                            <img src="/images/circle-cropped_brian.png" alt="Profile Pic" />
+                                        </div>
+                                        <div class="column is-8">
+                                            <p class="title is-5">Name: Brian Hansen</p>
+                                            <p class="title is-5">Company: Rocket Pilots</p>
+                                            <p class="title is-5">Title: CEO</p>
+                                            <div class="has-text-centered">
+                                                At Rocket Pilots we provide comprehensive SEO solutions for small to medium sized companies throughout the United States. 
+                                                To fulfill certain aspects of a scope of work we often align ourselves with partner companies. We partnered with Vazoola after several Link Building agencies failed to meet our quality standards. 
+                                                The team at Vazoola is top notch and best in class in the trade of guest posting and link building fulfillment for digital marketing agencies. Their links have been consistently high quality, relevant and delivered in a timely fashion. 
+                                                If you're frustrated with your Link Building partner, I highly recommend working with the Vazoola team and technology. You will not be disappointed!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="box swiper-box">
+                                    <div class="columns">
+                                        <div class="column is-2">
+                                            <img src="/images/circle-cropped_blank.png" alt="Profile Pic" />
+                                        </div>
+                                        <div class="column is-8">
+                                            <p class="title is-5">Name: </p>
+                                            <p class="title is-5">Company: Reputation Management Agency</p>
+                                            <p class="title is-5">Title: Project Manager</p>
+                                            <div class="has-text-centered">
+                                                Link building is an important component of the strategy we implement for rebuilding the online reputation of our clients, but having the time or resources to do it successfully, is difficult. 
+                                                It’s even harder to find a trustworthy link building company to outsource this work to. That’s why we were lucky to come across Vazoola  – we were able to agree on tiered pricing structure that made it easier to include link building in the packages we sell to clients. 
+                                                This has helped us to produce better and more predictable results for clients, as well as to allow us to focus on growing our client base. 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="box swiper-box">
+                                    <div class="columns">
+                                        <div class="column is-2">
+                                            <img src="/images/circle-cropped_blank.png" alt="Profile Pic" />
+                                        </div>
+                                        <div class="column is-8">
+                                            <p class="title is-5">Name: Alison L.</p>
+                                            <p class="title is-5">Company: SEO Agency</p>
+                                            <p class="title is-5">Title: Owner</p>
+                                            <div class="has-text-centered">
+                                                Vazoola has been an excellent partner to my agency for over a year.  
+                                                They've stood out in three ways versus many other link building and outreach teams we have worked with.  
+                                                First, the Vazoola team is responsive, timely, and efficient with taking orders, reporting on progress and answering questions.  
+                                                Second, the quality of their placements is consistently strong and they deliver exactly what we ask for.  
+                                                Finally, they have scaled our link building output from a single project to 7 consecutive projects with no interruptions or delays.  
+                                                I'd recommend them to any agency looking for a reliable, reputable link building resource.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="box swiper-box">
+                                    <div class="columns">
+                                        <div class="column is-2">
+                                            <img src="/images/circle-cropped_skyler.png" alt="Profile Pic" />
+                                        </div>
+                                        <div class="column is-8">
+                                            <p class="title is-5">Name: Skyler Malley</p>
+                                            <p class="title is-5">Company: Firestarter</p>
+                                            <p class="title is-5">Title: President</p>
+                                            <div class="has-text-centered">
+                                                It has been great working with the Vazoola team.  
+                                                I’ve worked with many other link building companies in the past but none of them were able to deliver quality links at as low of a cost as Vazoola. 
+                                                We brought a small test budget to them and found we were able to increase margins on links by 40%! 
+                                                We’ve since grown our agency much faster than expected with Vazoola as our only partner for links. 
+                                                Their white label link building service has really changed the game for us.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            <div class="swiper-pagination" slot="pagination"></div>
+                            <div class="swiper-button-prev prevNext" slot="button-prev" @click="prev()"></div>
+                            <div class="swiper-button-next prevNext" slot="button-next" @click="next()"></div>
+                        </swiper>
                     </div>
         		</div>
         	</section>
@@ -318,33 +259,64 @@ import FooterBar from '~/components/FooterBar.vue'
 import ContactModal from '~/components/ContactModal.vue'
 import ContactForm from '~/components/ContactForm.vue'
 import PostsHero from '~/components/PostsHero.vue'
+import { Swiper, SwiperSlide, directive, Pagination, Mousewheel, Autoplay } from 'vue-awesome-swiper'
+import "swiper/css/swiper.css";
 
 export default {
   components: {
-      NavBar,
-      FooterBar,
-      PostsHero,
-      ContactForm,
-      ContactModal
+        NavBar,
+        FooterBar,
+        PostsHero,
+        ContactForm,
+        ContactModal,
+        Swiper,
+        SwiperSlide,
+        Pagination, Mousewheel, Autoplay
   },
 
   data() {
       return {
           step: 0,
           showModal: false,
+          swiperOptions: {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                loop: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev'
+                },
+                autoplay: {
+                    delay: 4000
+                },
+                slidesPerView: 1,
+                spaceBetween: 50,
+                autoHeight: true
+            },
       }
   },
+  methods: {
+        next(){
+
+        },
+        prev(){
+
+        },
+  },
   computed: {
-      slideOffset() {
-          return {
-              top: '-' + this.step + '00%'
-          }
-      }
+        slideOffset() {
+            return {
+                top: '-' + this.step + '00%'
+            }
+        },
+        swiper() {
+            return this.$refs.mySwiper.$swiper
+        }
   },
 
   head () {
       return {
-          title: "Vazoola for Agencies Serious About Scalability | Vazoola",
+          title: "White Label Link Building | Vazoola",
           meta: [
               { hid: 'description', name: 'description', content: 'Streamline influencer marketing and link building all-in-one place. You can scale content creation for any number of clients, in any industry. Save time and money by using our platform designed for agencies. Our 100,000+ influencers are already registered and ready to work.' },
               { hid: 'keywords', name:'keywords', content: 'Content Marketing for Agencies, Link Building for Agencies, Influencer Marketing for Agencies' },
