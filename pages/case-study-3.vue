@@ -51,14 +51,14 @@
           <div class="hero-body">
             <div class="container is-fluid">
                 <p class="title is-size-5">CB’s in-house link strategy wasn’t yielding clear results after a year of effort. They had been working toward the goal of doubling organic traffic from 8,000 to 16,000 monthly visitors and were spending $10,000 a month with poor results.</p>
-              <ol>
+              <ul>
                 <li>Link acquisition cost was, on average, <span style="color: red; font-weight: bold;">$200</span> to <span style="color: red; font-weight: bold;">$500</span> per link.</li>
                 <li>Spending <span style="color: red; font-weight: bold;">$50,000</span> a year to employ a fulltime link building specialist.</li>
                 <li>Spending <span style="color: red; font-weight: bold;">$15,000</span> a year on content creation.</li>
                 <li>Spending <span style="color: red; font-weight: bold;">$6,000</span> a year for access to an outreach software.</li>
                 <li>Organic rankings were staying <span style="color: red; font-weight: bold;">flat</span>, with minimal increases in organic traffic.</li>
                 <li>Did not have access to large publications through in-house efforts or through the link building providers they occasionally tried to leverage to supplement their efforts.</li>
-              </ol>
+              </ul>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@
           <div class="hero-body">
             <div class="container is-fluid">
                 <p class="title is-size-6">California brand hired Vazoola in March of 2018 to fully manage all link building through the “Bounty Express”. CB ended up cutting monthly SEO costs by 50% and within six months grew monthly organic traffic from 8,000 to 14,000. Current organic traffic is well over 50,000 a month through continued work with Vazoola.</p>
-              <ol>
+              <ul>
                 <li>Bounty Express allowed them to <span style="color: green; font-weight: bold;">triple</span> their backlinks while increasing quality.</li>
                 <li>Secured links on some high-level online publications that they were previously not able to access.</li>
                 <li>Within the first 30 to 45 days they started seeing <span style="color: green; font-weight: bold;">increases</span> in search rankings and organic traffic </li>
@@ -81,7 +81,7 @@
                 <li>Stopped paying for a yearly subscription to an outreach software platform.</li>
                 <li>Have <span style="color: green; font-weight: bold;">monthly</span> calls, to strategize on which keywords and landing pages.</li>
                 <li>Instead of paying $118,000 a year for link building they now pay <span style="color: green; font-weight: bold;">$60,000</span>.</li>
-              </ol>
+              </ul>
             </div>
           </div>
       </div>

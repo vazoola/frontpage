@@ -51,12 +51,12 @@
           <div class="hero-body">
             <div class="container is-fluid">
               <p class="title is-size-5">XYZ agency was trying to handle link building in house for sixteen clients that pay $500 a month to receive five links each month, ultimately losing money on their efforts.</p>
-              <ol>
+              <ul>
                 <li>Currently spending <span style="color: red; font-weight: bold;">$50,000+</span> per year on a full-time link-building specialist.</li>
                 <li>Paying <span style="color: red; font-weight: bold;">$12,000</span> per year on content creation for SEO-friendly articles with in-content links.</li>
                 <li>The ongoing search for blogs and negotiations with individual publishers to keep a fresh inflow of links for all sixteen clients resulted in roughly <span style="color: red; font-weight: bold;">$48,000</span> per year paid to publishers for just link placements.</li>
                 <li>Total in house link building expense -- <span style="color: red;font-weight: bold;">$110,000</span>. Total revenue coming in from 16 clients <span style="color: green; font-weight:bold;">$96,000</span>.  Total loss is <span style="color: red;font-weight: bold;">$16,400</span>.</li>
-              </ol>
+              </ul>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@
           </div>
           <div class="hero-body">
             <div class="container is-fluid">
-              <ol>
+              <ul>
                 <li>Bounty Express delivered 5 links for each client within 30 days at an average price of <span style="color: green; font-weight: bold;">$60</span>.</li>
                 <li>Each link had a Domain Authority and Domain Rating of <span style="color: green; font-weight: bold;">30+</span>.</li>
                 <li>The $60 average per link <span style="color: green; font-weight: bold;">included</span> content creation.</li>
@@ -79,7 +79,7 @@
                 <li>XYZ was able use their savings towards advertising and sales.</li>
                 <li>Within 2 to 3 months, XYZ revenue grew a minimum of <span style="color: green; font-weight: bold;">15%</span> each month for the first year.</li>
                 <li>By June 2020, they grew to a team of <span style="color: green;font-weight: bold;">15</span> employees.</li>
-              </ol>
+              </ul>
             </div>
           </div>
       </div>

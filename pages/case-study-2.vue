@@ -51,14 +51,14 @@
           <div class="hero-body">
             <div class="container is-fluid">
                 <p class="title is-size-5">Salt Lake City Agency was only making 20% margin on links and didn’t realize how much they we’re leaving on the table working with their current provider. SLC agency has fifty clients and each client spends on average $300 to receive three monthly backlinks.</p>
-              <ol>
+              <ul>
                 <li>Agency charges <span style="color: red; font-weight: bold;">$180,000+</span> per year to clients for backlink services, while paying <span style="color: red;font-weight: bold;">$144,000</span> to current link provider.</li>
                 <li>Link cost margins are only <span style="color: red; font-weight: bold;">20%</span></li>
                 <li>Link provider did not always deliver on time and link quality was <span style="color: red;font-weight:bold;">low</span>.</li>
                 <li>Clients were underwhelmed by link reports.</li>
                 <li>Clients were not seeing big improvements in organic search rankings.</li>
                 <li>Link providers platform was <span style="color: red;font-weight: bold;">rudimentary</span>, increasing the amount of time needed to complete regular tasks.</li>
-              </ol>
+              </ul>
             </div>
           </div>
         </div>
@@ -73,14 +73,14 @@
           <div class="hero-body">
             <div class="container is-fluid">
                 <p class="title is-size-6">Salt Lake City Agency hired Vazoola in April of 2019, initially transferring a few clients to Vazoola’s “Bounty Express”. The “Bounty Express” delivered, and within two months, SLC transitioned all remaining clients. This led to increased profit margins on link building each month.</p>
-              <ol>
+              <ul>
                 <li>Link spend was reduced from $144,000 to <span style="color: green; font-weight: bold;">$90,000</span>.</li>
                 <li>Each link had a Domain Authority and Domain Rating of <span style="color: green; font-weight: bold;">30+</span>.</li>
                 <li>Bounty express delivered equal or higher quality links month over month, faster than the previous link provider.</li>
                 <li>Decreased account manager workloads.</li>
                 <li>Client rankings started <span style="color: green; font-weight: bold;">increasing rapidly</span>.</li>
                 <li>Agency started focusing and adding more resources towards growing their business.</li>
-              </ol>
+              </ul>
             </div>
           </div>
       </div>
