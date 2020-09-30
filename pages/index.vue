@@ -8,15 +8,14 @@
             <section class="home-hero">
               	<div class="container">
   	            	<div class="columns">
-  	  					<div class="column hero-img">
+  	  					<div class="column is-6 hero-img">
   	  						<img src="/images/home-hero-img.png" alt="Influencers at your fingertips">
   	  					</div>
-  	  					<div class="column">
+  	  					<div class="column is-6" style="margin: 0 auto; text-align: center;">
   	  						<div class="hero-text">
-  		  						<h1 class="h1-as-h2">Need better links at prices you control?</h1>
-  		  						<hr class="pink" />
+  		  						<h1 class="h1-as-h2" style="max-width: 750px;">Need better links at prices you control?</h1>
+  		  						<hr class="pink" style="max-width: 100%;" />
                                 <p class="title" style="margin-bottom: 50px;">Try Bounty Express!</p>
-  		  						<p class="subtitle">Partner with us today and take advantage of our price control feature. Our <span style="font-weight: bold;">AI-powered Bounty Express software</span> with over 100k publishers offers a truly scalable link building solution. Join thousands of agencies and brands that are already getting naturally built US-based links and content, in less time, at a fraction of the price.</p>
   		  						<p class="text-center">
                                     <a class="button is-primary" @click="showModal = true">Request a Free Demo</a>
                                 </p>
@@ -31,26 +30,31 @@
                 <div class="container metrics-inside">
                     <div class="columns">
                         <div class="column">
-                            <p class="title is-5" style="font-style: italic">
+                            <p class="title is-5" style="font-style: italic; margin-top:25px;">
                                 <animated :value="displayLinks" :formatValue="numberFormat" :duration="3000" /> Links Built
                             </p>
                         </div>
                         <div class="column">
-                            <p class="title is-5" style="font-style: italic">
+                            <p class="title is-5" style="font-style: italic; margin-top:25px;">
                                 <animated :value="displayPublishers" :formatValue="numberFormat" :duration="3000" /> Publishers
                             </p>
                         </div>
                         <div class="column">
-                            <p class="title is-5" style="font-style: italic">
+                            <p class="title is-5" style="font-style: italic; margin-top:25px;">
                                 <animated :value="displayAdvertisers" :formatValue="numberFormat" :duration="3000" /> Agencies/Brands Served
                             </p>
                         </div>
                         <div class="column">
-                            <p class="title is-5" style="font-style: italic">
+                            <p class="title is-5" style="font-style: italic; margin-top:25px;">
                                 <animated :value="displayYears" :formatValue="yearFormat" :duration="3000" />+ Years of Service
                             </p>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section class="brand-text">
+                <div class="container brand-container">
+                    <p class="subtitle is-size-4" style="color: #1b1464;">Partner with us today and take advantage of our price control feature. Our <span style="font-weight: bold;">AI-powered Bounty Express software</span> with over 100k publishers offers a truly scalable link building solution. Join thousands of agencies and brands that are already getting naturally built US-based links and content, in less time, at a fraction of the price.</p>
                 </div>
             </section>
               <!-- start: How We Work -->

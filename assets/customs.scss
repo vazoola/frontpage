@@ -389,11 +389,12 @@ a.navbar-link.is-active {
 }
 
 .hero-img {
-  margin-bottom: -50px;
+  margin-top: -50px;
 }
 
 .hero-text {
-  max-width: 500px;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 .hero-text h2 {
@@ -1835,9 +1836,21 @@ ul.social-media li a:hover {
   color: white;
 }
 .metrics-inside {
-  padding-top: 50px;
+  padding-top: 10px;
   margin-top:5px;
+  padding-bottom:10px;
 }
+.brand-text {
+  padding-top: 70px;
+  background: url(/images/how-we-work-bg.jpg) no-repeat bottom center;
+}
+.brand-container {
+   width: 60%;
+   margin: 0 auto;
+   text-align: center;
+   color: #1b1464;
+}
+
 .swiper-box {
   border: 2px 2px 2px 2px black !important;
   height: 350px;
