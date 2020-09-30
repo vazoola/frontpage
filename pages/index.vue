@@ -152,18 +152,24 @@
                             <swiper-slide>
                                 <div class="box swiper-box">
                                     <div class="columns">
+                                        <div class="column is-2"></div>
                                         <div class="column is-2">
                                             <img src="/images/circle-cropped_brian.png" alt="Profile Pic" />
                                         </div>
-                                        <div class="column is-8">
-                                            <p class="title is-5">Name: Brian Hansen</p>
-                                            <p class="title is-5">Company: Rocket Pilots</p>
+                                        <div class="column is-6">
+                                            <p class="title is-5 mt-2">Name: Brian Hansen</p>
                                             <p class="title is-5">Title: CEO</p>
-                                            <div class="has-text-centered">
-                                                At Rocket Pilots we provide comprehensive SEO solutions for small to medium sized companies throughout the United States. 
+                                            <p class="title is-5">Company: Rocket Pilots</p>
+                                        </div>
+                                        <div class="column is-2"></div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="has-text-centered" style="line-height: 1.5rem;">
+                                                <span class="is-size-4">"</span>At Rocket Pilots we provide comprehensive SEO solutions for small to medium sized companies throughout the United States. 
                                                 To fulfill certain aspects of a scope of work we often align ourselves with partner companies. We partnered with Vazoola after several Link Building agencies failed to meet our quality standards. 
                                                 The team at Vazoola is top notch and best in class in the trade of guest posting and link building fulfillment for digital marketing agencies. Their links have been consistently high quality, relevant and delivered in a timely fashion. 
-                                                If you're frustrated with your Link Building partner, I highly recommend working with the Vazoola team and technology. You will not be disappointed!
+                                                If you're frustrated with your Link Building partner, I highly recommend working with the Vazoola team and technology. You will not be disappointed!<span class="is-size-4">"</span>
                                             </div>
                                         </div>
                                     </div>
@@ -172,17 +178,23 @@
                             <swiper-slide>
                                 <div class="box swiper-box">
                                     <div class="columns">
+                                        <div class="column is-2"></div>
                                         <div class="column is-2">
                                             <img src="/images/circle-cropped_blank.png" alt="Profile Pic" />
                                         </div>
-                                        <div class="column is-8">
-                                            <p class="title is-5">Name: </p>
+                                        <div class="column is-6">
+                                            <p class="title is-5 mt-2">Name: </p>
                                             <p class="title is-5">Company: Reputation Management Agency</p>
                                             <p class="title is-5">Title: Project Manager</p>
-                                            <div class="has-text-centered">
-                                                Link building is an important component of the strategy we implement for rebuilding the online reputation of our clients, but having the time or resources to do it successfully, is difficult. 
+                                        </div>
+                                        <div class="column is-2"></div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="has-text-centered" style="line-height: 1.5rem;">
+                                                <span class="is-size-4">"</span>Link building is an important component of the strategy we implement for rebuilding the online reputation of our clients, but having the time or resources to do it successfully, is difficult. 
                                                 It’s even harder to find a trustworthy link building company to outsource this work to. That’s why we were lucky to come across Vazoola  – we were able to agree on tiered pricing structure that made it easier to include link building in the packages we sell to clients. 
-                                                This has helped us to produce better and more predictable results for clients, as well as to allow us to focus on growing our client base. 
+                                                This has helped us to produce better and more predictable results for clients, as well as to allow us to focus on growing our client base.<span class="is-size-4">"</span>
                                             </div>
                                         </div>
                                     </div>
@@ -191,17 +203,23 @@
                             <swiper-slide>
                                 <div class="box swiper-box">
                                     <div class="columns">
+                                        <div class="column is-2"></div>
                                         <div class="column is-2">
                                             <img src="/images/circle-cropped_dellon.png" alt="Profile Pic" />
                                         </div>
-                                        <div class="column is-8">
-                                            <p class="title is-5">Name: Dellon S.</p>
+                                        <div class="column is-6">
+                                            <p class="title is-5 mt-2">Name: Dellon S.</p>
                                             <p class="title is-5">Company: Vista College</p>
                                             <p class="title is-5">Title: Digital Marketing Director</p>
-                                            <div class="has-text-centered">
-                                                Every digital marketer knows how important link building is to increasing organic rankings, but finding the time to do it successfully is another story. 
+                                        </div>
+                                        <div class="column is-2"></div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="has-text-centered" style="line-height: 1.5rem;">
+                                                <span class="is-size-4">"</span>Every digital marketer knows how important link building is to increasing organic rankings, but finding the time to do it successfully is another story. 
                                                 That’s why it can be helpful to use a link building company that has the experience and resources to execute your strategy.  
-                                                I’ve been utilizing Vazoola for several years to help strategically build links from high level domains, and it’s been very effective. They are not your typical link builder. 
+                                                I’ve been utilizing Vazoola for several years to help strategically build links from high level domains, and it’s been very effective. They are not your typical link builder. <span class="is-size-4">"</span>
                                             </div>
                                         </div>
                                     </div>
@@ -210,20 +228,26 @@
                             <swiper-slide>
                                 <div class="box swiper-box">
                                     <div class="columns">
+                                        <div class="column is-2"></div>
                                         <div class="column is-2">
                                             <img src="/images/circle-cropped_blank.png" alt="Profile Pic" />
                                         </div>
-                                        <div class="column is-8">
-                                            <p class="title is-5">Name: Alison L.</p>
+                                        <div class="column is-6">
+                                            <p class="title is-5 mt-2">Name: Alison L.</p>
                                             <p class="title is-5">Company: SEO Agency</p>
                                             <p class="title is-5">Title: Owner</p>
-                                            <div class="has-text-centered">
-                                                Vazoola has been an excellent partner to my agency for over a year.  
+                                        </div>
+                                        <div class="column is-2"></div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="has-text-centered" style="line-height: 1.5rem;">
+                                                <span class="is-size-4">"</span>Vazoola has been an excellent partner to my agency for over a year.  
                                                 They've stood out in three ways versus many other link building and outreach teams we have worked with.  
                                                 First, the Vazoola team is responsive, timely, and efficient with taking orders, reporting on progress and answering questions.  
                                                 Second, the quality of their placements is consistently strong and they deliver exactly what we ask for.  
                                                 Finally, they have scaled our link building output from a single project to 7 consecutive projects with no interruptions or delays.  
-                                                I'd recommend them to any agency looking for a reliable, reputable link building resource.
+                                                I'd recommend them to any agency looking for a reliable, reputable link building resource.<span class="is-size-4">"</span>
                                             </div>
                                         </div>
                                     </div>
@@ -232,17 +256,23 @@
                             <swiper-slide>
                                 <div class="box swiper-box">
                                     <div class="columns">
+                                        <div class="column is-2"></div>
                                         <div class="column is-2">
                                             <img src="/images/circle-cropped_jon.png" alt="Profile Pic" />
                                         </div>
-                                        <div class="column is-8">
-                                            <p class="title is-5">Name: Jon Bingham</p>
+                                        <div class="column is-6">
+                                            <p class="title is-5 mt-2">Name: Jon Bingham</p>
                                             <p class="title is-5">Company: BKA Content</p>
                                             <p class="title is-5">Title: Director of Marketing</p>
-                                            <div class="has-text-centered">
-                                                For the past few months we’ve been using Vazoola for link building to increase our rankings on some of the more difficult keywords we target. 
+                                        </div>
+                                        <div class="column is-2"></div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="has-text-centered" style="line-height: 1.5rem;">
+                                                <span class="is-size-4">"</span>For the past few months we’ve been using Vazoola for link building to increase our rankings on some of the more difficult keywords we target. 
                                                 In just a short period of time we’ve seen some of our rankings improve 30+ spots. 
-                                                The links are solid and are posted on quality websites. We’ve been very impressed.
+                                                The links are solid and are posted on quality websites. We’ve been very impressed.<span class="is-size-4">"</span>
                                             </div>
                                         </div>
                                     </div>    
@@ -251,19 +281,25 @@
                             <swiper-slide>
                                 <div class="box swiper-box">
                                     <div class="columns">
+                                        <div class="column is-2"></div>
                                         <div class="column is-2">
                                             <img src="/images/circle-cropped_skyler.png" alt="Profile Pic" />
                                         </div>
-                                        <div class="column is-8">
-                                            <p class="title is-5">Name: Skyler Malley</p>
+                                        <div class="column is-6">
+                                            <p class="title is-5 mt-2">Name: Skyler Malley</p>
                                             <p class="title is-5">Company: Firestarter</p>
                                             <p class="title is-5">Title: President</p>
-                                            <div class="has-text-centered">
-                                                It has been great working with the Vazoola team.  
+                                        </div>
+                                        <div class="column is-2"></div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="has-text-centered" style="line-height: 1.5rem;">
+                                                <span class="is-size-4">"</span>It has been great working with the Vazoola team.  
                                                 I’ve worked with many other link building companies in the past but none of them were able to deliver quality links at as low of a cost as Vazoola. 
                                                 We brought a small test budget to them and found we were able to increase margins on links by 40%! 
                                                 We’ve since grown our agency much faster than expected with Vazoola as our only partner for links. 
-                                                Their white label link building service has really changed the game for us.
+                                                Their white label link building service has really changed the game for us.<span class="is-size-4">"</span>
                                             </div>
                                         </div>
                                     </div>
@@ -272,16 +308,22 @@
                             <swiper-slide>
                                 <div class="box swiper-box">
                                     <div class="columns">
+                                        <div class="column is-2"></div>
                                         <div class="column is-2">
                                             <img src="/images/circle-cropped_aj.png" alt="Profile Pic" />
                                         </div>
-                                        <div class="column is-8">
-                                            <p class="title is-5">Name: AJ Wurtz</p>
+                                        <div class="column is-6">
+                                            <p class="title is-5 mt-2">Name: AJ Wurtz</p>
                                             <p class="title is-5">Company: Nu Image Medical</p>
                                             <p class="title is-5">Title: SEO Specialist</p>
-                                            <div class="has-text-centered">
-                                                We have been working with Vazoola for over a year now and have seen our organic traffic increase exponentially since hiring them. 
-                                                Their “Bounty Express” has been delivering great backlinks at prices within are budget. I would highly recommend testing them out. 
+                                        </div>
+                                        <div class="column is-2"></div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="has-text-centered" style="line-height: 1.5rem;">
+                                                <span class="is-size-4">"</span>We have been working with Vazoola for over a year now and have seen our organic traffic increase exponentially since hiring them. 
+                                                Their “Bounty Express” has been delivering great backlinks at prices within are budget. I would highly recommend testing them out.<span class="is-size-4">"</span>
                                             </div>
                                         </div>
                                     </div>

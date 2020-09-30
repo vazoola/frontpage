@@ -151,16 +151,22 @@
                             <swiper-slide>
                                 <div class="box swiper-box">
                                     <div class="columns">
+                                        <div class="column is-2"></div>
                                         <div class="column is-2">
                                             <img src="/images/circle-cropped_aj.png" alt="Profile Pic" />
                                         </div>
-                                        <div class="column is-8">
-                                            <p class="title is-5">Name: AJ Wurtz</p>
+                                        <div class="column is-6">
+                                            <p class="title is-5 mt-2">Name: AJ Wurtz</p>
                                             <p class="title is-5">Company: Nu Image Medical</p>
                                             <p class="title is-5">Title: SEO Specialist</p>
-                                            <div class="has-text-centered">
-                                                We have been working with Vazoola for over a year now and have seen our organic traffic increase exponentially since hiring them. 
-                                                Their “Bounty Express” has been delivering great backlinks at prices within are budget. I would highly recommend testing them out. 
+                                        </div>
+                                        <div class="column is-2"></div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="has-text-centered" style="line-height: 1.5rem;">
+                                                <span class="is-size-4">"</span>We have been working with Vazoola for over a year now and have seen our organic traffic increase exponentially since hiring them. 
+                                                Their “Bounty Express” has been delivering great backlinks at prices within are budget. I would highly recommend testing them out.<span class="is-size-4">"</span>
                                             </div>
                                         </div>
                                     </div>
@@ -169,17 +175,23 @@
                             <swiper-slide>
                                 <div class="box swiper-box">
                                     <div class="columns">
+                                        <div class="column is-2"></div>
                                         <div class="column is-2">
                                             <img src="/images/circle-cropped_jon.png" alt="Profile Pic" />
                                         </div>
-                                        <div class="column is-8">
-                                            <p class="title is-5">Name: Jon Bingham</p>
+                                        <div class="column is-6">
+                                            <p class="title is-5 mt-2">Name: Jon Bingham</p>
                                             <p class="title is-5">Company: BKA Content</p>
                                             <p class="title is-5">Title: Director of Marketing</p>
-                                            <div class="has-text-centered">
-                                                For the past few months we’ve been using Vazoola for link building to increase our rankings on some of the more difficult keywords we target. 
+                                        </div>
+                                        <div class="column is-2"></div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="has-text-centered" style="line-height: 1.5rem;">
+                                                <span class="is-size-4">"</span>For the past few months we’ve been using Vazoola for link building to increase our rankings on some of the more difficult keywords we target. 
                                                 In just a short period of time we’ve seen some of our rankings improve 30+ spots. 
-                                                The links are solid and are posted on quality websites. We’ve been very impressed.
+                                                The links are solid and are posted on quality websites. We’ve been very impressed.<span class="is-size-4">"</span>
                                             </div>
                                         </div>
                                     </div>    
@@ -188,17 +200,23 @@
                             <swiper-slide>
                                 <div class="box swiper-box">
                                     <div class="columns">
+                                        <div class="column is-2"></div>
                                         <div class="column is-2">
                                             <img src="/images/circle-cropped_dellon.png" alt="Profile Pic" />
                                         </div>
-                                        <div class="column is-8">
-                                            <p class="title is-5">Name: Dellon S.</p>
+                                        <div class="column is-6">
+                                            <p class="title is-5 mt-2">Name: Dellon S.</p>
                                             <p class="title is-5">Company: Vista College</p>
                                             <p class="title is-5">Title: Digital Marketing Director</p>
-                                            <div class="has-text-centered">
-                                                Every digital marketer knows how important link building is to increasing organic rankings, but finding the time to do it successfully is another story. 
+                                        </div>
+                                        <div class="column is-2"></div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="has-text-centered" style="line-height: 1.5rem;">
+                                                <span class="is-size-4">"</span>Every digital marketer knows how important link building is to increasing organic rankings, but finding the time to do it successfully is another story. 
                                                 That’s why it can be helpful to use a link building company that has the experience and resources to execute your strategy.  
-                                                I’ve been utilizing Vazoola for several years to help strategically build links from high level domains, and it’s been very effective. They are not your typical link builder. 
+                                                I’ve been utilizing Vazoola for several years to help strategically build links from high level domains, and it’s been very effective. They are not your typical link builder. <span class="is-size-4">"</span>
                                             </div>
                                         </div>
                                     </div>
