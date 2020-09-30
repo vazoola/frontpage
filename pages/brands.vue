@@ -150,10 +150,10 @@
                         <swiper ref="mySwiper" :options="swiperOptions">
                             <swiper-slide>
                                 <div class="box swiper-box">
-                                    <div class="columns">
+                                    <div class="columns" style="margin-top: 10px">
                                         <div class="column is-2"></div>
                                         <div class="column is-2">
-                                            <img src="/images/circle-cropped_aj.png" alt="Profile Pic" />
+                                            <img src="/images/circle-cropped_aj.png" style="height: 90%;" alt="Profile Pic" />
                                         </div>
                                         <div class="column is-6">
                                             <p class="title is-5 mt-2">Name: AJ Wurtz</p>
@@ -164,7 +164,7 @@
                                     </div>
                                     <div class="columns">
                                         <div class="column">
-                                            <div class="has-text-centered" style="line-height: 1.5rem;">
+                                            <div class="has-text-centered" style="line-height: 1.5rem; width:80%; margin: 0 auto;">
                                                 <span class="is-size-4">"</span>We have been working with Vazoola for over a year now and have seen our organic traffic increase exponentially since hiring them. 
                                                 Their “Bounty Express” has been delivering great backlinks at prices within are budget. I would highly recommend testing them out.<span class="is-size-4">"</span>
                                             </div>
@@ -174,10 +174,10 @@
                             </swiper-slide>
                             <swiper-slide>
                                 <div class="box swiper-box">
-                                    <div class="columns">
+                                    <div class="columns" style="margin-top: 10px">
                                         <div class="column is-2"></div>
                                         <div class="column is-2">
-                                            <img src="/images/circle-cropped_jon.png" alt="Profile Pic" />
+                                            <img src="/images/circle-cropped_jon.png" style="height: 90%;" alt="Profile Pic" />
                                         </div>
                                         <div class="column is-6">
                                             <p class="title is-5 mt-2">Name: Jon Bingham</p>
@@ -188,7 +188,7 @@
                                     </div>
                                     <div class="columns">
                                         <div class="column">
-                                            <div class="has-text-centered" style="line-height: 1.5rem;">
+                                            <div class="has-text-centered" style="line-height: 1.5rem; width:80%; margin: 0 auto;">
                                                 <span class="is-size-4">"</span>For the past few months we’ve been using Vazoola for link building to increase our rankings on some of the more difficult keywords we target. 
                                                 In just a short period of time we’ve seen some of our rankings improve 30+ spots. 
                                                 The links are solid and are posted on quality websites. We’ve been very impressed.<span class="is-size-4">"</span>
@@ -199,10 +199,10 @@
                             </swiper-slide>
                             <swiper-slide>
                                 <div class="box swiper-box">
-                                    <div class="columns">
+                                    <div class="columns" style="margin-top: 10px">
                                         <div class="column is-2"></div>
                                         <div class="column is-2">
-                                            <img src="/images/circle-cropped_dellon.png" alt="Profile Pic" />
+                                            <img src="/images/circle-cropped_dellon.png" style="height: 90%;" alt="Profile Pic" />
                                         </div>
                                         <div class="column is-6">
                                             <p class="title is-5 mt-2">Name: Dellon S.</p>
@@ -213,7 +213,7 @@
                                     </div>
                                     <div class="columns">
                                         <div class="column">
-                                            <div class="has-text-centered" style="line-height: 1.5rem;">
+                                            <div class="has-text-centered" style="line-height: 1.5rem; width:80%; margin: 0 auto;">
                                                 <span class="is-size-4">"</span>Every digital marketer knows how important link building is to increasing organic rankings, but finding the time to do it successfully is another story. 
                                                 That’s why it can be helpful to use a link building company that has the experience and resources to execute your strategy.  
                                                 I’ve been utilizing Vazoola for several years to help strategically build links from high level domains, and it’s been very effective. They are not your typical link builder. <span class="is-size-4">"</span>
