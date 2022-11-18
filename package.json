@@ -16,7 +16,7 @@
     "@nuxtjs/sitemap": "^0.2.2",
     "bulma": "^0.6.2",
     "bulma-pricingtable": "^0.2.0",
-    "nuxt": "^2.5.1",
+    "nuxt": "^2.15.8",
     "prismic-dom": "^2.1.0",
     "prismic-javascript": "^1.5.1"
   },
